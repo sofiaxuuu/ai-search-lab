@@ -43,7 +43,7 @@ main { min-height: 100vh; padding-bottom: 56px; }
 .runState { display: flex; align-items: center; gap: 8px; color: var(--muted); font: 600 13px/1 monospace; text-transform: uppercase; letter-spacing: .06em; }
 .statusDot { width: 8px; height: 8px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 4px rgba(85, 214, 167, .18); }
 
-.workspaceIntro, .queryCard, .comparisonGrid, .methodNote, .evalSection { width: min(1440px, calc(100% - 36px)); margin-inline: auto; }
+.workspaceIntro, .queryCard, .comparisonGrid, .methodNote, .evalSection, .microscopeSection { width: min(1440px, calc(100% - 36px)); margin-inline: auto; }
 .workspaceIntro { padding: 54px 0 32px; display: flex; align-items: end; justify-content: space-between; gap: 32px; }
 .eyebrow { margin: 0 0 10px; color: #41735e; font: 700 12px/1.3 monospace; text-transform: uppercase; letter-spacing: .09em; }
 h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-height: .98; letter-spacing: -.065em; }
@@ -103,6 +103,70 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
 .methodNote p { margin: 0; color: #414a43; line-height: 1.45; }
 .methodNote time { color: var(--muted); font: 12px/1.4 monospace; }
 
+.microscopeSection { margin-top: 72px; padding-top: 42px; border-top: 1px solid var(--ink); }
+.microscopeIntro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 580px); align-items: end; gap: 40px; }
+.microscopeIntro h2 { margin: 0; font-size: clamp(38px, 4.4vw, 64px); line-height: .96; letter-spacing: -.06em; }
+.microscopeIntro > p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
+.questionControl { margin-top: 28px; padding: 18px; border: 1px solid var(--ink); background: var(--panel); display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px; box-shadow: 4px 4px 0 var(--ink); }
+.questionControl label { color: var(--muted); font: 700 11px/1 monospace; text-transform: uppercase; letter-spacing: .08em; }
+.questionControl select { min-width: 0; width: 100%; padding: 12px 38px 12px 13px; border: 1px solid var(--line); border-radius: 4px; background: white; color: var(--ink); font: 600 15px/1.3 Arial, sans-serif; }
+.deltaChip { min-width: 122px; padding: 9px 12px; border-radius: 4px; display: flex; flex-direction: column; }
+.deltaChip.saving { background: #d7f4e7; color: #155b43; }
+.deltaChip.growth { background: #fee2d5; color: #8a351a; }
+.deltaChip strong { font: 700 20px/1 monospace; }
+.deltaChip span { margin-top: 4px; font: 10px/1.2 monospace; text-transform: uppercase; }
+.selectionModel { margin-top: 18px; display: grid; grid-template-columns: 1fr 50px 1fr; align-items: stretch; }
+.selectionModel > div:not(.modelArrow) { padding: 17px 20px; border: 1px solid var(--line); background: rgba(251, 252, 249, .88); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.selectionModel span { margin-right: auto; color: var(--muted); font: 700 11px/1 monospace; text-transform: uppercase; }
+.selectionModel strong { padding: 8px 10px; border: 1px solid #aeb7ad; background: white; font: 12px/1 monospace; }
+.selectionModel em { width: 100%; color: #17664b; font: 12px/1 monospace; text-align: right; }
+.modelArrow { display: grid; place-items: center; color: var(--muted); font: 24px/1 monospace; }
+.jointModel { border-color: #55aa8b !important; }
+
+.allocationCompare { margin-top: 18px; border: 1px solid var(--line); background: var(--panel); }
+.allocationCompare > header { padding: 14px 18px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font: 11px/1.2 monospace; text-transform: uppercase; }
+.allocationColumnLabels, .allocationCompareRow { display: grid; grid-template-columns: minmax(180px, .8fr) 1fr 1fr; }
+.allocationColumnLabels { padding: 11px 18px; border-bottom: 1px solid var(--line); color: var(--muted); font: 700 11px/1 monospace; text-transform: uppercase; }
+.allocationColumnLabels span:not(:first-child) { padding-left: 12px; }
+.allocationCompareRow { min-height: 46px; border-bottom: 1px solid #e1e5df; }
+.allocationCompareRow:last-child { border-bottom: 0; }
+.allocationSource { min-width: 0; padding: 11px 18px; display: flex; align-items: center; gap: 10px; }
+.allocationSource b { color: #347058; font: 700 10px/1 monospace; }
+.allocationSource span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 12px/1 monospace; }
+.allocationModeBar { position: relative; min-width: 0; padding: 10px 12px; border-left: 1px solid #e1e5df; display: flex; align-items: center; }
+.allocationModeBar i { display: block; height: 12px; min-width: 1px; }
+.allocationModeBar .standardBar { background: var(--dark); }
+.allocationModeBar .dynamicBar { background: var(--mint); }
+.allocationModeBar span { position: absolute; right: 12px; padding: 2px 4px; background: rgba(251, 252, 249, .86); color: var(--muted); font: 10px/1 monospace; }
+
+.selectionEvidenceGrid { margin-top: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.selectionEvidence { min-width: 0; border: 1px solid var(--line); background: var(--panel); }
+.selectionEvidence.standard { border-top: 4px solid var(--dark); }
+.selectionEvidence.dynamic { border-top: 4px solid var(--mint); }
+.selectionEvidence > header { padding: 20px 22px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: start; gap: 20px; }
+.selectionEvidence h3 { margin: 0; font-size: 26px; letter-spacing: -.04em; }
+.selectionEvidence > header > strong { font: 700 14px/1 monospace; white-space: nowrap; }
+.selectionLegend { padding: 11px 16px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 16px; color: var(--muted); font: 10px/1 monospace; text-transform: uppercase; }
+.selectionLegend span { display: flex; align-items: center; gap: 6px; }
+.selectionLegend i { width: 10px; height: 10px; border-radius: 2px; }
+.sharedEvidence { background: var(--panel); border: 1px solid var(--line); }
+.uniqueEvidence { background: #2563eb; }
+.selectionExcerptList { max-height: 760px; padding: 10px; overflow: auto; display: grid; gap: 8px; }
+.selectionExcerpt { border: 1px solid var(--line); background: white; }
+.selectionExcerpt summary { padding: 12px 13px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 12px; font-weight: 700; }
+.selectionExcerpt summary::-webkit-details-marker { display: none; }
+.selectionExcerpt summary small { color: var(--muted); font: 10px/1.2 monospace; white-space: nowrap; }
+.sentenceList { padding: 10px; border-top: 1px solid var(--line); display: grid; gap: 5px; }
+.sentenceList p { margin: 0; padding: 8px 10px; border-radius: 3px; color: #364038; font-family: Georgia, serif; font-size: 14px; line-height: 1.55; }
+.sentenceList p.shared { background: transparent; border-left: 3px solid transparent; }
+.sentenceList p.unique { background: #dbeafe; border-left: 3px solid #2563eb; }
+.microscopeAnswer { margin-top: 18px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); background: var(--panel); }
+.microscopeAnswer div { min-width: 0; padding: 16px 18px; border-right: 1px solid var(--line); }
+.microscopeAnswer div:last-child { border-right: 0; }
+.microscopeAnswer span { display: block; margin-bottom: 8px; color: var(--muted); font: 10px/1 monospace; text-transform: uppercase; }
+.microscopeAnswer strong { font-size: 14px; line-height: 1.4; }
+.overlapNote { margin: 11px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+
 .evalSection { margin-top: 72px; padding-top: 42px; border-top: 1px solid var(--ink); }
 .evalIntro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 560px); gap: 40px; align-items: end; }
 .evalIntro h2 { margin: 0; font-size: clamp(34px, 4vw, 58px); line-height: 1; letter-spacing: -.055em; }
@@ -141,6 +205,11 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
   .methodNote { grid-template-columns: 1fr; gap: 8px; }
   .evalIntro { grid-template-columns: 1fr; gap: 18px; }
   .evalPlotGrid { grid-template-columns: 1fr; }
+  .microscopeIntro { grid-template-columns: 1fr; gap: 18px; }
+  .selectionEvidenceGrid { grid-template-columns: 1fr; }
+  .microscopeAnswer { grid-template-columns: 1fr; }
+  .microscopeAnswer div { border-right: 0; border-bottom: 1px solid var(--line); }
+  .microscopeAnswer div:last-child { border-bottom: 0; }
 }
 
 @media (max-width: 560px) {
@@ -157,6 +226,12 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
   .protocolStrip { grid-template-columns: repeat(2, 1fr); }
   .protocolStrip div:nth-child(2) { border-right: 0; }
   .protocolStrip div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .questionControl { grid-template-columns: 1fr; }
+  .deltaChip { width: 100%; }
+  .selectionModel { grid-template-columns: 1fr; gap: 8px; }
+  .modelArrow { transform: rotate(90deg); }
+  .allocationCompare { overflow-x: auto; }
+  .allocationCompare > header, .allocationColumnLabels, .allocationCompareRow { min-width: 680px; }
 }
 
 @media (prefers-reduced-motion: no-preference) {

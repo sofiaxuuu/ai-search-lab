@@ -23,6 +23,34 @@ The page also includes Exa's published single-turn and agentic benchmark points
 as a visual reference. Those points are separate from local results; this
 repository has not reproduced those scores.
 
+The **Selection microscope** uses the 10 local pilot traces to show source
+allocation and returned excerpts side by side. Choose a question to see which
+URLs received less context or were omitted by Dynamic Highlights. Sentence
+colors show approximate text overlap computed by this app, not Exa's private
+model reasoning.
+
+## Where code lives
+
+- `app/` — Next.js routes and the global stylesheet. `page.tsx` assembles the
+  home page.
+- `components/` — reusable pieces of the page, such as the side-by-side
+  selection microscope and Exa reference charts.
+- `lib/data/` — code that reads saved experiment files for the page.
+- `lib/visualization/` — calculations used only to display evidence and charts.
+- `lib/evals/` — benchmark data types, Exa/OpenAI API calls, scorers, and
+  aggregation logic used by evaluation scripts.
+- `scripts/evals/` — commands that import data, run paired evaluations, and
+  summarize their results.
+- `evals/datasets/` — the sampled SimpleQA questions.
+- `evals/runs/` — saved question-by-question results and summaries.
+- `traces/examples/` — a small standalone Exa API example used by the top
+  comparison panel.
+- `docs/` — evaluation protocol and beginner learning roadmap.
+
+An easy rule: **page assembly is in `app/`, page pieces are in `components/`,
+display calculations are in `lib/visualization/`, and benchmark mechanics are
+in `lib/evals/`.**
+
 ## Run the feasibility probe
 
 Requires Node.js 18 or newer.

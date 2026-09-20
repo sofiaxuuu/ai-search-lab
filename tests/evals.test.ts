@@ -5,6 +5,7 @@ import { exactMatch, normalizeAnswer, tokenF1 } from "../lib/evals/scoring";
 import { parseSimpleQAGrade } from "../lib/evals/openai-simpleqa-grader";
 import { summarizePairs } from "../lib/evals/aggregate";
 import type { RetrievalPair } from "../lib/evals/types";
+import { approximateSharedSentence, charactersByUrl, splitSentences } from "../lib/visualization/selection-compare";
 
 describe("deterministic sampling", () => {
   it("returns the same identities for the same seed", () => {
@@ -92,5 +93,21 @@ describe("paired aggregation", () => {
     expect(summary.scores.accuracyDelta).toBe(1);
     expect(summary.context.meanCharacterDelta).toBe(-20);
     expect(summary.scores.dynamicOnlyCorrect).toBe(1);
+  });
+});
+
+describe("selection comparison", () => {
+  it("identifies exact and high-coverage evidence overlap", () => {
+    const opposite = "The Benjamin Franklin Medal was awarded to John McCarthy in 2002.";
+    expect(approximateSharedSentence(opposite, opposite)).toBe(true);
+    expect(approximateSharedSentence("A completely unrelated sentence about weather patterns.", opposite)).toBe(false);
+  });
+
+  it("splits readable sentences and totals allocation by URL", () => {
+    expect(splitSentences("First fact. Second fact!")).toEqual(["First fact.", "Second fact!"]);
+    expect(charactersByUrl([
+      { id: "1", url: "https://a.example", text: "1234" },
+      { id: "2", url: "https://a.example", text: "56" },
+    ]).get("https://a.example")).toBe(6);
   });
 });
