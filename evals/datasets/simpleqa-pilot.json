@@ -1,0 +1,89 @@
+{
+  "benchmark": "simpleqa",
+  "source": "https://openaipublic.blob.core.windows.net/simple-evals/simple_qa_test_set.csv",
+  "importedAt": "2026-09-20T13:18:08.320Z",
+  "seed": 42,
+  "totalSourceItems": 4326,
+  "items": [
+    {
+      "id": "simpleqa-2371",
+      "problem": "In Severance, whom does Mark Scout replace as department head?",
+      "answer": "Peter \"Petey\" Kilmer",
+      "metadata": {
+        "metadata": "{'topic': 'TV shows', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Severance_(TV_series)', 'https://en.wikipedia.org/wiki/Severance_(TV_series)', 'https://severance.wiki/mark_scout', 'https://severance.wiki/good_news_about_hell']}"
+      }
+    },
+    {
+      "id": "simpleqa-3756",
+      "problem": "What is the half-life of radon-224 in hours?",
+      "answer": "1.8",
+      "metadata": {
+        "metadata": "{'topic': 'Science and technology', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/Radon', 'https://en.wikipedia.org/wiki/Radon', 'https://periodictable.com/Isotopes/086.224/index2.html']}"
+      }
+    },
+    {
+      "id": "simpleqa-4265",
+      "problem": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?",
+      "answer": "Lucy Suchman",
+      "metadata": {
+        "metadata": "{'topic': 'Science and technology', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Franklin_Institute_Awards#Benjamin_Franklin_Medals', 'https://fi.edu/en/awards/laureates/lucy-suchman', 'https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462', 'https://publish.illinois.edu/prairiefutures/files/2017/02/Suchman-poster-28final29.pdf']}"
+      }
+    },
+    {
+      "id": "simpleqa-2593",
+      "problem": "How many lamps did the original Cape Hatteras Lighthouse contain?",
+      "answer": "18.",
+      "metadata": {
+        "metadata": "{'topic': 'Geography', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse', 'https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse#:~:text=The%20original%20light%20within%20the,inches%20to%20increase%20the%20light.', 'https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse', 'https://www.lighthousefriends.com/light.asp?ID=356']}"
+      }
+    },
+    {
+      "id": "simpleqa-3603",
+      "problem": "From what university did John P. Sall receive an honorary doctorate in 2003?",
+      "answer": " North Carolina State University",
+      "metadata": {
+        "metadata": "{'topic': 'Other', 'answer_type': 'Place', 'urls': ['https://en.wikipedia.org/wiki/John_Sall', 'https://en.wikipedia.org/wiki/John_Sall', 'https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html', 'https://www.myniu.com/article.html?aid=168']}"
+      }
+    },
+    {
+      "id": "simpleqa-1252",
+      "problem": "Who won the Gerard P. Kuiper Prize in 2010?",
+      "answer": "Jeffrey Cuzzi",
+      "metadata": {
+        "metadata": "{'topic': 'Science and technology', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize', 'https://dps.aas.org/prizes/kuiper/', 'https://spaceref.com/press-release/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/', 'https://www.planetary.org/profiles/jeffrey-cuzzi#:~:text=For%20his%20research%20in%20planetary,for%20Exceptional%20Scientific%20Achievement%20twice.']}"
+      }
+    },
+    {
+      "id": "simpleqa-3180",
+      "problem": "In which month and year was Captain Joern Rene Klausen found dead aboard the Monarch of the Seas?",
+      "answer": "January, 2006.",
+      "metadata": {
+        "metadata": "{'topic': 'Other', 'answer_type': 'Date', 'urls': [\"https://en.wikipedia.org/wiki/MS_Monarch#Captain's_death\", 'https://en.wikipedia.org/wiki/MS_Monarch#:~:text=Thirty%2Deight%2Dyear%2Dold,night%20cruise%20to%20Ensenada%2C%20Mexico.', 'http://www.castlesoftheseas.nl/monarch.html']}"
+      }
+    },
+    {
+      "id": "simpleqa-2324",
+      "problem": "What is the Regional Transport Office (RTO) code for the Androth location in Lakshadweep, India?",
+      "answer": "LD-04",
+      "metadata": {
+        "metadata": "{'topic': 'Geography', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/List_of_Regional_Transport_Office_districts_in_India#LD%E2%80%94Lakshadweep', 'https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/', 'https://loconav.com/rto-offices/lakshadweep/androth-ld-04', 'https://www.coverfox.com/rto/lakshadweep/']}"
+      }
+    },
+    {
+      "id": "simpleqa-0431",
+      "problem": "In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?",
+      "answer": "1948.",
+      "metadata": {
+        "metadata": "{'topic': 'Music', 'answer_type': 'Date', 'urls': ['https://archives.nypl.org/mus/22589', 'https://archives.nypl.org/mus/22589', 'https://mirrorspectator.com/2016/03/10/jazz-great-george-avakian-honored-by-lincoln-centers-performing-arts-library/', 'https://agbu.org/new-york-new-york/tracking-armenians-new-york']}"
+      }
+    },
+    {
+      "id": "simpleqa-4160",
+      "problem": "On which month and year, during a visit to Washington, D.C., did Golda Meir agree with Henry Kissinger's peace proposal based on \"security versus sovereignty\"?",
+      "answer": "February 1973",
+      "metadata": {
+        "metadata": "{'topic': 'Politics', 'answer_type': 'Date', 'urls': ['https://en.wikipedia.org/wiki/Golda_Meir#Premiership_(1969%E2%80%931974)', 'https://en.wikipedia.org/wiki/Rogers_Plan', 'https://en.irna.ir/news/85333356/Who-is-Johan-Floderus-the-proxy-agent-of-the-Zionist-regime', \"https://en.wikipedia.org/wiki/Golda_Meir#:~:text=On%20February%2028%2C%201973%2C%20during,some%20of%20Sinai's%20strategic%20positions.\"]}"
+      }
+    }
+  ]
+}

@@ -4,4 +4,7 @@ node_modules/
 coverage/
 playwright-report/
 test-results/
-
+evals/runs/*
+!evals/runs/.gitkeep
+!evals/runs/simpleqa-retrieval-pilot/
+!evals/runs/simpleqa-retrieval-pilot/**

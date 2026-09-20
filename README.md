@@ -55,3 +55,7 @@ answer model, prompts, and grader. Only the highlight mode changes.
 
 See [docs/EVALS.md](./docs/EVALS.md) for the benchmark list, experimental
 controls, reporting rules, and cost controls.
+
+If you are learning evals, follow [docs/EVAL_LEARNING_PLAN.md](./docs/EVAL_LEARNING_PLAN.md).
+It begins with a deterministic 10-item SimpleQA sample and one paired retrieval
+trace before introducing answer models or LLM graders.

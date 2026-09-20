@@ -2,14 +2,21 @@
   "name": "dynamic-highlights-inspector",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "probe:exa": "node scripts/probe-exa.mjs"
+    "probe:exa": "node scripts/probe-exa.mjs",
+    "test": "vitest run",
+    "eval:import-simpleqa": "node --import tsx scripts/evals/import-simpleqa.ts",
+    "eval:retrieval:dry": "node --import tsx scripts/evals/run-retrieval-pilot.ts",
+    "eval:retrieval:one": "node --env-file=.env --import tsx scripts/evals/run-retrieval-pilot.ts --live",
+    "eval:audit": "node --import tsx scripts/evals/audit-retrieval-pair.ts"
   },
   "dependencies": {
+    "csv-parse": "^7.0.2",
     "next": "16.3.5",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -20,6 +27,8 @@
     "@types/react-dom": "19.3.0",
     "eslint": "9.39.5",
     "eslint-config-next": "16.3.5",
-    "typescript": "6.0.3"
+    "tsx": "^4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "^5.0.1"
   }
 }

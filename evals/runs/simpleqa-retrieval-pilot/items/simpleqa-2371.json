@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:22:31.492Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-2371",
+    "problem": "In Severance, whom does Mark Scout replace as department head?",
+    "answer": "Peter \"Petey\" Kilmer",
+    "metadata": {
+      "metadata": "{'topic': 'TV shows', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Severance_(TV_series)', 'https://en.wikipedia.org/wiki/Severance_(TV_series)', 'https://severance.wiki/mark_scout', 'https://severance.wiki/good_news_about_hell']}"
+    }
+  },
+  "discovery": {
+    "query": "In Severance, whom does Mark Scout replace as department head?",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Mark_Scout",
+      "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+      "https://shapes.inc/markscout",
+      "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+      "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+      "https://everything.explained.today/%2F/Mark_Scout/",
+      "https://www.severance.wiki/s2e1",
+      "https://cavac.at/cavacopedia/Mark%20Scout",
+      "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+      "https://severance-tv.fandom.com/wiki/Mark_Scout"
+    ],
+    "requestId": "771b2063fb8bc6b6ee7fdec5e33a29ed",
+    "latencyMs": 1600
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://en.wikipedia.org/wiki/Mark_Scout",
+        "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+        "https://shapes.inc/markscout",
+        "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+        "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+        "https://everything.explained.today/%2F/Mark_Scout/",
+        "https://www.severance.wiki/s2e1",
+        "https://cavac.at/cavacopedia/Mark%20Scout",
+        "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+        "https://severance-tv.fandom.com/wiki/Mark_Scout"
+      ],
+      "highlights": {
+        "query": "In Severance, whom does Mark Scout replace as department head?"
+      }
+    },
+    "response": {
+      "requestId": "ad41fe68c0f9ea2a0d61f0c1fcd9a262",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://en.wikipedia.org/wiki/Mark_Scout",
+          "text": "On the severed floor he is known as Mark S. He is made department chief of the Macrodata Refinement (MDR) department when his best friend and former department chief, Petey, goes missing. Petey's loss and the addition of a new, rebellious worker Helly R. cause him to question Lumon."
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+          "text": "## Petey was the former department head of the MDR Team. He died after being re-intergrated.\n...\nBefore Mark became the head of his department, Petey Kilmer (Yul Vazquez) served in the position. Petey left suddenly, and it’s revealed that he reversed his severance through a process called reintegration. The procedure was done by a mysterious figure called Reghabi (Karen Aldridge). After Mark’s Outie allowed Petey to take refuge in his house, Mark learned that the reintegration process caused hallucinations and other medical side effects. Petey also gave Mark details on the severance process, causing Mark’s Outie to become skeptical of Lumon. Petey then dies, and before he was creamated, Cobel took the severance chip out of him, preserving the secrets of Lumon."
+        },
+        {
+          "id": "3.1",
+          "url": "https://shapes.inc/markscout",
+          "text": "4\n\nHe replaced Petey Kilmer as the Department Head of MDR after Petey's mysterious \"departure.\"\n...\nThe Arrival of Helly R.Mark is promoted to Department Head after Petey disappears and is tasked with training the rebellious new hire, Helly R."
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+          "text": "- Adam Scott as Mark S./Mark Scout, a former history professor and a severed worker for Lumon Industries in the Macrodata Refinement (MDR) department.\n...\n| Mark Scout, who works in Lumon Industries' Macrodata Refinement (MDR) department, discovers he is being promoted to department head in light of his coworker Petey's sudden departure. His first task is to orient Helly, the replacement, who wakes up in a conference room with no memory of who or where she is. After being given an orientation and learning her name, she demands—and is allowed—to leave, but finds she is unable. She watches a video explaining that she has undergone the \"severance\" procedure, which split her memories to create a version of herself that will only exist inside the workplace. The \"outside\" version of Mark, a former professor grieving his wife Gemma's death and living in the Lumon-subsidized town of Kier, encounters Petey, who claims to have reversed his supposedly-permanent severance. Mark returns home and interacts with his neighbor, \"Mrs. Selvig\", unaware that she is his senior manager Harmony Cobel. | | | | | |"
+        },
+        {
+          "id": "5.1",
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+          "text": "- Adam Scott as Mark S./Mark Scout, a former history professor and a severed worker for Lumon Industries in the Macrodata Refinement (MDR) department.\n...\nMark Scout, who works in Lumon Industries' Macrodata Refinement (MDR) department, discovers he is being promoted to department head in light of his coworker Petey's sudden departure. His first task is to orient Helly, the replacement, who wakes up in a conference room with no memory of who or where she is. After being given an orientation and learning her name, she demands to—and is allowed to—leave, but finds she is unable. She watches a video explaining that she has undergone the \"severance\" procedure, which split her memories to create a version of herself that will only exist inside the workplace. The \"outside\" version of Mark, a former professor grieving his wife Gemma's death and living in the Lumon-subsidized town of Kier, encounters Petey, who claims to have reversed his supposedly-permanent severance. Mark returns home and interacts with his neighbor, \"Mrs. Selvig\", unaware that she is his senior manager Harmony Cobel."
+        },
+        {
+          "id": "6.1",
+          "url": "https://everything.explained.today/%2F/Mark_Scout/",
+          "text": "On the severed floor he is known as MarkS. He is made department chief of the Macrodata Refinement (MDR) department when his best friend and former department chief, Petey, goes missing. Petey's loss and the addition of a new, rebellious worker HellyR. cause him to question Lumon."
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.severance.wiki/s2e1",
+          "text": "Mark boards the elevator, and the doors slide shut. Ding. The elevator doors slide open and deposit Mark back on the severed floor. Mark returns to the office to find the three new refiners seated at their desks and Mr. Milchick holding Mark’s blue note. Mr. Milchick reads Mark’s note aloud, revealing Mark’s sorry attempt to forge a cry for help from Mark W.'s innie for Mark W.’s outie to find. Mark denies his involvement at first but quickly relents. He expresses his frustration once again and desire to talk to his former MDR team. As a consequence of his insubordination, Mr. Milchick revokes Mark's status as department chief, transferring it to Mark W. who accepts with relish."
+        },
+        {
+          "id": "8.1",
+          "url": "https://cavac.at/cavacopedia/Mark%20Scout",
+          "text": "On the severed floor he is known as MarkS. He is made department chief of the Macrodata Refinement (MDR) department when his best friend and former department chief, Petey, goes missing. Petey's loss and the addition of a new, rebellious worker HellyR. cause him to question Lumon."
+        },
+        {
+          "id": "9.1",
+          "url": "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+          "text": "After his wife's death, Mark Scout (Adam Scott) accepts a job at Lumon as a Macrodata Refiner on the severed floor. He leads a team of three other employees: Dylan G. (Zach Cherry), Irving B. (John Turturro), and newcomer Helly R. (Britt Lower), who replaced their longtime colleague Petey (Yul Vazquez)."
+        },
+        {
+          "id": "10.1",
+          "url": "https://severance-tv.fandom.com/wiki/Mark_Scout",
+          "text": "His Innie self, known as Mark S., first awoke on\n...\nsevered floor, where he received his orientation from fellow Innie Petey K., whom he threatened to kill after realizing he had no personal memories. Mark joined the Macrodata Refinement(MDR) department and worked alongside Petey, Irving B., and Carol D.. At some point after he woke up, Carol \"retired\" and was replaced by Dylan G. [1\n...\nOne day, Petey disappeared and never came into work. After an emotional breakdown in his car, Mark entered the office as usual. Floor manager Harmony Cobel and supervisor Seth Milchick informed him of Petey \"leaving\" the company, but refused to divulge why, deeply distressing him. He hesitantly accepted a promotion to Department Chief, and was given his first assignment of overseeing the orientation of Helly R., Petey's replacement."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_Scout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://shapes.inc/markscout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://everything.explained.today/%2F/Mark_Scout/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.severance.wiki/s2e1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://cavac.at/cavacopedia/Mark%20Scout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://severance-tv.fandom.com/wiki/Mark_Scout",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 5880,
+      "estimatedTokens": 1470,
+      "latencyMs": 171
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://en.wikipedia.org/wiki/Mark_Scout",
+        "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+        "https://shapes.inc/markscout",
+        "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+        "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+        "https://everything.explained.today/%2F/Mark_Scout/",
+        "https://www.severance.wiki/s2e1",
+        "https://cavac.at/cavacopedia/Mark%20Scout",
+        "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+        "https://severance-tv.fandom.com/wiki/Mark_Scout"
+      ],
+      "highlights": {
+        "query": "In Severance, whom does Mark Scout replace as department head?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "aa84e1093534b81f7dcdf3c493e7b7b6",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://en.wikipedia.org/wiki/Mark_Scout",
+          "text": "On the severed floor he is known as Mark S. He is made department chief of the Macrodata Refinement (MDR) department when his best friend and former department chief, Petey, goes missing. Petey's loss and the addition of a new, rebellious worker Helly R. cause him to question Lumon."
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+          "text": "## Petey was the former department head of the MDR Team. He died after being re-intergrated.\n\n...\n\nBefore Mark became the head of his department, Petey Kilmer (Yul Vazquez) served in the position. Petey left suddenly, and it’s revealed that he reversed his severance through a process called reintegration. The procedure was done by a mysterious figure called Reghabi (Karen Aldridge). After Mark’s Outie allowed Petey to take refuge in his house, Mark learned that the reintegration process caused hallucinations and other medical side effects. Petey also gave Mark details on the severance process, causing Mark’s Outie to become skeptical of Lumon. Petey then dies, and before he was creamated, Cobel took the severance chip out of him, preserving the secrets of Lumon."
+        },
+        {
+          "id": "3.1",
+          "url": "https://shapes.inc/markscout",
+          "text": "Mark S. serves as the Department Head of Macrodata Refinement (MDR) on the severed floor. His work involves sorting digital numbers into encrypted bins based on the emotional response the data elicits, a process defined by the \"four tempers.\"\n\n...\n\n4\n\n...\n\nHe replaced Petey Kilmer as the Department Head of MDR after Petey's mysterious \"departure.\""
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+          "text": "| ... 1 | 1 | \" Good News About Hell\" | Ben Stiller | Dan Erickson | February 18, 2022 |\n| Mark Scout, who works in Lumon Industries' Macrodata Refinement (MDR) department, discovers he is being promoted to department head in light of his coworker Petey's sudden departure. His first task is to orient Helly, the replacement, who wakes up in a conference room with no memory of who or where she is. After being given an orientation and learning her name, she demands—and is allowed—to leave, but finds she is unable. She watches a ... explaining that ... has undergone the \"sever ... \" procedure ... to create ... version of herself that will ... exist inside the\n\n...\n\n| ... , ... | ... , ... 20 ... 5\n\n...\n\nMark ... awak ... on the severed floor in ... panic, ... Ms. ... s wellness ... decommissioned, and his whole ... . Milch ... Huang"
+        },
+        {
+          "id": "5.1",
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+          "text": "Mark Scout, who works in Lumon Industries' Macrodata Refinement (MDR) department, discovers he is being promoted to department head in light of his coworker Petey's sudden departure. His first task is to orient Helly, the replacement, who wakes up in a conference room with no memory of who or where she is. After being given an orientation and learning her name, she demands to—and is allowed to—leave, but finds she is unable. She watches a video explaining that she has undergone the \"severance\" procedure, which split her memories to create a version of herself that will only exist inside the workplace. The \"outside\" version of Mark, a former professor grieving his wife Gemma's death and living in the Lumon-subsidized town of ... , encounters ... , who claims ... have reversed his ... - ... severance\n\n...\n\nMark reawakens on the severed floor in a panic, finding Ms. Casey's wellness room decommissioned, and his whole team replaced. Milchick, now running the severed floor, introduces Mark to new deputy manager Miss Huang—a child—and informs him that five months have passed since the \"Macrodat Uprising\", which made Mark's team the faces of \"severance reform\". Milchick says that while Mark's outie asked to return to Lumon, the other three refused. ... sabotages his ... team ... a distraction ... s ... and ... the ... ies ... ."
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.severance.wiki/s2e1",
+          "text": "his ... .\n\n...\n\nMark boards the elevator, and the doors slide shut. Ding. The elevator doors slide open and deposit Mark back on the severed floor. Mark returns to the office to find the three new refiners seated at their desks and Mr. Milchick holding Mark’s blue note. Mr. Milchick reads Mark’s note aloud, revealing Mark’s sorry attempt to forge a cry for help from Mark W.'s innie for Mark W.’s outie to find. Mark denies his involvement at first but quickly relents. He expresses his frustration once again and desire to talk to his former MDR team. As a consequence of his insubordination, Mr. Milchick revokes Mark's status as department chief, transferring it to Mark W. who accepts with relish.\n\n...\n\nIn an attempt to create a diversion, Mark begins giggling and taunts Mr. Milchick, saying, “You don’t know what I did to the Kitchenette yet, do you?” Mr. Milchick and the new refiners rush to the kitchenette, and Mark takes off down the corridor to the management office."
+        },
+        {
+          "id": "8.1",
+          "url": "https://cavac.at/cavacopedia/Mark%20Scout",
+          "text": "On the severed floor he is known as MarkS. He is made department chief of the Macrodata Refinement (MDR) department when his best friend and former department chief, Petey, goes missing. Petey's loss and the addition of a new, rebellious worker HellyR. cause him to question Lumon."
+        },
+        {
+          "id": "9.1",
+          "url": "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+          "text": "After his wife's death, Mark Scout (Adam Scott) accepts a job at Lumon as a Macrodata Refiner on the severed floor. He leads a team of three other employees: Dylan G. (Zach Cherry), Irving B. (John Turturro), and newcomer Helly R. (Britt Lower), who replaced their longtime colleague Petey (Yul Vazquez)."
+        },
+        {
+          "id": "10.1",
+          "url": "https://severance-tv.fandom.com/wiki/Mark_Scout",
+          "text": "His Innie self, known as Mark S., first awoke on the severed floor, where he received his orientation from fellow Innie Petey K., whom he threatened to kill after realizing he had no personal memories. Mark joined the Macrodata Refinement(MDR) department and worked alongside Petey, Irving B., and Carol D.. At some point after he woke up, Carol \"retired\" and was replaced by Dylan G. [1]\n\n...\n\nOne day, Petey disappeared and never came into work. After an emotional breakdown in his car, Mark entered the office as usual. Floor manager Harmony Cobel and supervisor Seth Milchick informed him of Petey \"leaving\" the company, but refused to divulge why, deeply distressing him. He hesitantly accepted a promotion to Department Chief, and was given his first assignment of overseeing the orientation of Helly R., Petey's replacement."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_Scout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.elle.com/culture/movies-tv/a63332243/severance-season-1-recap-biggest-moments-explained/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://shapes.inc/markscout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Severance_(TV_series)?wprov=sfti1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://everything.explained.today/%2F/Mark_Scout/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.severance.wiki/s2e1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://cavac.at/cavacopedia/Mark%20Scout",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.businessinsider.com/severance-season-1-recap-2025-1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://severance-tv.fandom.com/wiki/Mark_Scout",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.009
+    },
+    "metrics": {
+      "returnedCharacters": 5984,
+      "estimatedTokens": 1496,
+      "latencyMs": 401
+    }
+  }
+}
