@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:08.324Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-1252",
+    "problem": "Who won the Gerard P. Kuiper Prize in 2010?",
+    "answer": "Jeffrey Cuzzi",
+    "metadata": {
+      "metadata": "{'topic': 'Science and technology', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize', 'https://dps.aas.org/prizes/kuiper/', 'https://spaceref.com/press-release/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/', 'https://www.planetary.org/profiles/jeffrey-cuzzi#:~:text=For%20his%20research%20in%20planetary,for%20Exceptional%20Scientific%20Achievement%20twice.']}"
+    }
+  },
+  "discovery": {
+    "query": "Who won the Gerard P. Kuiper Prize in 2010?",
+    "urls": [
+      "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+      "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+      "https://dps.aas.org/prizes/kuiper/",
+      "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+      "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+      "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+      "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+      "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+      "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+      "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize"
+    ],
+    "requestId": "52e2cf3bd29b69e4ef33faded7bc47d4",
+    "latencyMs": 974
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+        "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+        "https://dps.aas.org/prizes/kuiper/",
+        "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+        "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+        "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+        "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+        "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+        "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+        "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize"
+      ],
+      "highlights": {
+        "query": "Who won the Gerard P. Kuiper Prize in 2010?"
+      }
+    },
+    "response": {
+      "requestId": "f3b7b1c07741cf4b2fda9156f5dfdf85",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+          "text": "Jeff Cuzzi, a planetary scientist at NASA Ames Research Center, Moffett Field, Calif., has been named the winner of the 2010 Gerard P. Kuiper Prize, the most prestigious individual award in planetary sciences.\n...\n“In the 27-year history of the Kuiper Prize, the award has been won by three NASA Ames researchers: Jim Pollack (1989), Dale Cruikshank (2006), and Jeff Cuzzi (2010). No institution, within government or academia, has more Kuiper Prize winners,” said S. Pete Worden, director of NASA Ames."
+        },
+        {
+          "id": "2.1",
+          "url": "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+          "text": "Gerard P. Kuiper Prize for outstanding contributions to the field of\nplanetary science:\n...\nJeff Cuzzi, NASA Ames Research Center"
+        },
+        {
+          "id": "3.1",
+          "url": "https://dps.aas.org/prizes/kuiper/",
+          "text": "| 2026 | Mark Marley |\n| --- | --- |\n| 2025 | Faith Vilas |\n| 2024 | Paul Feldman |\n| 2023 | William B. McKinnon |\n| 2022 | Bonnie Buratti |\n| 2021 | Therese Encrenaz |\n| 2020 | Wing-Huen Ip |\n| 2019 | Maria Zuber |\n| 2018 | Julio Ángel Fernández Alves |\n| 2017 | Margaret Kivelson |\n| 2016 | Stanton Peale |\n| 2015 | Yuk Yung |\n| 2014 | Peter Gierasch |\n| 2013 | Joseph Veverka |\n| 2012 | Darrell Strobel |\n| 2011 | William Ward |\n| 2010 | Jeffrey N. Cuzzi |\n| 2009 | Tobias C. Owen |\n| 2008 | Michael A’Hearn |\n| 2007 | Andrew P. Ingersoll |\n| 2006 | Dale P. Cruikshank |\n| 2005 | William Hubbard |\n| 2004 | Carle M. Pieters |\n| 2003 | Steven J. Ostro |\n| 2002 | Eberhard Grün |\n| 2001 | Bruce Hapke |\n| 2000 | Conway B. Leovy |\n| 1999 | Armand H. Delsemme |\n| 1998 | Carl E. Sagan |\n| 1997 | Irwin I. Shapiro |\n| 1996 | Barney J. Conrath |\n| 1995 | Michael J. Belton |\n| 1994 | James A. Van Allen |\n| 1993 | James R. Arnold |\n| 1992 | Peter Goldreich |\n| 1991 | Edward Anders |\n| 1990 | Viktor S. Safronov |\n| 1989 | James B. Pollack |\n| 1988 | Rudolf A. Hanel |\n| 1987 | Donald M. Hunten |\n| 1986 | George W. Wetherill |\n| 1985 | Fred L. Whipple |\n| 1984 | Eugene M. Shoemaker |"
+        },
+        {
+          "id": "4.1",
+          "url": "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+          "text": "Gerard P. Kuiper Prize for outstanding contributions to the field of planetary science: Jeff Cuzzi, NASA Ames Research Center"
+        },
+        {
+          "id": "5.1",
+          "url": "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+          "text": "| Kuiper Prize Winners | | |\n| --- | --- | --- |\n| 2012 | D. | Strobel |\n| 2011 | W. | Ward |\n| 2010 | J. N. | Cuzzi |\n| 2009 | T. C. | Owen |\n| 2008 | M. | A'Hearn |\n| 2007 | A. P. | Ingersoll |\n| 2006 | D. P. | Cruikshank |\n| 2005 | W. | Hubbard |\n| 2004 | C. M. | Pieters |\n| 2003 | S. J. | Ostro |\n| 2002 | E. | Grün |\n| 2001 | B. | Hapke |\n| 2000 | C. B. | Leovy |\n| 1999 | A. H. | Delsemme |\n| 1998 | C. E. | Sagan |\n| 1997 | I. I. | Shapiro |\n| 1996 | B. J. | Conrath |\n| 1995 | M. J. | Belton |\n| 1994 | J. A. | Van Allen |\n| 1993 | J. R. | Arnold |\n| 1992 | P. | Goldreich |\n| 1991 | E. | Anders |\n| 1990 | V. S. | Safronov |\n| 1989 | J. B. | Pollack |\n| 1988 | R. A. | Hanel |\n| 1987 | D. M. | Hunten |\n| 1986 | G. W. | Wetherill |\n| 1985 | F. L. | Whipple |\n| 1984 | E. M. | Shoemaker |"
+        },
+        {
+          "id": "6.1",
+          "url": "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "text": "20\n...\n- 2008 Michael A'Hearn\n- 2009 Tobias Owen\n- 2010 Jeff Cuzzi\n- 2011 William Ward\n- 2012 Darrell Strobel\n- 2013 Joseph Veverka\n- 2014 Peter J. Gierasch"
+        },
+        {
+          "id": "7.1",
+          "url": "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "text": "The Gerard P. Kuiper Prize is awarded annually by the Division for Planetary Sciences of the American Astronomical Society for outstanding lifetime achievement in the field of planetary science. The prize is named for Gerard P. Kuiper.\n...\n## Kuiper Prize winners\n...\n2. Committee to Review Near-Earth Object Surveys and Hazard Mitigation Strategies; Space Studies Board; National Research Council (21 June 2010). Defending Planet Earth: Near-Earth Object Surveys and Hazard Mitigation Strategies. National Academies Press. pp. 138–. ISBN 978-0-309-15721-6. Retrieved 17 August 2013."
+        },
+        {
+          "id": "8.1",
+          "url": "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+          "text": "Gerard P. Kuiper Prize - WikiMili, The Best Wikipedia Reader\nWikiMili Share on FacebookTweet on TwitterShare on RedditPersonalizeWikipedia Tools\nText Adjust\nA-A+\nThemes\n* Read On Wikipedia\n* Edit\n* History\n* Talk\n* Print Page\n* Download PDF\nListen\n# Gerard P. Kuiper Prize\nLast updated December 11, 2025 • 1 min readFrom Wikipedia, The Free Encyclopedia\nThe **Gerard P. Kuiper Prize** is awarded annually by the Division for Planetary Sciences of the American Astronomical Society for outstanding lifetime achievement in the field of planetary science. The prize is named for Gerard P. Kuiper. [1]\n## Contents\n* Kuiper Prize winners\n* See also\n* References\n* External links\n## Kuiper Prize winners\nSource: Gerard P. Kuiper Prize, American Astronomical Society\n* 1984 Eugene M. Shoemaker\n* 1985 Fred L. Whipple\n* 1986 George W. Wetherill\n* 1987 Donald M. Hunten\n* 1988 Rudolph A. Hanel\n* 1989 James B. Pollack\n* 1990 Viktor S. Safronov\n* 1991 Edward Anders\n* 1992 Peter Goldreich\n* 1993 James R. Arnold\n* 1994 James A. Van Allen\n* 1995 Michael J. Belton [2]\n* 1996 Barney J. Conrath\n* 1997 Irwin I. Shapiro\n* 1998 Carl E. Sagan\n* 1999 Armand H. Delsemme [ fr ]\n* 2000 Conway B. Leovy\n* 2001 Bruce Hapke\n* 2002 Eberhard Grün\n* 2003 Steven J. Ostro\n* 2004 Carle M. Pieters\n* 2005 William B. Hubbard\n* 2006 Dale P. Cruikshank\n* 2007 Andrew Ingersoll\n* 2008 Michael A'Hearn\n* 2009 Tobias Owen\n* 2010 Jeff Cuzzi\n* 2011 William Ward\n* 2012 Darrell Strobel\n* 2013 Joseph Veverka\n* 2014 Peter J. Gierasch\n* 2015 Yuk L. Yung\n* 2016 Stan Peale\n* 2017 Margaret Kivelson\n* 2018 Julio Ángel Fernández\n* 2019 Maria Zuber\n* 2020 Wing-Huen Ip\n* 2021 Therese Encrenaz\n* 2022 Bonnie Buratti\n* 2023 William B. McKinnon\n* 2024 Paul Feldman\n* 2025 Faith Vilas\n## See also\n* List of astronomy awards\n## References\n1. ↑ > Charles W. Carey (1 January 2006).\n*> American Scientists\n*> . Infobase Publishing. pp.\n> \n> 211–.\n> ISBN\n>\n> \n>\n> 978-1-4381-0807-0\n>\n> . Retrieved\n> 17 August\n> 2013\n> .\n2. ↑ > Committee to Review Near-Earth Object Surveys and Hazard Mitigation Strategies; Space Studies Board; National Research Council (21 June 2010).\n*> Defending Planet Earth: Near-Earth Object Surveys and Hazard Mitigation Strategies\n*> . National Academies Press. pp.\n> \n> 138–.\n> ISBN\n>\n> \n>\n> 978-0-309-15721-6\n>\n> . Retrieved\n> 17 August\n> 2013\n> .\n## External links\n* Gerard P. Kuiper Prize\nThis page is based on this Wikipedia article\nText is available under the CC BY-SA 4.0 license; additional terms may apply.\nImages, videos and audio are available under their respective licenses.\nHomeContact UsAbout UsTerms of ServicePrivacy Policy"
+        },
+        {
+          "id": "9.1",
+          "url": "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+          "text": "P. Cruik\n...\n2007 Andrew Ingersoll\n...\n- 2008 Michael A'Hearn\n- 2009 Tobias Owen\n- 2010 Jeff Cuzzi\n- 2011 William Ward\n- 2012 Darrell Strobel\n- 2013 Joseph Veverka\n- 2014 Peter J. Gierasch\n- 2015 Yuk\n...\n. Yung\n- 201"
+        },
+        {
+          "id": "10.1",
+          "url": "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize",
+          "text": "20\n...\n- 2008 Michael A'Hearn\n...\n- 2009 Tobias Owen\n- 2010 Jeff Cuzzi\n- 2011 William Ward\n- 2012 Darrell Strobel\n- 2013 Joseph Veverka\n- 2014 Peter J. Gierasch"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://dps.aas.org/prizes/kuiper/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 6466,
+      "estimatedTokens": 1617,
+      "latencyMs": 135
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0104145053c7e150016aafe6ac61a487d2b2b3b3ee64f85e14",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Jeff Cuzzi",
+      "usage": {
+        "inputTokens": 2597,
+        "outputTokens": 4,
+        "totalTokens": 2601
+      },
+      "latencyMs": 946,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.5,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0391602cdb9381a1016aafe6add2f087d2a6eaeb18629dab43",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 198,
+          "outputTokens": 2,
+          "totalTokens": 200
+        },
+        "latencyMs": 547
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+        "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+        "https://dps.aas.org/prizes/kuiper/",
+        "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+        "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+        "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+        "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+        "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+        "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+        "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize"
+      ],
+      "highlights": {
+        "query": "Who won the Gerard P. Kuiper Prize in 2010?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "d6d8af28ad74346d1331a2d1c519a2f6",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+          "text": "Jeff Cuzzi, a planetary scientist at NASA Ames Research Center, Moffett Field, Calif., has been named the winner of the 2010 Gerard P. Kuiper Prize, the most prestigious individual award in planetary sciences."
+        },
+        {
+          "id": "2.1",
+          "url": "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+          "text": "2010 DPS PRIZES\n\n...\n\nWe are pleased to announce the winners of the 2010 DPS prizes, as\nfollows:\n\n...\n\nGerard P. Kuiper Prize for outstanding contributions to the field of\nplanetary science:\n\nJeff Cuzzi, NASA Ames Research Center"
+        },
+        {
+          "id": "3.1",
+          "url": "https://dps.aas.org/prizes/kuiper/",
+          "text": "Prize Winners\n\n...\n\n1 ... ale\n\n...\n\n2 ... 15 | Yuk Yung\n\n...\n\n| 2014 | Peter Gierasch |\n| 2013 | Joseph Veverka |\n| 2012 | Darrell Strobel |\n| 2011 | William Ward |\n| 2010 | Jeffrey N. Cuzzi |\n| 2009 | Tobias C. Owen |\n| 2008 | Michael A’Hearn |\n| 2007 | Andrew P. Ingersoll |\n| 2006 | Dale P. Cruikshank |\n| ... 0 ... 5 | William Hubbard |\n\n...\n\neters"
+        },
+        {
+          "id": "4.1",
+          "url": "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+          "text": "The Division for Planetary Sciences (DPS) of the American Astronomical Society (AAS) is pleased to announce the 2010 Prize winners as follows:\n\n...\n\nGerard P. Kuiper Prize for outstanding contributions to the field of planetary science: Jeff Cuzzi, NASA Ames Research Center"
+        },
+        {
+          "id": "5.1",
+          "url": "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+          "text": "| Kuiper Prize Winners | | |\n| --- | --- | --- |\n| 2012 | D. | Strobel |\n| 2011 | W. | Ward |\n| 2010 | J. N. | Cuzzi |\n| 2009 | T. C. | Owen |\n| 2008 | M. | A'Hearn |\n| 2007 | A. P. | Ingersoll |\n| 20 ... D ... P. ... Cruik ... |\n\n...\n\n| ... 0"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://spacenews.com/nasa-ames-scientist-jeff-cuzzi-wins-the-kuiper-prize/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://dps.aas.org/dps_mail_archive/dpsm.10-07.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://dps.aas.org/prizes/kuiper/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://spacenews.com/2010-planetary-science-prize-winners-announced/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://web.archive.org/web/20121029043929/http:/dps.aas.org/prizes/kuiper",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://wikimili.com/en/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://wiki.hijodeputin.com/content/wikipedia_en_all_maxi_2025-08/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://www.books.eshikshya.org/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Gerard_P._Kuiper_Prize",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.005
+    },
+    "metrics": {
+      "returnedCharacters": 1307,
+      "estimatedTokens": 327,
+      "latencyMs": 204
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_034e3e71b5d3f98d016aafe6ad571887d2985133cb4fd84ae2",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Jeff Cuzzi",
+      "usage": {
+        "inputTokens": 627,
+        "outputTokens": 4,
+        "totalTokens": 631
+      },
+      "latencyMs": 461,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.5,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0d9dbad6a9cdc353016aafe6ae8c5887d2a6a9bc5e6d08e720",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 198,
+          "outputTokens": 2,
+          "totalTokens": 200
+        },
+        "latencyMs": 812
+      }
+    }
+  }
+}

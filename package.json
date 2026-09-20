@@ -13,6 +13,10 @@
     "eval:import-simpleqa": "node --import tsx scripts/evals/import-simpleqa.ts",
     "eval:retrieval:dry": "node --import tsx scripts/evals/run-retrieval-pilot.ts",
     "eval:retrieval:one": "node --env-file=.env --import tsx scripts/evals/run-retrieval-pilot.ts --live",
+    "eval:answer:one": "node --env-file=.env --import tsx scripts/evals/answer-pilot-pair.ts",
+    "eval:grade:one": "node --env-file=.env --import tsx scripts/evals/grade-pilot-pair.ts",
+    "eval:pilot": "node --env-file=.env --import tsx scripts/evals/run-simpleqa-pilot.ts",
+    "eval:summarize": "node --import tsx scripts/evals/summarize-simpleqa-pilot.ts",
     "eval:audit": "node --import tsx scripts/evals/audit-retrieval-pair.ts"
   },
   "dependencies": {

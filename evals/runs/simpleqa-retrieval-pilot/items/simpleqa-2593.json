@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:58:57.951Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-2593",
+    "problem": "How many lamps did the original Cape Hatteras Lighthouse contain?",
+    "answer": "18.",
+    "metadata": {
+      "metadata": "{'topic': 'Geography', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse', 'https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse#:~:text=The%20original%20light%20within%20the,inches%20to%20increase%20the%20light.', 'https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse', 'https://www.lighthousefriends.com/light.asp?ID=356']}"
+    }
+  },
+  "discovery": {
+    "query": "How many lamps did the original Cape Hatteras Lighthouse contain?",
+    "urls": [
+      "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+      "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+      "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+      "https://www.nps.gov/caha/planyourvisit/chls.htm",
+      "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+      "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+      "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+      "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+      "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+      "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse"
+    ],
+    "requestId": "19f962d87ee9a8606af7341bff1f91d6",
+    "latencyMs": 1226
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+        "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+        "https://www.nps.gov/caha/planyourvisit/chls.htm",
+        "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+        "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+        "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+        "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse"
+      ],
+      "highlights": {
+        "query": "How many lamps did the original Cape Hatteras Lighthouse contain?"
+      }
+    },
+    "response": {
+      "requestId": "81e9dcbdbfc10228fa3311889ad291be",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+          "text": "* The Cape Hatteras light marked very dangerous shoals which extend from the cape for a distance of 10 nautical miles. The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch reflectors, and was 112 feet above sea level. It was visible in clear weather for a distance of 18 miles.\n...\n* The improvement in the light referred to had begun in 1845 when the reflectors were changed from 14 to 15 inch. In 1848 the 18 lamps were changed to 15 lamps with 21-inch reflectors and the light had become visible in clear weather at a distance of 20 miles. In 1854 a first-order Fresnel lens with flashing white light was substituted for the old reflecting apparatus, and the tower was raised to 150 feet."
+        },
+        {
+          "id": "2.1",
+          "url": "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+          "text": "Lewis placed a number of these lamps and reflectors on a chandelier in each lantern. lf the light was intended to be fixed, the chandelier remained stationary, but if the light was to be flashing, a clockwork system, propelled by a falling weight, rotated the chandelier. The -number of lamps placed in each lighthouse lantern varied. The Cape Hatteras lantern, for example, had 18 lamps and reflectors. 19 Despite the faults of these lights, they were a definite improvement over the old system. Not only did they give a better light, but their use resulted in a tremendous saving in oil. Despite the improvement in the lighting system of Cape Hatteras, complaints about the light began to be voiced, and the voices became particularly vehement in the late spring of 1817. The complaints, however, had overtones of something other than altruistic motives about the welfare of seamen. In April 1817 John D. Delacy of Beaufort wrote the Secretary of the Treasury, William Crawford, reminding the Secretary he had written him three months previously and still the \"complaints against the keeper of the Light House at Hatteras is [sic] loud and deep.\" More specifically, Delacy contended,"
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "text": "The Cape Hatteras light marked very dangerous shoals that extend from the cape for a distance of 10 nautical miles (19 km). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km).\n...\nThe improvement in the light referred to had begun in 1845 when the reflectors were changed from 14 to 15-inch (380 mm). In 1848 the 18 lamps were changed to 15 lamps with 21-inch (530 mm) reflectors and the light had become visible in clear weather at a distance of 20 miles (32 km). In 1854 a first-order Fresnel lens with flashing white light was substituted for the old reflecting apparatus, and the tower was raised to 150 feet (46 m)."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.nps.gov/caha/planyourvisit/chls.htm",
+          "text": "The original light was Argand style lamps mounted in front of parabolic reflectors. In 1839, Cape Hatteras was fitted with eighteen 14” reflectors. By 1849, the light had been upgraded to fifteen 21” reflectors. This system used whale oil for fuel and, if in perfect operating condition, produced a medium intensity light that could be seen up to 20 miles."
+        },
+        {
+          "id": "5.1",
+          "url": "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+          "text": "The original 112-ft., 18-lamp lighthouse at Cape Hatteras was designed to warn mariners of the “Graveyard” for up to 18 miles out to sea. However, the beacon was frequently too dim to be seen before ships helplessly foundered upon the treacherous shallows. As a result, hundreds of ships sank off the Hatteras coast, including the U.S.S. Monitor, famous ironclad of the American Civil War."
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+          "text": "In July 1797, Congress set aside $44,000. for the building of a lighthouse on Cape Hatteras Island as well as a lighted beacon to facilitate safe travel for ships near the Harbor of Ocracoke in North Carolina. The construction was started and completed in 1803. The original lighting system of the Cape Hatteras Lighthouse consisted of 18 lamps with 14-inch reflectors. The Cape Hatteras Lighthouse stood a miniscule 112 feet above sea level. According to USN LT. David D. Porter, the Cape Hatteras Lighthouse as it was originally constructed was virtually ineffective. The steamer ships that ran that same shipping line at night had brighter lights than the lighthouse and were often mistaken by the ships captains as the lighthouse beacon therefore drawing the larger ships closer to shore and into the breakers that eventually would run them aground.\n...\nAfter numerous complaints made by the Navy, improvements were started on the Cape Hatteras Lighthouse in 1845. The 14-inch reflectors were changed to 15-inch reflectors. By 1848, the 18 lamps in the original housing were replaced by 15 lamps with 21-inch reflectors that allowed the 18 mile visible distance to be increased to a 20 mile visible distance. In 1854, the first-order light was created and installed in the Cape Hatteras Lighthouse. The Fresnel Lens included a flashing white light that replaced the original lamps and reflectors. Along with the brighter Fresnel Lens, the4 Cape Hatteras Lighthouse was raised to 150 feet instead of the original 112 feet."
+        },
+        {
+          "id": "7.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+          "text": "The Cape Hatteras light marked very dangerous shoals that extend from the cape for a distance of 10 nautical miles (19 km). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km).\n...\nThe improvement in\n...\nlight referred to had begun in 1845 when the reflectors were changed from 14 to 15-inch (380 mm). In 1848 the 18 lamps were changed to 15 lamps with 21-inch (530 mm) reflectors and the light had become visible in clear weather at a distance of 20 miles (32 km). In 1854 a first-order Fresnel lens with flashing white light was substituted for the old reflecting apparatus, and the tower was raised to 150 feet (46 m)."
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+          "text": "The Cape Hatteras light marked very dangerous shoals that extend from the cape for a distance of 10 nautical miles (19 km). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km).\n...\nThe improvement in\n...\nlight referred to had begun in 1845 when the reflectors were changed from 14 to 15-inch (380 mm). In 1848 the 18 lamps were changed to 15 lamps with 21-inch (530 mm) reflectors and the light had become visible in clear weather at a distance of 20 miles (32 km). In 1854 a first-order Fresnel lens with flashing white light was substituted for the old reflecting apparatus, and the tower was raised to 150 feet (46 m)."
+        },
+        {
+          "id": "9.1",
+          "url": "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "text": "The Cape Hatteras light marked very dangerous shoals that extend from the cape for a distance of 10 nautical miles (19 km). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km).\n...\nThe improvement in the light referred to had begun in 1845 when the reflectors were changed from 14 to 15-inch (380 mm). In 1848 the 18 lamps were changed to 15 lamps with 21-inch (530 mm) reflectors and the light had become visible in clear weather at a distance of 20 miles (32 km). In 1854 a first-order Fresnel lens with flashing white light was substituted for the old reflecting apparatus, and the tower was raised to 150 feet (46 m)."
+        },
+        {
+          "id": "10.1",
+          "url": "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse",
+          "text": "The original light within the lighthouse consisted of 18 lamps with 14-inch reflectors and was 122 feet above sea level. It was visible in clear weather for a distance of 18 miles. About 40 years later, the reflectors were changed from 14 to 15 inches to increase the light. In 1854 seeking even more light, the old reflecting apparatus was replaced with a first-order Fresnel lens with flashing white light and the tower was raised 150 feet."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nps.gov/caha/planyourvisit/chls.htm",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 7997,
+      "estimatedTokens": 2000,
+      "latencyMs": 161
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_07e69297472a0d89016aafe6a206c887d287b83327b2d153f6",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "18 lamps",
+      "usage": {
+        "inputTokens": 2245,
+        "outputTokens": 3,
+        "totalTokens": 2248
+      },
+      "latencyMs": 822,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.6666666666666666,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0147c700bf822493016aafe6a4a9e887d293d1ebd2143518aa",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 196,
+          "outputTokens": 2,
+          "totalTokens": 198
+        },
+        "latencyMs": 467
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+        "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+        "https://www.nps.gov/caha/planyourvisit/chls.htm",
+        "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+        "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+        "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+        "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+        "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse"
+      ],
+      "highlights": {
+        "query": "How many lamps did the original Cape Hatteras Lighthouse contain?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "378d9b1b99434ad147df91d2a832fced",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+          "text": "**Historical Information:**\n* On July 10, 1797, Congress appropriated $44,000 \"\"for erecting a lighthouse on the head land of Cape Hatteras and a lighted beacon on Shell Castle Island, in the harbor of Ocracoke in the State of North Carolina.\"\" The Cape Hatteras Lighthouse cost $14,302 to build and the Shell Castle Island Lighthouse was built from part of the surplus. Both were completed in 1803.\n* The Cape Hatteras light marked very dangerous shoals which extend from the cape for a distance of 10 nautical miles. The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch reflectors, and was 112 feet above sea level. It was visible in clear weather for a distance of 18 miles.\n* In July 1851, Lt. David D. Porter, USN, reported as follows:\n* \"Hatteras light, the most important on our coast is, without doubt, the*worst*light in the world. Cape Hatteras is the point made by all vessels going to the south, and also coming from that direction; the current of the Gulf Stream runs so ... to the outer point of the shoals that vessels double as close ... the breakers as possible ... to avoid its influence. The ... the light ... tell ... with the ... als; but ... have ... in it, that ... have been ... by the ... , without the ... of which ... . The ... , ... , ... ’ ... are ... brighter. ... a ... . ... .\"\n* The improvement in the light referred to had begun in 1845 when the reflectors ... changed from 14 to 15 inch. In 1848 the 18 lamps were changed to 15 lamps with 21 ... inch reflectors and the light had become visible in clear weather at a distance of 20 miles. In 1854 a first ... order Fresnel lens with flashing ... substituted for the old reflecting apparatus, and the ... was raised to"
+        },
+        {
+          "id": "2.1",
+          "url": "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+          "text": "to\n\n...\n\nannual report of the Collector, Blount said that ... 1 ... . ... the ... be ... the absence of the ... , but because the ... 37 determined the amount of ... . 'Ihe refurbishing of the Cape Hatteras light had the proper effect on the quality of the light that ... ated from the tower. And in 1838 the Collector reported favorably upon the station and that the keeper was faithfully and adequately performing his duties. An inspection of all the country's lighthouses in 1838 ordered by Congress reported that the Cape Hatteras lighthouse was fitted with 18 lamps and the light was in excellent order. 38\n\n...\n\nlantern\n\n...\n\n2"
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "text": "The ... a ... of 10 ... ). The original tower was built of dark sandstone and ... natural ... . The original light consisted of ... 18 ... ; ... 14- ... (360 mm) ... , and was 112 ... (34 ... ) above sea level. It was ... a distance ... 18 miles (29 km"
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.nps.gov/caha/planyourvisit/chls.htm",
+          "text": "The original light was Argand style lamps mounted in front of parabolic reflectors. In 1839, Cape Hatteras was fitted with eighteen 14” reflectors. By 1849, the light had been upgraded to fifteen 21” reflectors. This system used whale oil for fuel and, if in perfect operating condition, produced a medium intensity light that could be seen up to 20 miles."
+        },
+        {
+          "id": "5.1",
+          "url": "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+          "text": ".\n\n...\n\nThe original 112-ft., 18-lamp lighthouse at Cape Hatteras was designed to warn mariners of the “Graveyard” for up to 18 miles out to sea. However, the beacon was frequently too dim to be seen before ships helplessly foundered upon the treacherous shallows. As a result, hundreds of ships sank off the Hatteras coast, including the U.S.S. Monitor, famous ironclad of the American Civil War."
+        },
+        {
+          "id": "7.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+          "text": "The ... from the ... a distance of 10 nautical miles (19 ... ). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km"
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+          "text": "The Cape Hatteras light marked very dangerous shoals that extend from the cape for a distance of 10 nautical miles (19 km). The original tower was built of dark sandstone and retained its natural color. The original light consisted of 18 lamps; with 14-inch (360 mm) reflectors, and was 112 feet (34 m) above sea level. It was visible in clear weather for a distance of 18 miles (29 km)."
+        },
+        {
+          "id": "9.1",
+          "url": "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "text": "The ... , ... ("
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1944529/cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://npshistory.com/publications/caha/ch-light-station-history.pdf",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nps.gov/caha/planyourvisit/chls.htm",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.usace.army.mil/Media/Fact-Sheets/Fact-Sheets-View/Article/4460608/111-cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.lighthouseman.com/cape-hatteras-lighthouse/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light_Station",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Hatteras_Light",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.keesouterbanks.com/4-facts-you-should-know-about-cape-hatteras-lighthouse",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.008
+    },
+    "metrics": {
+      "returnedCharacters": 4148,
+      "estimatedTokens": 1037,
+      "latencyMs": 453
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0db90979b47a159e016aafe6a2ded487d2a0dd28a1d779aac8",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "18 lamps",
+      "usage": {
+        "inputTokens": 1328,
+        "outputTokens": 3,
+        "totalTokens": 1331
+      },
+      "latencyMs": 1791,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.6666666666666666,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_005ae9d1c3a9c321016aafe6a5236487d28bc872e3d26d9c61",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 196,
+          "outputTokens": 2,
+          "totalTokens": 198
+        },
+        "latencyMs": 496
+      }
+    }
+  }
+}

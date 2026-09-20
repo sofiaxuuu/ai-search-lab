@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:29.899Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-4160",
+    "problem": "On which month and year, during a visit to Washington, D.C., did Golda Meir agree with Henry Kissinger's peace proposal based on \"security versus sovereignty\"?",
+    "answer": "February 1973",
+    "metadata": {
+      "metadata": "{'topic': 'Politics', 'answer_type': 'Date', 'urls': ['https://en.wikipedia.org/wiki/Golda_Meir#Premiership_(1969%E2%80%931974)', 'https://en.wikipedia.org/wiki/Rogers_Plan', 'https://en.irna.ir/news/85333356/Who-is-Johan-Floderus-the-proxy-agent-of-the-Zionist-regime', \"https://en.wikipedia.org/wiki/Golda_Meir#:~:text=On%20February%2028%2C%201973%2C%20during,some%20of%20Sinai's%20strategic%20positions.\"]}"
+    }
+  },
+  "discovery": {
+    "query": "On which month and year, during a visit to Washington, D.C., did Golda Meir agree with Henry Kissinger's peace proposal based on \"security versus sovereignty\"?",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Golda_Meir",
+      "https://en.wikipedia.org/wiki/Rogers_Plan",
+      "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+      "https://www.easynixon.org/tapes/862-010",
+      "https://www.israelnationalnews.com/news/377409",
+      "https://justapedia.org/wiki/Golda_Meir",
+      "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+      "https://alchetron.com/Golda-Meir",
+      "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+      "https://alchetron.com/Israel%E2%80%93United-States-relations"
+    ],
+    "requestId": "b847b85d048923585a60dfcd9855918d",
+    "latencyMs": 1115
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://en.wikipedia.org/wiki/Golda_Meir",
+        "https://en.wikipedia.org/wiki/Rogers_Plan",
+        "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+        "https://www.easynixon.org/tapes/862-010",
+        "https://www.israelnationalnews.com/news/377409",
+        "https://justapedia.org/wiki/Golda_Meir",
+        "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+        "https://alchetron.com/Golda-Meir",
+        "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+        "https://alchetron.com/Israel%E2%80%93United-States-relations"
+      ],
+      "highlights": {
+        "query": "On which month and year, during a visit to Washington, D.C., did Golda Meir agree with Henry Kissinger's peace proposal based on \"security versus sovereignty\"?"
+      }
+    },
+    "response": {
+      "requestId": "385cb1bd32bc3322d710c2408b12e8dd",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://en.wikipedia.org/wiki/Golda_Meir",
+          "text": "On February 28, 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions. [64] [65] [66] [67] [68]"
+        },
+        {
+          "id": "2.1",
+          "url": "https://en.wikipedia.org/wiki/Rogers_Plan",
+          "text": "No breakthrough occurred, even after Sadat, in a surprise move, suddenly expelled Soviet advisers from Egypt and again signaled to Washington his willingness to negotiate. [15] However, on 28 February 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty:\" Israel would accept Egyptian sovereignty over all Sinai, and Egypt would accept Israeli presence in some of Sinai strategic positions. [16] [17] [18] [19] [20]"
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+          "text": "On 28 February 1973, during a visit inWashington, DC, Israeli Prime MinisterGolda Meiragreed with the then U.S National Security AdvisorHenry Kissinger's peace proposal based on \"security versus sovereignty\" in which Israel would accept Egyptian sovereignty over all of theSinai Peninsula, and Egypt would accept Israeli presence in some Sinai strategic positions.[8][9][10][11][12]The talks continued under Jarring's auspices until 1973 but bore no results. After 1973, the Jarring Mission was replaced by bilateral and multilateral peace conferences."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.easynixon.org/tapes/862-010",
+          "text": "Now, the Israeli position is security versus sovereignty.\n...\ns viewpoint\n              -Realism\n              -Egypt’s firm position\n              -Alternatives\n              -Ismail’s visit\n                      -International attention\n                      -Trip to Moscow\n                              -[Hussein, King of Jordan] Hussein ibn Talal’s visit [?]\n                              -Golda Meir’s visit\n              -US goals\n                      -Timely resolution\n                      -Relations with Egypt\n                      -Palestinian, Israeli conflict"
+        },
+        {
+          "id": "5.1",
+          "url": "https://www.israelnationalnews.com/news/377409",
+          "text": "IDF was on the road to Damascus after pushing back the \"victorious\" Syrian army. #3. Sadat - Not Golda Meir - rejected negotiations to avoid Yom Kippur War A. The Kissinger initiative The following excerpt from \"The Rabin Memoirs by Yitzhak Rabin\" (pages 215-218) provides solid evidence that Prime Minister Golda Meir was open to negotiating an Israeli withdrawal from the Sinai before the 1973 Yom Kippur War. It was Anwar Sadat who opted for war over diplomacy. February 28 [1973]...Kissinger, who received me at the White House at 7:30 that evening with an omniscient expression on his face. \"I imagine that the prime minister has had a tough and depressing day,\" he said in what sounded to me like a self-satisfied tone. ...he noted that his approach in his talks with Hafez Ismail of Egypt had concentrated on the principle of \"security versus sovereignty.\"\n...\nTranslated into pragmatic terms, it meant that Israel would have to accept Egyptian sovereignty over all of the Sinai but that Egypt, in turn, would have to accept an Israeli military presence in certain strategic positions, such as Sharm el-Sheikh (though he hastened to add that such an Israeli military presence might have to be disguised as a civilian one). ...Golda readily agreed, so long as it was understood that such explorations would be undertaken with Israel's knowledge but not in her behalf. I immediately notified Kissinger... ...In April, Dr. Kissinger continued his efforts to reach an understanding with Hafez Ismail on the basis of the \"security versus sovereignty\" formula, but in May President Sadat rejected the proposal - as he had earlier rejected the idea of \"proximity talks.\" By then Sadat was already fully determined to go to war, and he was not interested in exploring any political solution that was not set out purely on his own terms....\" B. The Israeli initiative Ronen Pollak reported on Israel Radio 9 June 2013 that documents published by the State Archives show that three months before the Yom Kippur War.Prime Minister Golda Meir asked German Chancellor Willy Brant to send a message to President Sadat of Egypt that Israel was willing to give up most of the Sinai Peninsula, but stressed that Israel would not return to the '67 lines. Israel did not report the move to the United States. A German envoy met with the Egyptian President's senior advisor and consultant Hafez Ismail who rejected the offer as long as Israel was not willing to withdraw to the suicidal '67 lines."
+        },
+        {
+          "id": "6.1",
+          "url": "https://justapedia.org/wiki/Golda_Meir",
+          "text": "On February 28, 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions.[59][60][61][62][63]"
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+          "text": "On February 28, 1973, during a visit inWashington, D.C., the then Israeli prime ministerGolda Meiragreed with the then U.S. National Security AdvisorHenry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over allSinai, while Egypt would accept Israeli presence in some of Sinai strategic positions.[47][48][49][50][51]"
+        },
+        {
+          "id": "8.1",
+          "url": "https://alchetron.com/Golda-Meir",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., Golda agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions."
+        },
+        {
+          "id": "9.1",
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., the then Israeli prime minister Golda Meir agreed with the then U.S. National Security Advisor Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai strategic positions.[9][10][11][12][13] The talks continued under Jarring's auspices until 1973, but bore no results. After 1973, the Jarring Mission was replaced by bilateral and multilateral peace conferences."
+        },
+        {
+          "id": "10.1",
+          "url": "https://alchetron.com/Israel%E2%80%93United-States-relations",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., the then Israeli prime minister Golda Meir agreed with the then U.S. National Security Advisor Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai strategic positions."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Golda_Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rogers_Plan",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.easynixon.org/tapes/862-010",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/377409",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://justapedia.org/wiki/Golda_Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/Golda-Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/Israel%E2%80%93United-States-relations",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 6296,
+      "estimatedTokens": 1574,
+      "latencyMs": 180
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_07cefc2077751355016aafe6c1fb5887d283273163ded71618",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "February 1973",
+      "usage": {
+        "inputTokens": 1703,
+        "outputTokens": 5,
+        "totalTokens": 1708
+      },
+      "latencyMs": 709,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0f9ca46feedf1ba9016aafe6c36f3887d2b97f29dc81a853fa",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 221,
+          "outputTokens": 2,
+          "totalTokens": 223
+        },
+        "latencyMs": 713
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://en.wikipedia.org/wiki/Golda_Meir",
+        "https://en.wikipedia.org/wiki/Rogers_Plan",
+        "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+        "https://www.easynixon.org/tapes/862-010",
+        "https://www.israelnationalnews.com/news/377409",
+        "https://justapedia.org/wiki/Golda_Meir",
+        "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+        "https://alchetron.com/Golda-Meir",
+        "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+        "https://alchetron.com/Israel%E2%80%93United-States-relations"
+      ],
+      "highlights": {
+        "query": "On which month and year, during a visit to Washington, D.C., did Golda Meir agree with Henry Kissinger's peace proposal based on \"security versus sovereignty\"?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "958b514de0f00968c78bcd6550070cee",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://en.wikipedia.org/wiki/Golda_Meir",
+          "text": "On February 28, 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions. [64] [65] [66] [67] [68]"
+        },
+        {
+          "id": "2.1",
+          "url": "https://en.wikipedia.org/wiki/Rogers_Plan",
+          "text": ".\n\n...\n\nNo breakthrough occurred, even after Sadat, in a surprise move, suddenly expelled Soviet advisers from Egypt and again signaled to Washington his willingness to negotiate. [15] However, on 28 February 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty:\" Israel would accept Egyptian sovereignty over all Sinai, and Egypt would accept Israeli presence in some of Sinai strategic positions. [16] [17] [18] [19] [20]"
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+          "text": "and ... to a ... between ... countries.\"[ ... ]Another government statement said ... \"As its ... for peace, ... its past ... vulnerability. This ... will never do.\"[7]\nUS PresidentRichard Nixonand Israeli Prime MinisterGolda Meirmeeting on 1 March 1973 in the Oval Office. National Security AdvisorHenry Kissingeris to the right of Nixon.\nOn 28 February 1973, during a visit inWashington, DC, Israeli Prime MinisterGolda Meiragreed with the then U.S National Security AdvisorHenry Kissinger's peace proposal based on \"security versus sovereignty\" in which Israel would accept Egyptian sovereignty over all of theSinai Peninsula, and Egypt would accept Israeli presence in some Sinai strategic positions.[8][9][10][11][12]The talks continued under Jarring's auspices until 1973 but bore no results. After 1973, the Jarring Mission was replaced by bilateral and multilateral peace conferences.\nThe impasse in Jarring's efforts appears to be related to differing interpretations of the Security Council resolution. Israel insisted that any efforts should be undertaken with the goal of direct peace negotiations between Israel and the Arab states and that no territory ... could be contemplated without ... prospect of a lasting peace. The ... the Soviet ... maintained that there would be ... ( ... )"
+        },
+        {
+          "id": "5.1",
+          "url": "https://www.israelnationalnews.com/news/377409",
+          "text": "IDF was on the road to Damascus after pushing back the \"victorious\" Syrian army. #3. Sadat - Not Golda Meir - rejected negotiations to avoid Yom Kippur War A. The Kissinger initiative The following excerpt from \"The Rabin Memoirs by Yitzhak Rabin\" (pages 215-218) provides solid evidence that Prime Minister Golda Meir was open to negotiating an Israeli withdrawal from the Sinai before the 1973 Yom Kippur War. It was Anwar Sadat who opted for war over diplomacy. February 28 [1973]...Kissinger, who received me at the White House at 7:30 that evening with an omniscient expression on his face. \"I imagine that the prime minister has had a tough and depressing day,\" he said in what sounded to me like a self-satisfied tone. ...he noted that his approach in his talks with Hafez Ismail of Egypt had concentrated on the principle of \"security versus sovereignty.\"\n\n...\n\nTranslated into pragmatic terms, it meant that Israel would have to accept Egyptian sovereignty over all of the Sinai but that Egypt, in turn, would have to accept an Israeli military presence in certain strategic positions, such as Sharm el-Sheikh (though he hastened to add that such an Israeli military presence might have to be disguised as a civilian one). ...Golda readily agreed, so long as it was understood that such explorations would be undertaken with Israel's knowledge but not in her behalf. I immediately notified Kissinger... ...In April, Dr. Kissinger continued his efforts to reach an understanding with Hafez Ismail on the basis of the \"security versus sovereignty\" formula, but in May President Sadat rejected the proposal - as he had earlier rejected the idea of \"proximity talks.\" By then Sadat was already fully determined to go to war, and he was not interested in exploring any political solution that was not set out purely on his own terms....\" B. The Israeli ... reported on Israel ... 9 June 2013 that ... by ... State Archives ... that ... the Yom Kippur War. ... Minister Golda Meir ... German ... Brant ... of Egypt that Israel ... of ... Sinai ... but stressed that Israel would ... '67 lines. ... ."
+        },
+        {
+          "id": "6.1",
+          "url": "https://justapedia.org/wiki/Golda_Meir",
+          "text": "On February 28, 1973, during a visit in Washington, D.C., Meir agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions.[59][60][61][62][63]"
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+          "text": ", ... 97 ... .[45]Ultimately, ... also failed due to insufficient ... from Nixon for his Secretary of State's plan, preferring instead the position of hisNational Security Advisor,Henry Kissinger, not to pursue the initiative.\nNo breakthrough occurred even after President Sadat of Egypt in 1972 unexpectedly expelled Soviet advisers from Egypt, and again signaled to Washington his willingness to negotiate.[46]\nOn February 28, 1973, during a visit inWashington, D.C., the then Israeli prime ministerGolda Meiragreed with the then U.S. National Security AdvisorHenry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over allSinai, while Egypt would accept Israeli presence in some of Sinai strategic positions.[47][48][49][50][51]\nFaced with this lack of progress on the diplomatic front, and hoping to force the Nixon administration to become more involved, Egypt prepared for military conflict. In October 1973, Egypt and Syria, simultaneously attacked Israel, thus starting theYom Kippur War."
+        },
+        {
+          "id": "8.1",
+          "url": "https://alchetron.com/Golda-Meir",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., Golda agreed with Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai's strategic positions."
+        },
+        {
+          "id": "9.1",
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., the then Israeli prime minister Golda Meir agreed with the then U.S. National Security Advisor Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai strategic positions.[9][10][11][12][13] The talks continued under Jarring's auspices until 1973, but bore no results. After 1973, the Jarring Mission was replaced by bilateral and multilateral peace conferences."
+        },
+        {
+          "id": "10.1",
+          "url": "https://alchetron.com/Israel%E2%80%93United-States-relations",
+          "text": "On 28 February 1973, during a visit in Washington, D.C., the then Israeli prime minister Golda Meir agreed with the then U.S. National Security Advisor Henry Kissinger's peace proposal based on \"security versus sovereignty\": Israel would accept Egyptian sovereignty over all Sinai, while Egypt would accept Israeli presence in some of Sinai strategic positions."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Golda_Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rogers_Plan",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Jarring_Mission",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.easynixon.org/tapes/862-010",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/377409",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://justapedia.org/wiki/Golda_Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.wikiwand.com/en/Israel%E2%80%93United_States_relations",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/Golda-Meir",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Jarring_Mission",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/Israel%E2%80%93United-States-relations",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.009
+    },
+    "metrics": {
+      "returnedCharacters": 6771,
+      "estimatedTokens": 1693,
+      "latencyMs": 653
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0304a500fb94d427016aafe6c2aa8487d2a5e8da2613b5efb5",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "February 1973",
+      "usage": {
+        "inputTokens": 1791,
+        "outputTokens": 5,
+        "totalTokens": 1796
+      },
+      "latencyMs": 716,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_04162e18a4138c99016aafe6c50d3887d2b81ad5534017c510",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 221,
+          "outputTokens": 2,
+          "totalTokens": 223
+        },
+        "latencyMs": 2593
+      }
+    }
+  }
+}

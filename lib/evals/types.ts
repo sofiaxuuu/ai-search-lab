@@ -47,6 +47,45 @@ export type RetrievalArm = {
     estimatedTokens: number;
     latencyMs: number;
   };
+  answer?: AnswerTrace;
+};
+
+export type AnswerTrace = {
+  provider: "openai";
+  model: string;
+  responseId: string;
+  promptVersion: string;
+  text: string;
+  usage: {
+    inputTokens: number;
+    outputTokens: number;
+    totalTokens: number;
+  };
+  latencyMs: number;
+  provisionalGrade: {
+    exactMatch: number;
+    tokenF1: number;
+    note: "debug-only-not-official-simpleqa-grade";
+  };
+  simpleQAGrade?: SimpleQAGradeTrace;
+};
+
+export type SimpleQAGradeLabel = "CORRECT" | "INCORRECT" | "NOT_ATTEMPTED";
+
+export type SimpleQAGradeTrace = {
+  provider: "openai";
+  model: string;
+  responseId: string;
+  promptVersion: "openai-simpleqa-three-way-v1";
+  rawOutput: string;
+  label: SimpleQAGradeLabel;
+  score: 0 | 1;
+  usage: {
+    inputTokens: number;
+    outputTokens: number;
+    totalTokens: number;
+  };
+  latencyMs: number;
 };
 
 export type RetrievalPair = {

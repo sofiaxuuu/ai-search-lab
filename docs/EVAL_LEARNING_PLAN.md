@@ -73,6 +73,18 @@ npm run eval:retrieval:one
 # Prove that the saved pair kept the intended controls fixed.
 npm run eval:audit
 
+# Generate both answers with one fixed OpenAI model and prompt.
+npm run eval:answer:one
+
+# Grade both answers with the fixed three-way SimpleQA grader.
+npm run eval:grade:one
+
+# Run or resume the complete 10-item pilot, saving after every stage.
+npm run eval:pilot
+
+# Rebuild the summary from saved item traces without making API calls.
+npm run eval:summarize
+
 # Test deterministic sampling, formatting, and local scorers.
 npm test
 ```

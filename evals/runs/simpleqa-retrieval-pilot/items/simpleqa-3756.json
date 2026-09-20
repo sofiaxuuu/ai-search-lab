@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:58:44.532Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-3756",
+    "problem": "What is the half-life of radon-224 in hours?",
+    "answer": "1.8",
+    "metadata": {
+      "metadata": "{'topic': 'Science and technology', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/Radon', 'https://en.wikipedia.org/wiki/Radon', 'https://periodictable.com/Isotopes/086.224/index2.html']}"
+    }
+  },
+  "discovery": {
+    "query": "What is the half-life of radon-224 in hours?",
+    "urls": [
+      "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+      "https://www.chemlin.org/isotope/radon-224",
+      "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+      "https://en.wikipedia.org/wiki/Radon",
+      "https://en.m.wikipedia.org/wiki/Radon-224",
+      "https://www.isotopemap.com/fr/isotoop/Rn-224",
+      "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+      "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+      "https://doi.org/10.3390/atmos15020167",
+      "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid"
+    ],
+    "requestId": "290bdaf89d72bebe951be4429ced2729",
+    "latencyMs": 1089
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+        "https://www.chemlin.org/isotope/radon-224",
+        "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+        "https://en.wikipedia.org/wiki/Radon",
+        "https://en.m.wikipedia.org/wiki/Radon-224",
+        "https://www.isotopemap.com/fr/isotoop/Rn-224",
+        "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+        "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+        "https://doi.org/10.3390/atmos15020167",
+        "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid"
+      ],
+      "highlights": {
+        "query": "What is the half-life of radon-224 in hours?"
+      }
+    },
+    "response": {
+      "requestId": "06ab9f182034524fc7776dc30119d5cc",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+          "text": "| 224 Rn | Half-life | Boson, 86p 138n | |\n| --- | --- | --- | --- |\n| | 1.783333333333 h | Spin 0 Parity 1 | |"
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.chemlin.org/isotope/radon-224",
+          "text": "Half-life:\n...\n107(3) min\n...\nHalf-life T ½ = 107(3) min (minutes) respectively 6.420 × 10 3 seconds s."
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+          "text": "| 222 Rn [n 15] | Radon [n 16] Radium emanation Emanation Emanon Niton | 86 | 136 | 222.0175760(21) | 1899 | 3.8215(2) d | α [n 17] | 218 Po | 0+ | Trace [n 10] |\n...\n| 224 Rn | | 86 | 138 | 224.024096(11) | 1964 | 107(3) min | β − | 224 Fr | 0+ | |"
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/Radon",
+          "text": "Radon has no stable isotopes. Thirty-nine radioactive isotopes have been characterized, with mass numbers ranging from 193 to 231. [38] [39] Six of them, from 217 to 222 inclusive, occur naturally. The most stable isotope is 222 Rn (half-life 3.82 days), which is a decay product of 226 Ra, the latter being itself a decay product of 238 U. [40] A trace amount of the (highly unstable) isotope 218 Rn (half-life about 35 milliseconds) is also among the daughters of 222 Rn. The isotope 216 Rn would be produced by the double beta decay of natural 216 Po; while energetically possible, this process has however never been seen. [41]\n...\nThree other radon isotopes have a half-life of over an hour: 211 Rn (about 15 hours), 210 Rn (2.4 hours) and 224 Rn (about 1.8 hours). However, none of these three occur naturally. 220 Rn, also called thoron, is a natural decay product of the most stable thorium isotope ( 232 Th). It has a half-life of 55.6 seconds and also emits alpha radiation. Similarly, 219 Rn is derived from the most stable isotope of actinium ( 227 Ac)—named \"actinon\"—and is an alpha emitter with a half-life of 3.96 seconds. [38]\n...\n222 Rn belongs to the radium and uranium-238 decay chain, and has a half-life of 3.8235 days. Its\n...\nfour products (excluding marginal decay schemes) are very short-\n...\n, meaning that the corresponding disintegrations are indicative of the\n...\nradon distribution. Its decay goes through the following sequence (only main decay branches shown): [38]"
+        },
+        {
+          "id": "5.1",
+          "url": "https://en.m.wikipedia.org/wiki/Radon-224",
+          "text": "Isotopesofradon(86Rn)|Main isotopes[1]|Decay|\n...\n|abun­dance|half-life(*t*1/2)|mode|pro­duct|\n...\n210Rn|synth|2.4 h|α|206Po|\n...\n211Rn|synth|14.6 h|ε|211At|\nα|207Po|\n222Rn|trace|3.8235 d|α|218Po|\n224Rn|synth|1.8 h|β−|224Fr|\n|\n* view\n* talk\n* edit\n|\n## List of isotopes\nedit\n...\nNiton|86|136|222.0175777(25)|3.8235(3) d|α[n 13]|218Po|0+|Trace[n\n...\n224Rn||86|138|224.02409(32)#|107(3) min|β−|224Fr|0+||"
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.isotopemap.com/fr/isotoop/Rn-224",
+          "text": "Radon-224 est un isotope radioactif de Radon. Il a une demi-vie de 107 (± 3) minutes. L'excès de masse de cet isotope est de 22445 (± 10) keV. Le spin nucléaire et la parité de cet isotope sont 0+.Radon-224 a été découvert en 1964. Les données ont été mises à jour pour la dernière fois en 2015.\n...\nDemi-vie 1\n...\n107 m"
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+          "text": "weight 22\n...\n), 22\n...\nPhysical state\n...\nat 0 °C and 760 mm Hg Lewis\n...\n2001 \nMelting point -71 °C Lide 2005 \nBoiling point -61.8 °C Lewis 2001\n...\nDensity at -20 °C 9.96x10 -3 g/cm 3 Cothern 1987a \nOdor b Odorless O’Neil et al. 2006 \nOdor threshold: \nWater Odorless \nAir Odorless \nSolubility: \nWater at 20 °C 230 cm 3/L O’Neil et al. 2006 \nOrganic solvents Organic liquid, slightly soluble in alcohol Weast 1980 \nVapor pressure at 25 °C a 395.2 mm Hg Cothern 1987a \nHenry’s Law constant No data \nAutoignition temperature Noble gas; does not autoignite \nFlash point Noble gas; does not burn \nFlammability limits Noble gas; is not flammable \nHalf-life: \n222Rn 3.8235 days DOE 2008 \n220Rn 55.6 seconds DOE 2008 \n219Rn 3.96 seconds DOE 2008 \nDecay energies (MeV), and \nintensities (%) \n222Rn Alpha particles: DOE 2008 \n4.826 (0.0005%) \n4.986 (0.078%) \n5.4894\n...\n(99.920%)\n...\nGamma rays: \n0.51\n...\n220Rn Alpha\n...\n: DOE\n...\n008\n...\n4%) \n6.288 (99.886%) \nGamma rays: \n0.5497 (0.114%)\n...\nQ-Value of Historical Principal principal decay Specific activity Isotope symbol radiation(s) mode (MeV) Half-life (Ci/g) 222Rn Rn α 5.5903 3.8235 days 1.54x10 5 218Po a RaA α 6.1147 3.098 minutes 2.78x10 8 218At At α 6.874 1.5 seconds 3.45x10 10 214Pb RaB β,γ 1.023 26.8 minutes 3.28x10 7 214Bi RaC β,γ 5.6168 19.9 minutes 4.41x10 7 214Po a RaC’ α 7.8335 164.3 μseconds 3.21x10 14 210Tl RaC” β 5.489 1.30 minutes 6.89x10 8\n...\n5 hours ↓\n...\n3.6319\n...\n55.6"
+        },
+        {
+          "id": "8.1",
+          "url": "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+          "text": "Half-life:|\n  222Rn|3.8235 days|DOE 2008|\n  220Rn|55.6 seconds|DOE 2008|\n  219Rn|3.96 seconds|DOE 2008|"
+        },
+        {
+          "id": "9.1",
+          "url": "https://doi.org/10.3390/atmos15020167",
+          "text": "Decay Mode Half Life MeV Product of Decay 222Rn Rn Radon α 3.8235 d 5.590 218Po 220Rn Tn Thoron α 55.6 s 6.4047 224Ra 219Rn An Actinon α 3.96 s 6.946 223Ra 218Po RaA\n...\n214Bi\n...\n218Rn α 35 ms 7.263 214Po 214Pb RaB Radium B β− 26.8 min 1.024 214Bi 214Bi RaC Radium C β α− 19.9 min 3.272 5.617 214Po 210Tl 214Po RaC’ Radium C’ α 0.1643 ms 7.883 210Pb Before considering the effects produced by radon in the atmosphere, we should clar ify the ways it is transported to the ground surface [13] and factors influencing its varia bility [14]. In addition to these factors, we must also consider the dependence of radon activity on weather (precipitation, air pressure, relative humidity, and air temperature), seasonal variability, and space weather effects. Another important factor is the use of different technologies for radon measurements and the environment in which measurements are taken (soil, water, or surface air layer). The advantages and flaws of alpha and gamma sensors for radon measurements, includ ing gamma spectrometers, should be considered when interpreting radon variations, es pecially before earthquakes. To establish the role of radon in our environment, we should also discuss its ioniza tion abilities, including its impact on the Global Electric Circuit [14] 2. Radon Production, Transport, and Gas Migration Every component of the upper cover of our planet (mantle, crust, and soil) contains some amount of uranium or radium, i.e., sources of radon. For example, every 2.5 km2 of soil to a depth of 15 cm contains about 1 g of radium, which releases radon into the atmos phere. Only the longest-lived isotope of radon, 222Rn (daughter product of 226Ra, series 238U), whose half-life is 3.8 days, is capable of migrating over any significant distances separately from its parent radionuclides. The concentration of radon in the pores of rocks depends on the uranium (radium) content in them and the emanating ability of the rocks. The release of radon from the solid phase into the pore space (emanation) occurs mainly due to the energy of radioactive recoil. Radon atoms, formed due to alpha decay from radium, experience radioactive recoil and move in the medium. Some of them remain in the solid rock matrix, while some enter pores and cracks and acquire the ability to migrate further. The proportion of radon atoms released into the pore space depends on the dis tribution of parent radium in the solid phase, the size of solid particles and pores, rock porosity, the content of film and capillary moisture in the pores, and other factors affecting the range of recoil atoms in the medium [15,16]. The transfer of radon in the system of pores and cracks in the lithosphere occurs pri marily through two main processes—diffusion and advection. Diffusion is the molecular transfer of radon atoms, it occurs constantly and everywhere if there is a radon concen tration gradient, and is most common at the lithosphere–atmosphere interface. The low speed of the diffusion process, combined with the relatively short half-life of radon, sig nificantly limits the distance of its diffusion transfer. Radon can be transported in the lith osphere by diffusion of no more than 10 m before the decay of 222Rn atoms reduces its concentration to a level indistinguishable from the background. At the same time, in areas located outside fault zones, calculations using the classical diffusion model show satisfac tory agreement with the measured values of the radon concentration and radon exhalation in the surface soil gas [17,18]. Advection is the volumetric transport of gases under the influence of a wide variety of external forces acting in the lithosphere. The speed and spa tial scale of advective transfer of radon is disproportionately greater than diffusion; how ever, this type of transfer can only be developed in large pores and in fractured fault zones, where the development of intense volumetric gas transfer is possible. The advective gas transport is developed both locally in cracks in the unsaturated zone due to changes in atmospheric pressure, fluctuations in groundwater levels, changes in wind speed and other surface factors, and more globally in fault zones in the presence of significant tem perature and pressure gradients. First of all, such conditions are created in areas of mod ern volcanism in conditions close to the surface of uncooled magma chambers, where vol canic gases are discharged onto the surface [19]. It has also been suggested that changes in stress/strain on fault zones caused by seismic activity may cause crustal fluids to mi grate by advection up faults, carrying radon to the surface [20]. In addition, radon anom alies can arise as a result of natural convection of atmospheric air in fault zones in the near-surface part of the lithosphere (above the local erosion base) due to the temperature difference between inside and outside the mountain range and the surrounding atmos phere (the “stack” effect). This process is not specific to fault zones and occurs in any per meable environment (layers of highly permeable sediments, zones of exogenous fracturing, karst cavities, mine workings), provided there is a temperature gradient be tween the mountain range and the atmosphere, as well as a difference in\n...\n(outcrops of permeable zones at different\n...\nabove sea level). The rate of convective air trans fer at high temperature gradients can reach significant values, which causes the formation of strong\n...\nin rocks. Radon is\n...\ngas with an average concentration in the lithosphere n\n...\n~1018\n...\n, and it is not\n...\nits own gas phase; therefore, radon advection transport occurs as part of a gas mixture contained in pores and cracks (the so-called “geogas”). These are mainly CO2, CH4, H2S, H2, and other lithospheric gases, which are\n...\nrier gases” of\n...\n[21]. It should be\n...\nthat the “\n...\n, but a general gas mixture, the “geogas” that fills the pores and the cracks and moves into them. The permeability of faults\n...\ngas transfer is significantly\n...\nmovements, characteristics of the fracture\n...\nmaterial, water saturation of fractures, and the permeability of surface sediments and soils overlying fault zones [19,22,23]. As a result, radon\n...\nto the most\n...\nfaults and their\n...\npoints [19]. In such\n...\nosphere blocks.\n...\nof atmospheric air\n...\npart of the\n...\nosphere [29]. A\n...\nat depths of 100–500 m or more [21,29–32], which suggests the\n...\nin these cases of powerful deep gas flows with which radon is transported from the bowels of the earth over very long distances.\n...\nadvection, much less gas diffusion, cannot explain these facts, since this requires unrealistically high transport rates, especially\n...\nwater-saturated media. In this regard,\n...\nhypothesis of radon bubble transport has been proposed [21,33], according to which radon transfer can occur due\n...\n“geogas” bubbles rising upward in water-\n...\ncracks. As they rise, the bubbles “\n...\n” gases dissolved in the water, including radon, transferring them from the liquid phase\n...\nthe gas phase. Calculations\n...\n, thanks to this mechanism, rapid transport of radon in the water-\n...\nlithosphere from the interior\n...\nthe surface of the Earth over distances of 100–500 m is possible. Bubble transport in some cases\n...\ndetermines gas exchange in the aquatic environment, for example, in local swamp ecosys tems or in the thickness of ocean waters However,\n...\nsignificantly fewer facts that\n...\ndevelopment of this process in fault zones. The\n...\nthe main components of\n...\n” (CO2, CH4)\n...\nby some authors [34] do not\n...\nanism.\n...\n4–5 m, which is at least\n...\norders of magnitude less than the\n...\n[36]. In addition, it is\n...\nthat this mechanism\n...\nsaturation of water,\n...\n. All of\n...\nfault zones. A\n...\nradon anomalies are not\n...\ndispersion [37]. Radon anomalies\n...\nfault zones are\n...\nwhich radon can be transported in"
+        },
+        {
+          "id": "10.1",
+          "url": "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid",
+          "text": "| Navigationshilfe |\n| --- |\n| Zerfall: |\n| Grundlegende Eigenschaften |\n| Massenzahl: | 224 |\n| Anzahl Neutronen: | 138 |\n| Anzahl Protonen: | 86 |\n| Energie-Level: | 0 MeV |\n| Spin: | 0 |\n| Masse und Energie: |\n| Atommasse: | 224.02409033 u |\n| Kernmasse: | 223.97691246 u |\n| Massenexzess: | 22.44 MeV |\n| Bindungsenergie (gesamt): | 1718.254 MeV |\n| Bindungsenergie (pro u): | 7.671 MeV |\n| Zerfallsdaten: |\n| Halbwertszeit: | 1 Stunden 47 Minuten | 3.8075 lg s |\n| Spez. Zerfallskonstante (λ): | 1.08 •10-4 s-1 |\n| Lebensdauer (τ): | 2 Stunden 34 Minuten 22 Sekunden |\n| Spez. Aktivität: | 290.264 EBq/kg |\n| Zerfallsreihe anzeigen |\n| Zerfallsart: | Wahrscheinlichkeit: | Tochterkern: | Energie-Emission: |\n| β- | 100 % | 224Fr | 0.783 MeV |"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.chemlin.org/isotope/radon-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radon",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Radon-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.isotopemap.com/fr/isotoop/Rn-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://doi.org/10.3390/atmos15020167",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 12881,
+      "estimatedTokens": 3221,
+      "latencyMs": 170
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_073a7698ceb54f5b016aafe6952d4887d2a9e79ba1e8721dfb",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "1.783 hours",
+      "usage": {
+        "inputTokens": 4009,
+        "outputTokens": 5,
+        "totalTokens": 4014
+      },
+      "latencyMs": 2250,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.4,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_015744b4d8e172c2016aafe697cabc87d2a36d691f6a097cae",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "B",
+        "label": "INCORRECT",
+        "score": 0,
+        "usage": {
+          "inputTokens": 200,
+          "outputTokens": 2,
+          "totalTokens": 202
+        },
+        "latencyMs": 544
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+        "https://www.chemlin.org/isotope/radon-224",
+        "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+        "https://en.wikipedia.org/wiki/Radon",
+        "https://en.m.wikipedia.org/wiki/Radon-224",
+        "https://www.isotopemap.com/fr/isotoop/Rn-224",
+        "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+        "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+        "https://doi.org/10.3390/atmos15020167",
+        "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid"
+      ],
+      "highlights": {
+        "query": "What is the half-life of radon-224 in hours?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "dec2d4bf5d1627ef4c3cfd9f16f38e0f",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+          "text": "| 224 Rn | Half-life | Boson, 86p 138n | |\n| --- | --- | --- | --- |\n| | 1.783333333333 h | Spin 0 Parity 1 | |"
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.chemlin.org/isotope/radon-224",
+          "text": "Half-life:\n\n...\n\n107(3) min\n\n...\n\n51\n\n...\n\nRadioactive\n\n...\n\nHalf-life T ½ = 107(3) min (minutes) respectively 6.420 × 10 3 seconds s.\n\n...\n\n4"
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+          "text": "Rn ... 8 ... | ... 2 ... .01 ... 356(61) | 1956 | 25.7(5) min | β − (78%) | 221 Fr | 7/2+ | Trace [n ... ] |\n| | | | | | | | α (22%) | 217 Po | | |\n| 222 Rn [n 15] | Radon [n 16] Radium emanation Emanation Emanon Niton | 86 | 136 | 222.0175760(21) | 1899 | 3.8215(2) d | α [n 17] | 218 Po | 0+ | Trace [n 10] |\n| 223 Rn | | 86 | 137 | 223.0218893(84) | 1964 | 24.3(4) min | β − [n 18] | 223 Fr | 7/2+ | |\n| 224 Rn | | 86 | 138 | 224.024096(11) | 1964 | 107(3) min | β − | 224 Fr | 0+ | |\n| 225 Rn | | 86 | 139 | 225.028486(12) | 1969 | 4.66(4) min | β − | 225 Fr | 7/2− | |\n| 226 Rn | | 86 | 140 | 226.030861(11) | 1969 | 7.4(1) min | β − | 226 Fr | 0+ | |\n| 227 Rn | | 86 | 141 | 227.035304(15) | 1986 | 20.2(4) s | β − | 227 Fr | (3/2+) | |\n| 22 ... Rn | | 86 | 142 | 228.0 ... 7835(19) | 19 ... 9 | ... ( ... ) s | β − | 22 ... 0 ... | |"
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/Radon",
+          "text": "Three other radon isotopes have a half-life of over an hour: 211 Rn (about 15 hours), 210 Rn (2.4 hours) and 224 Rn (about 1.8 hours). However, none of these three occur naturally. 220 Rn, also called thoron, is a natural decay product of the most stable thorium isotope ( 232 Th). It has a half-life of 55.6 seconds and also emits alpha radiation. Similarly, 219 Rn is derived from ... most stable ... of ... ium ( 2 ... 7 ... )—named \" ... of"
+        },
+        {
+          "id": "5.1",
+          "url": "https://en.m.wikipedia.org/wiki/Radon-224",
+          "text": "α|207Po|\n222Rn|trace|3.8235 d|α|218Po\n\n...\n\n224Rn|synth|1.8 h|β−|224Fr|\n\n...\n\n|\n\n...\n\n2 ... n\n\n...\n\n2 ... Rn||86|13 ... .01 ... (6)|2\n\n...\n\nα\n\n...\n\n22 ... Rn| ... on[n ... ]\nRadium emanation\nEmanation\nEmanon\nNiton|86|136|222.0175777(25)|3.8235(3) d|α[n 13]|218Po|0+|Trace[n 8]|\n223Rn||86|137|223.02179(32)#|24.3(4) min|β−|223Fr|7/2||\n224Rn||86|138|224.02409(32)#|107(3) min|β−|224Fr|0+||\n225Rn||86|139|225.02844(32)#|4.66(4) min|β−|225Fr|7/2−||\n226Rn||86|140|226.03089(43)#|7.4(1) min|β−|226Fr|0+||\n227Rn||86|141|227.03541(45)#|20.8(7) s|β−|227Fr|5/2(+#)||\n228Rn||86|142|228.0 ... 799( ... 4)#| ... (2) s| ... +||\n22 ... ]|| ... | ... | ... . ... ( ... )"
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.isotopemap.com/fr/isotoop/Rn-224",
+          "text": "107 m ... 3\n\n...\n\nRadon-224 est un isotope radioactif de Radon. Il a une demi-vie de 107 (± 3) minutes. L'excès de masse de cet isotope est de 22445 (± 10) keV. Le spin nucléaire et la parité de cet isotope sont 0+.Radon-224 a été découvert en 1964. Les données ont été mises à jour pour la dernière fois en 2015."
+        },
+        {
+          "id": "10.1",
+          "url": "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid",
+          "text": "| ... ahl: | 224\n\n...\n\nNeutronen: | 138\n\n...\n\n86 |\n|\n\n...\n\n| Atommasse: | 224.02409033 u |\n| Kernmasse: | 223.97691246 u |\n| Massenexzess: | 22.44 MeV |\n| Bindungsenergie (gesamt): | 1718.254 MeV |\n| Bindungsenergie (pro u): | 7.671 MeV |\n| Zerfallsdaten: |\n| Halbwertszeit: | 1 Stunden 47 Minuten | 3.8075 lg s |\n| Spez. Zerfallskonstante (λ): | 1.08 •10-4 s-1 |\n| Lebensdauer (τ): | 2 Stunden 34 Minuten 22 Sekunden |\n| Spez. Aktivität: | 290.264 EBq/kg |\n| Zerfallsreihe anzeigen |\n| Zerfallsart: | Wahrscheinlichkeit: | Tochterkern: | Energie-Emission: |\n| β- | 100 % | 224Fr | 0.783 MeV |\n| Quellen für die Massendefekte und Halbwertszeiten: http://www.nndc.bnl.gov/chart/. Die Atommassen entsprechen den Massenzahlen in u abzgl. anteiligem Massendefekt. Kernmassen entsprechen Atommassen abzgl. ... Elektronenmassen, wobei die Bindungs ... ächlichen Wert um einige ... ab ... ! Die Hal"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://periodictable.com/Isotopes/086.224/index3.p.full.dm.prod.pr.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.chemlin.org/isotope/radon-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Isotopes_of_radon",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radon",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.m.wikipedia.org/wiki/Radon-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.isotopemap.com/fr/isotoop/Rn-224",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.atsdr.cdc.gov/toxprofiles/tp145-c4.pdf",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://ncbi.nlm.nih.gov/books/NBK158787/table/T22/?report=objectonly",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://doi.org/10.3390/atmos15020167",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.periodensystem-online.de/index.php?el=86&id=isotope&mz=224&nrg=0&sel=&show=nuklid",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.007
+    },
+    "metrics": {
+      "returnedCharacters": 3395,
+      "estimatedTokens": 849,
+      "latencyMs": 525
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0d29bddd4c888f65016aafe696d3c887d282be0e73b13f7665",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "1.783333333333 h",
+      "usage": {
+        "inputTokens": 1708,
+        "outputTokens": 8,
+        "totalTokens": 1716
+      },
+      "latencyMs": 915,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.4,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_004f142f2db13e94016aafe6985c7c87d2820cfbeccc3bb6c1",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "B",
+        "label": "INCORRECT",
+        "score": 0,
+        "usage": {
+          "inputTokens": 203,
+          "outputTokens": 2,
+          "totalTokens": 205
+        },
+        "latencyMs": 1505
+      }
+    }
+  }
+}

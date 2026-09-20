@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:25.491Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-0431",
+    "problem": "In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?",
+    "answer": "1948.",
+    "metadata": {
+      "metadata": "{'topic': 'Music', 'answer_type': 'Date', 'urls': ['https://archives.nypl.org/mus/22589', 'https://archives.nypl.org/mus/22589', 'https://mirrorspectator.com/2016/03/10/jazz-great-george-avakian-honored-by-lincoln-centers-performing-arts-library/', 'https://agbu.org/new-york-new-york/tracking-armenians-new-york']}"
+    }
+  },
+  "discovery": {
+    "query": "In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?",
+    "urls": [
+      "https://qa-archives.nypl.org/mus/22589",
+      "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+      "https://en.wikipedia.org/wiki/George_Avakian",
+      "https://www.arts.gov/honors/jazz/george-avakian",
+      "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+      "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+      "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+      "https://downbeat.com/news/detail/george-avakian-record-innovator",
+      "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+      "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/"
+    ],
+    "requestId": "aa324d2a419b36d418a62be65246b416",
+    "latencyMs": 1412
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://qa-archives.nypl.org/mus/22589",
+        "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+        "https://en.wikipedia.org/wiki/George_Avakian",
+        "https://www.arts.gov/honors/jazz/george-avakian",
+        "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+        "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+        "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+        "https://downbeat.com/news/detail/george-avakian-record-innovator",
+        "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+        "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/"
+      ],
+      "highlights": {
+        "query": "In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?"
+      }
+    },
+    "response": {
+      "requestId": "4ae14100f8ab291e06c6f36941807f7f",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://qa-archives.nypl.org/mus/22589",
+          "text": "Following his discharge, Avakian returned to Columbia, where he resumed production of the Hot Jazz Classics series, as well as the Special Editions and Archives series, and began producing new recordings as well. Within a few years, his mandate and opportunities became almost unlimited. In 1948, he was appointed head of the International department, overseeing the production of new foreign recordings, as well as the domestic issue of recordings by foreign subsidiaries. It was through this position that he met and produced the French vocalist Edith Piaf."
+        },
+        {
+          "id": "2.1",
+          "url": "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+          "text": "Following his discharge in 1946, Avakian immediately returned to Columbia, where he resumed production of the Hot Jazz Classics series, as well as the Special Editions and Archives series. Within a few years his mandate and opportunities became almost unlimited. In 1948, he was appointed head of the International department, overseeing the production of new foreign recordings, as well as the domestic issue of recordings by foreign subsidiaries. It was through this job that he met and produced Edith Piaf and Charles Aznavour."
+        },
+        {
+          "id": "3.1",
+          "url": "https://en.wikipedia.org/wiki/George_Avakian",
+          "text": "After the war, he returned to Columbia Records responsible for the Popular Music and International divisions, where he continued production of the Hot Jazz Classics series, as well as the Special Editions and Archives series. In addition to recording jazz and pop artists (such as Sidney Bechet, Arthur Godfrey, Doris Day, and Frank Sinatra), Avakian was assigned the role of head of popular albums, part of which involved issuing the first 100 pop records in the 33 1⁄ 3 rpm long-playing format, a new technology perfected by Columbia that the company was determined to exploit to the full. Avakian was in the forefront of new methods of production to take advantage of the LP, which represented a marketing innovation no less than a technical one."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.arts.gov/honors/jazz/george-avakian",
+          "text": "After service in the U.S. Army during World War II, Avakian began his 12-year tenure as a Columbia Records executive, eventually presiding over its Popular Music and International Divisions. At the same time, he was acquiring a reputation as a jazz researcher and critic of some renown, having pieces printed in Tempo, DownBeat, Metronome, Mademoiselle, Pic, and the New York Times. Concerned about the lack of jazz education, in 1946 Avakian started a course in jazz history at the university level at New York University.\n...\nAlso the elderly gentleman who was in charge of the international department retired and Mr. Wallenstein said, \"Why don't you do that. It's a very easy thing. All you have to do is keep in touch with EMI. They furnish masters of foreign recordings and there are a few foreign language artists like Frankie Yankovic and his Yanks, the Polka king, Italian singers, and so forth that you will record here, but it's very easy. You just record what they have in their repertoire and the repertoire can be something that you can find out about by speaking to the man who was in charge of the sales of the international department here in Bridgeport in New York.\""
+        },
+        {
+          "id": "5.1",
+          "url": "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+          "text": "Shortly after recording Chicago Jazz, Avakian was approached by a Columbia Records executive named John Hammond who knew of Avakian from his work with Tempo Magazine. Hammond invited Avakian to a meeting with the President of the label, Edward Wallerstein. Columbia Records, who acquired the ARC and the Okeh masters, wanted to launch a re-issue project to cash in on the popularity of swing and renewed interest in jazz. During the meeting, the executives had an intern read a random letter from a fan about the importance of re-issuing classic jazz records. Ironically, the letter was written by Avakian, who was then hired to run the Columbia Records Hot Jazz Classics Series. The first Hot Jazz Classic was also released in 1940 and dedicated to one of Avakian’s all-time favorite musicians, Louis Armstrong.\n...\nThe music business was fun for Avakian but he still hadn’t seriously considered a career as a producer. When he was discharged in 1946, Wallerstein contacted him about running the newly formed Columbia Records Popular Music Department to reward him for graduating from college and coming back from the war “in one piece.”"
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+          "text": "Columbia hired Mr. Avakian in 1940 to assemble and annotate a comprehensive jazz reissue series, something no record company had undertaken before.\n...\nIn 1946, after five years in the Army, Mr. Avakian became a full-time member of Columbia’s production staff.\n...\nWhile overseeing the company’s jazz operations, he wore many other hats as well. He was in charge of pop albums and served as a one-man international department, releasing Piaf’s “La Vie en Rose” and other important European records in the United States."
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+          "text": "He made his most lasting mark as a jazz producer withColumbia Recordsin the 1950s. He brought Brubeck and Davis to the label, helping to transform them from artists with a loyal but limited audience to international celebrities. He signedJohnny Mathis, then an unknown jazz singer, and oversaw his emergence as a chart-topping pop star. He persuaded Louis Armstrong to record the German theater song “Mack the Knife,” an unlikely vehicle that became one of his biggest hits. And he supervised the recording of Duke Ellington’s performance at the 1956 Newport Jazz Festival, which revitalized Ellington’s career."
+        },
+        {
+          "id": "8.1",
+          "url": "https://downbeat.com/news/detail/george-avakian-record-innovator",
+          "text": "accepted Wallerstein\n...\ns invitation to join the Columbia\n...\ns Chosen Six.\n...\nIn the summer of 1955, Avakian issued the first and perhaps the best LP sampler ever, I Like Jazz, a capsule jazz history, intelligently annotated, that sold for only $1 and served as a powerful marketing tool showcasing the Columbia catalog. As chief of Columbia’s pop album and international divisions and through a combination of influential reissues and new sessions, he made Columbia the most powerful force in jazz among the majors."
+        },
+        {
+          "id": "9.1",
+          "url": "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+          "text": "Avakian, an executive at Columbia Records and Warner Bros. among other labels, helped popularize such consumer standards as liner notes, the long-playing album and the live album.\n...\nThe music business was rapidly changing in the 1940s and ‘50s, thanks in part to Avakian. Columbia was the industry leader in issuing classical recordings as albums and Avakian, as head of Columbia’s pop division, oversaw the landmark 1948 release of 100 long-playing records for pop and jazz. Featuring Frank Sinatra, Dinah Shore and other artists, they were pressed on vinyl that was thinner than the traditional 78 rpm “shellac” records and played at what became the standard speed, 33 1-3 rpm."
+        },
+        {
+          "id": "10.1",
+          "url": "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/",
+          "text": "By 1940, the swing era was in full bloom, and Columbia Broadcasting System was the home of much recorded jazz after having acquired the bankrupt American Record Corporation. It decided to form a subsidiary called Columbia Records, and Avakian was tapped to produce a reissue series. He returned to Columbia Records after serving in the US Army during the war and was responsible for the Popular Music and International divisions. He continued production of the Hot Jazz Classics series, as well as the Special Editions and Archives series. He was also assigned the role of head of popular albums, part of which involved issuing the first 100 pop records in the 33 1⁄3 rpm long-playing format, a new technology perfected by Columbia that represented a marketing innovation no less than a technical one. Beyond the LP, he made Columbia the first major record company to record live performances of jazz and popular music. He was also one of the first producers of popular music to fully embrace multitrack recording and tape editing techniques."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://qa-archives.nypl.org/mus/22589",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/George_Avakian",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.arts.gov/honors/jazz/george-avakian",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://downbeat.com/news/detail/george-avakian-record-innovator",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 7532,
+      "estimatedTokens": 1883,
+      "latencyMs": 177
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_01a479179550cea5016aafe6bd8db887d293cc2b6ccb99e0bd",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "1948",
+      "usage": {
+        "inputTokens": 2005,
+        "outputTokens": 3,
+        "totalTokens": 2008
+      },
+      "latencyMs": 617,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_06bf4c41ee762df0016aafe6beca3c87d2a91b3236459bfb70",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 206,
+          "outputTokens": 2,
+          "totalTokens": 208
+        },
+        "latencyMs": 520
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://qa-archives.nypl.org/mus/22589",
+        "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+        "https://en.wikipedia.org/wiki/George_Avakian",
+        "https://www.arts.gov/honors/jazz/george-avakian",
+        "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+        "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+        "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+        "https://downbeat.com/news/detail/george-avakian-record-innovator",
+        "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+        "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/"
+      ],
+      "highlights": {
+        "query": "In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "25bd75ac98e244e45e4425c6d52f9227",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://qa-archives.nypl.org/mus/22589",
+          "text": "George Mesrop Avakian (1919-2017) was an American music producer, recording executive, artist manager, writer, and educator best known for his work with artists such as Louis Armstrong, Miles Davis, Duke Ellington, John Cage, Alan Hovhaness, Keith Jarrett, Sonny Rollins, his wife Anahid Ajemian, and many other musicians and composers. Violinist Anahid Ajemian (1924-2016) specialized in performing new music as a soloist; with her sister, the pianist Maro Ajemian (1921-1978); and with the Composers String Quartet. The George Avakian and Anahid Ajemian papers (1908-2016) document the careers and lives of the ... and ... through audio and video recordings; personal and ... correspondence; photographs ... scrapbooks; published ... unpublished ... and ... ; ... and other ... papers; ... ; ... ; ... ;\n\n...\n\nMesrop ... ak ... (1919-2017) was an ... , artist ... , writer, and educator best known for his work with artists such as Louis Armstrong, Miles Davis, Duke Ellington, John Cage, Alan Hovhaness, Keith Jarrett, Sonny Rollins, his wife Anahid Ajemian, and many other musicians and composers.\n\n...\n\nof ... jazz ... .\n\n...\n\nFollowing his discharge, Avakian returned to Columbia, where he resumed production of the Hot Jazz Classics series, as well as the Special Editions and Archives series, and began producing new recordings as well. Within a few years, his mandate and opportunities became almost unlimited. In 1948, he was appointed head of the International department, overseeing the production of new foreign recordings, as well as the domestic issue of recordings by foreign subsidiaries. It was through this position that he met and produced the French vocalist Edith Piaf.\n\n...\n\nAlso in 1948, Avakian played a key role in Columbia's development and adoption of the the new technology of the 33 1/3-rpm long-playing record. He issued the first 100 popular albums in the format, making Columbia the leader in firmly establishing the microgroove record as a primary vehicle for music retailing for the next four decades.\n\n...\n\n1952, he was appointed the first director of the newly-formed Popular ... department, in addition to his International department duties. This department ... jazz ... as ... and ... . ... ak ... were"
+        },
+        {
+          "id": "2.1",
+          "url": "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+          "text": "Following his discharge in 1946, Avakian immediately returned to Columbia, where he resumed production of the Hot Jazz Classics series, as well as the Special Editions and Archives series. Within a few years his mandate and opportunities became almost unlimited. In 1948, he was appointed head of the International department, overseeing the production of new foreign recordings, as well as the domestic issue of recordings by foreign subsidiaries. It was through this job that he met and produced Edith Piaf and Charles Aznavour."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.arts.gov/honors/jazz/george-avakian",
+          "text": "After service in the U.S. Army during World War II, Avakian began his 12-year tenure as a Columbia Records executive, eventually presiding over its Popular Music and International Divisions. At the same time, he was acquiring a reputation as a jazz researcher and critic of some renown, having pieces printed in Tempo, DownBeat, Metronome, Mademoiselle, Pic, and the New York Times. Concerned about the lack of jazz education, in 1946 Avakian started a course in jazz history at the university level at New York University."
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+          "text": "In 194 ... , ... the ... , ... ak ... became a ... - ... member of ... ’s production staff.\n\n...\n\nWhile overseeing the company’s jazz operations, he wore many other hats as well. He was in charge of pop albums and served as a one-man international department, releasing Piaf’s “La Vie en Rose” and other important European records in the United States."
+        },
+        {
+          "id": "8.1",
+          "url": "https://downbeat.com/news/detail/george-avakian-record-innovator",
+          "text": "In the ... 19 ... , ... the ... and ... the ... , ... Jazz, ... jazz ... , that ... and served as a powerful ... tool ... the Columbia ... . As chief ... Columbia’s pop album ... international divisions and ... a combination ... influential ... , ... made Columbia ... powerful force ... jazz among ... majors"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://qa-archives.nypl.org/mus/22589",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://funzone.am/blog/2017/11/08/person-who-made-revolution-in-recording-george-avakian/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/George_Avakian",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.arts.gov/honors/jazz/george-avakian",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nypl.org/blog/2020/04/7/george-avakians-passion-jazz",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.bostonglobe.com/metro/obituaries/2017/11/24/george-avakian-record-producer-and-talent-scout-dies/RmEmWJzmpVcqA2kiv66PYP/story.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.nytimes.com/2017/11/22/obituaries/george-avakian-dead-record-producer-and-talent-scout.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://downbeat.com/news/detail/george-avakian-record-innovator",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://apnews.com/article/12b3a7ce7af043ebbcd0a83e4e1fef2a",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://armenianprelacy.org/2025/03/13/birth-of-george-avakian-march-15-1919/",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.005
+    },
+    "metrics": {
+      "returnedCharacters": 3956,
+      "estimatedTokens": 989,
+      "latencyMs": 435
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0d91607216653d7a016aafe6be34f487d28624c8e8795143d9",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "1948",
+      "usage": {
+        "inputTokens": 1132,
+        "outputTokens": 3,
+        "totalTokens": 1135
+      },
+      "latencyMs": 539,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0e6cd89d5cffa9f3016aafe6bf4f0887d28dd288e9ad472797",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 206,
+          "outputTokens": 2,
+          "totalTokens": 208
+        },
+        "latencyMs": 704
+      }
+    }
+  }
+}

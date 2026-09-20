@@ -2,6 +2,9 @@ import { describe, expect, it } from "vitest";
 import { formatContext } from "../lib/evals/format-context";
 import { deterministicSample } from "../lib/evals/sampling";
 import { exactMatch, normalizeAnswer, tokenF1 } from "../lib/evals/scoring";
+import { parseSimpleQAGrade } from "../lib/evals/openai-simpleqa-grader";
+import { summarizePairs } from "../lib/evals/aggregate";
+import type { RetrievalPair } from "../lib/evals/types";
 
 describe("deterministic sampling", () => {
   it("returns the same identities for the same seed", () => {
@@ -32,5 +35,62 @@ describe("context formatting", () => {
     ]);
     expect(text).toContain("[SOURCE 1]\nURL: https://a.example\nEXCERPT:\nFirst fact.");
     expect(text).toContain("[SOURCE 2]\nURL: https://b.example");
+  });
+});
+
+describe("SimpleQA grader output parsing", () => {
+  it("maps the official A/B/C choices", () => {
+    expect(parseSimpleQAGrade("A")).toBe("CORRECT");
+    expect(parseSimpleQAGrade("B")).toBe("INCORRECT");
+    expect(parseSimpleQAGrade("C")).toBe("NOT_ATTEMPTED");
+  });
+
+  it("fails closed when the grader output is malformed", () => {
+    expect(parseSimpleQAGrade("I cannot decide")).toBe("NOT_ATTEMPTED");
+  });
+});
+
+describe("paired aggregation", () => {
+  it("keeps accuracy and context deltas paired by item", () => {
+    const arm = (mode: "standard" | "dynamic", chars: number, score: 0 | 1) => ({
+      mode,
+      request: { ids: ["https://example.com"], highlights: { query: "q", ...(mode === "dynamic" ? { dynamic: true as const } : {}) } },
+      response: { excerpts: [], statuses: [] },
+      metrics: { returnedCharacters: chars, estimatedTokens: Math.ceil(chars / 4), latencyMs: 1 },
+      answer: {
+        provider: "openai" as const,
+        model: "fixed",
+        responseId: mode,
+        promptVersion: "v1",
+        text: "answer",
+        usage: { inputTokens: chars, outputTokens: 1, totalTokens: chars + 1 },
+        latencyMs: 1,
+        provisionalGrade: { exactMatch: score, tokenF1: score, note: "debug-only-not-official-simpleqa-grade" as const },
+        simpleQAGrade: {
+          provider: "openai" as const,
+          model: "grader",
+          responseId: `grade-${mode}`,
+          promptVersion: "openai-simpleqa-three-way-v1" as const,
+          rawOutput: score ? "A" : "B",
+          label: score ? "CORRECT" as const : "INCORRECT" as const,
+          score,
+          usage: { inputTokens: 1, outputTokens: 1, totalTokens: 2 },
+          latencyMs: 1,
+        },
+      },
+    });
+    const pair = {
+      schemaVersion: 1,
+      createdAt: "2026-09-20T00:00:00.000Z",
+      benchmark: "simpleqa",
+      item: { id: "one", problem: "q", answer: "a" },
+      discovery: { query: "q", urls: ["https://example.com"], latencyMs: 1 },
+      standard: arm("standard", 100, 0),
+      dynamic: arm("dynamic", 80, 1),
+    } satisfies RetrievalPair;
+    const summary = summarizePairs([pair], 1);
+    expect(summary.scores.accuracyDelta).toBe(1);
+    expect(summary.context.meanCharacterDelta).toBe(-20);
+    expect(summary.scores.dynamicOnlyCorrect).toBe(1);
   });
 });

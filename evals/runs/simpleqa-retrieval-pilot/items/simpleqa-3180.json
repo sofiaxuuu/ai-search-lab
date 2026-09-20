@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:15.155Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-3180",
+    "problem": "In which month and year was Captain Joern Rene Klausen found dead aboard the Monarch of the Seas?",
+    "answer": "January, 2006.",
+    "metadata": {
+      "metadata": "{'topic': 'Other', 'answer_type': 'Date', 'urls': [\"https://en.wikipedia.org/wiki/MS_Monarch#Captain's_death\", 'https://en.wikipedia.org/wiki/MS_Monarch#:~:text=Thirty%2Deight%2Dyear%2Dold,night%20cruise%20to%20Ensenada%2C%20Mexico.', 'http://www.castlesoftheseas.nl/monarch.html']}"
+    }
+  },
+  "discovery": {
+    "query": "In which month and year was Captain Joern Rene Klausen found dead aboard the Monarch of the Seas?",
+    "urls": [
+      "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+      "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+      "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+      "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+      "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+      "https://en.wikipedia.org/wiki/MS_Monarch",
+      "https://grokipedia.com/page/MS_Monarch",
+      "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+      "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+      "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html"
+    ],
+    "requestId": "6f79907d63b341f884e92910d132f46c",
+    "latencyMs": 3623
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+        "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+        "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+        "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+        "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+        "https://en.wikipedia.org/wiki/MS_Monarch",
+        "https://grokipedia.com/page/MS_Monarch",
+        "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+        "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+        "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html"
+      ],
+      "highlights": {
+        "query": "In which month and year was Captain Joern Rene Klausen found dead aboard the Monarch of the Seas?"
+      }
+    },
+    "response": {
+      "requestId": "43ff10545cfc5ea541d91cbd1f3e5e04",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+          "text": "### 30 January 2006 Crew / Passenger Deaths\n...\n(Monarch of the Seas) On January 30, 2006, the 38-year-old Captain of the cruise ship - Joern Rene Klausen - was found dead in his suite.\n...\nThe liner was en-route from Ensenada (Baja Mexico) to Los Angeles CA, returning from a 3-day cruise. Police and FBI agents boarded the ship in LA for investigation. Passenger disembarkation was delayed. The autopsy showed that his death was of natural causes (“gastritis with contributing factors of early pneumonia, water intoxication syndrome due to alcohol withdrawal”)."
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+          "text": "January 31, 2006\n...\nAuthorities said Capt. Joern Rene Klausen was found in his stateroom at approximately 4:15 a.m. Monday, according to a statement issued by Royal Caribbean International, which operates the 2,700-passenger cruise ship."
+        },
+        {
+          "id": "3.1",
+          "url": "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+          "text": "On Monday, 30 January, Captain Joern Rene Klausen (38 years old) was found dead in his cabin at 4:15 AM before arriving in Los Angeles. Police boarded the vessel in LA and disembarkation was delayed until removal of the body. The death appeared to be from natural cases; authorities in LA will conduct an autopsy."
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+          "text": "Thirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "5.1",
+          "url": "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+          "text": "## Thursday, February 02, 2006\n...\n### The 38-year-old captain of the Monarch of the Seas cruise ship found dead\n...\ndailybreeze.com 02/01/2006 Authorities said Capt. Joern Rene Klausen was found in his stateroom at approximately 4:15 a.m. Monday, according to a statement issued by Royal Caribbean International, which operates the 2,700-passenger cruise ship. \"The death appears to be from natural causes and authorities in Los Angeles will conduct an autopsy,\" the statement said."
+        },
+        {
+          "id": "6.1",
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch",
+          "text": "Thirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. [22] According to reports, the death appeared to be from natural causes. [23]"
+        },
+        {
+          "id": "7.1",
+          "url": "https://grokipedia.com/page/MS_Monarch",
+          "text": "On January 30, 2006, during a cruise in the Caribbean, 38-year-old Norwegian Captain Joern Rene Klausen was found dead in his stateroom aboard MS Monarch (then operating as Monarch of the Seas for Royal Caribbean International). The ship was en route from Nassau, Bahamas, to Port Canaveral, Florida, when a steward discovered the body around 4:15 a.m. local time. [35] [36] An autopsy conducted by Florida authorities determined the cause of death to be natural, specifically acute gastritis with contributing factors including pulmonary edema, cardiomegaly, early pneumonia, and water intoxication syndrome associated with alcohol withdrawal. Reports indicated Klausen had been relieved from bridge duties two days prior due to concerns over heavy alcohol consumption, after which he was instructed to rest in his cabin. The death had no impact on ship operations, as the first officer immediately assumed command, and Monarch continued to port, arriving safely on schedule without disruption to passengers. [37] [38] [35] Royal Caribbean International confirmed the incident in a statement, noting that Klausen was not performing navigational duties at the time and affirming the company's protocols for addressing crew health and welfare issues. No lawsuits were filed in connection with the event, and it prompted no regulatory changes, though it drew brief media attention to the challenges of managing senior officer health on extended voyages. [37] [39]"
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+          "text": "Thirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "9.1",
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+          "text": "Thirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "10.1",
+          "url": "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html",
+          "text": "Aparece muerto el capitán del Monarch of the Seas 30-1-2006\n\n## Llevaba tan solo 1 año como capitán\n\n ✎ Jesús Rico \n\n 30 de enero, 2014 - ✓ Actualizado el 21 de noviembre, 2025 \n\n## Capitán del Monarch of the Seas aparece muerto en su cabina\n\n Sucedía el 30 enero 2006 \n\nS ucedía un 30 de enero de 2006 cuando era localizado muerto en su camarote Joern Rene Klausen, capitán del buque MS Monarch of the Seas.\n\n El el barco en ese momento parte de la flota de la naviera Royal Caribbean volvía a Los Angeles después de un minicrucero de tres noches por aguas mexicanas. Según las investigaciones iniciales la muerte del capitán se debió a causas naturales. \n\nMonarch of the Seas\n...\nde Royal Caribbean"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://grokipedia.com/page/MS_Monarch",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 4912,
+      "estimatedTokens": 1228,
+      "latencyMs": 141
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0d29be1e527b70b5016aafe6b35f6487d285ae01578d0e31f2",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "January 30, 2006",
+      "usage": {
+        "inputTokens": 1500,
+        "outputTokens": 8,
+        "totalTokens": 1508
+      },
+      "latencyMs": 971,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.8,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_033d7e1cfbbdbaf1016aafe6b58d5087d290c5a366608b843e",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 211,
+          "outputTokens": 2,
+          "totalTokens": 213
+        },
+        "latencyMs": 603
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+        "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+        "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+        "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+        "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+        "https://en.wikipedia.org/wiki/MS_Monarch",
+        "https://grokipedia.com/page/MS_Monarch",
+        "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+        "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+        "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html"
+      ],
+      "highlights": {
+        "query": "In which month and year was Captain Joern Rene Klausen found dead aboard the Monarch of the Seas?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "6d1d1be09651171ac4bf687f8167eda7",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+          "text": "### 30 January 2006 Crew / Passenger Deaths\n\n...\n\n(Monarch of the Seas) On January 30, 2006, the 38-year-old Captain of the cruise ship - Joern Rene Klausen - was found dead in his suite.\n\n...\n\nThe liner was en-route from Ensenada (Baja Mexico) to Los Angeles CA, returning from a 3-day cruise. Police and FBI agents boarded the ship in LA for investigation. Passenger disembarkation was delayed. The autopsy showed that his death was of natural causes (“gastritis with contributing factors of early pneumonia, water intoxication syndrome due to alcohol withdrawal”)."
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+          "text": "Cruise ... ’s captain ... dead\n\n...\n\nJanuary 31, 2006\n\n...\n\nAuthorities said Capt. Joern Rene Klausen was found in his stateroom at approximately 4:15 a.m. Monday, according to a statement issued by Royal Caribbean International, which operates the 2,700-passenger cruise ship."
+        },
+        {
+          "id": "3.1",
+          "url": "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+          "text": "On Monday, 30 January, Captain Joern Rene Klausen (38 years old) was found dead in his cabin at 4:15 AM before arriving in Los Angeles. Police boarded the vessel in LA and disembarkation was delayed until removal of the body. The death appeared to be from natural cases; authorities in LA will conduct an autopsy."
+        },
+        {
+          "id": "4.1",
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+          "text": "### Captain's death\n\n...\n\nThirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "6.1",
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch",
+          "text": "### Captain'\n\n...\n\nThirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. [22] According to reports, the death appeared to be from natural causes. [23]"
+        },
+        {
+          "id": "7.1",
+          "url": "https://grokipedia.com/page/MS_Monarch",
+          "text": "On ... 3 ... , 20 ... , ... a cruise ... the ... , 3 ... year ... Norwegian ... was ... dead ... his stater ... MS ... (then ... as Monarch of ... for Royal Caribbean International). The ... Nassau, Bahamas, ... Canaveral, Florida, when a steward discovered the body around 4:1 ... a. ... . local time. [35] ... the"
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+          "text": "### Captain's death\n\n...\n\nThirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "9.1",
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+          "text": "### Captain's death\n\n...\n\nThirty-eight-year-old Captain Jørn Rene Klausen was found dead in his stateroom aboard Monarch early the morning of January 30, 2006. The ship was returning to Los Angeles from a three-night cruise to Ensenada, Mexico. According to reports, the death appeared to be from natural causes."
+        },
+        {
+          "id": "10.1",
+          "url": "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html",
+          "text": "A ... ce muerto el capitán del ... of the Seas 30-1-20 ... 6\n\n...\n\nSucedía el 30 enero 2006\n\n...\n\nS ucedía un 30 de enero de 2006 cuando era localizado muerto en su camarote Joern Rene Klausen, capitán del buque MS Monarch of the Seas.\n\n...\n\nla ... Angeles ... las ... del capitán ... naturales"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://www.cruisemapper.com/accidents/Pullmantur-Monarch-550",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.offshore-energy.biz/httpwww-worldmaritimenews-comarticlecruise1961cruise-ships-captain-found-dead/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://cruisejunkie.com/Ships/Events_by_Monarch.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch_of_the_Seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "http://safecruise.blogspot.com/2006/02/38-year-old-captain-of-monarch-of-seas.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MS_Monarch",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://grokipedia.com/page/MS_Monarch",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_Seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monarch_of_the_seas",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://cruceroadicto.com/aparece-muerto-capitan-monarch-of-the-seas.html",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.009
+    },
+    "metrics": {
+      "returnedCharacters": 3017,
+      "estimatedTokens": 755,
+      "latencyMs": 233
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0dd1358e3fb90b4d016aafe6b4363087d29efa0cbeb6a17c75",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "January 30, 2006",
+      "usage": {
+        "inputTokens": 1070,
+        "outputTokens": 8,
+        "totalTokens": 1078
+      },
+      "latencyMs": 1308,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.8,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_008e1b9850721e17016aafe6b67df487d2be3c85417d2407f4",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 211,
+          "outputTokens": 2,
+          "totalTokens": 213
+        },
+        "latencyMs": 1234
+      }
+    }
+  }
+}

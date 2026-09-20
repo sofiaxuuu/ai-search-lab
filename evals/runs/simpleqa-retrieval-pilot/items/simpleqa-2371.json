@@ -158,6 +158,39 @@
       "returnedCharacters": 5880,
       "estimatedTokens": 1470,
       "latencyMs": 171
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_04222306d07062e3016aafe1f5899887d291fced640f44dea2",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Mark Scout replaces Petey Kilmer as department head.",
+      "usage": {
+        "inputTokens": 1679,
+        "outputTokens": 12,
+        "totalTokens": 1691
+      },
+      "latencyMs": 3022,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.36363636363636365,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0e1644fbfad6832e016aafe4541cf887d291ebc7cdbd7072cb",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 208,
+          "outputTokens": 2,
+          "totalTokens": 210
+        },
+        "latencyMs": 1243
+      }
     }
   },
   "dynamic": {
@@ -288,6 +321,39 @@
       "returnedCharacters": 5984,
       "estimatedTokens": 1496,
       "latencyMs": 401
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_051ba2926714f3dc016aafe1f7409487d2b1b51768178db075",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Mark Scout replaces Petey Kilmer as department head.",
+      "usage": {
+        "inputTokens": 1694,
+        "outputTokens": 12,
+        "totalTokens": 1706
+      },
+      "latencyMs": 1884,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0.36363636363636365,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0da8073f3f0d33d3016aafe455096887d28be7fa40ff28e99d",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 208,
+          "outputTokens": 2,
+          "totalTokens": 210
+        },
+        "latencyMs": 1645
+      }
     }
   }
 }

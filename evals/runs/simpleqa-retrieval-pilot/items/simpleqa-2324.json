@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:20.927Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-2324",
+    "problem": "What is the Regional Transport Office (RTO) code for the Androth location in Lakshadweep, India?",
+    "answer": "LD-04",
+    "metadata": {
+      "metadata": "{'topic': 'Geography', 'answer_type': 'Number', 'urls': ['https://en.wikipedia.org/wiki/List_of_Regional_Transport_Office_districts_in_India#LD%E2%80%94Lakshadweep', 'https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/', 'https://loconav.com/rto-offices/lakshadweep/androth-ld-04', 'https://www.coverfox.com/rto/lakshadweep/']}"
+    }
+  },
+  "discovery": {
+    "query": "What is the Regional Transport Office (RTO) code for the Androth location in Lakshadweep, India?",
+    "urls": [
+      "https://rtocheck.com/lakshadweep/androth-ld04",
+      "https://www.policybazaar.com/rto/lakshadweep/androth/",
+      "https://vahanx.in/rto-office-details/lakshadweep/androth",
+      "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+      "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+      "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+      "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+      "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+      "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+      "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/"
+    ],
+    "requestId": "769e8c26742f2715320dd0614b5db21a",
+    "latencyMs": 1153
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://rtocheck.com/lakshadweep/androth-ld04",
+        "https://www.policybazaar.com/rto/lakshadweep/androth/",
+        "https://vahanx.in/rto-office-details/lakshadweep/androth",
+        "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+        "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+        "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+        "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+        "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+        "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+        "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/"
+      ],
+      "highlights": {
+        "query": "What is the Regional Transport Office (RTO) code for the Androth location in Lakshadweep, India?"
+      }
+    },
+    "response": {
+      "requestId": "b4ce65faa77929ebceea67ba87c71ddc",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://rtocheck.com/lakshadweep/androth-ld04",
+          "text": "LD04 RTO Office - Androth Contact & Address\n...\n# Androth RTO Details - Registered Under Code LD04\n...\nIND LD\n...\n📍 RTO Code LD04\n...\n🏙️ City / Office Androth\n...\n🏢 Office Address Androth, Lakshad\n...\n## About LD04 - Androth, Lakshadweep\n...\nThe RTO code LD04 belongs to Androth, Lakshadweep. located at Androth, Lakshadweep - 682551, this office is one of 9 RTOs spread across the state, each handling registrations for its own district.\n...\nWhat is the RTO code for Androth?\n...\nThe RTO code for Androth, Lakshadweep is LD04. This code appears as the first four characters on every vehicle registration number issued by this office."
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.policybazaar.com/rto/lakshadweep/androth/",
+          "text": "The Regional Transport Office of Androth city operates under RTO Lakshadweep and uses the RTO codes LD04. The RTO Androth issues RC, driving license and other documents to a vehicle purchased in Androth. Read further to know more about RTO in Androth.\n...\n| RTO City | RTO Address | RTO Code | RTO Pincode | RTO Phone No. |\n| --- | --- | --- | --- | --- |\n| Androth | Androth, Lakshadweep | RTO codeLD04 | Pin code682551 | Number- |"
+        },
+        {
+          "id": "3.1",
+          "url": "https://vahanx.in/rto-office-details/lakshadweep/androth",
+          "text": "The Regional Transport Office (RTO) Androth operates under the RTO Lakshadweep. Vehicles in Androth are registered under the following RTO codes.\n...\n| Code | Address | City | Website |\n| --- | --- | --- | --- |\n| LD-04 | The Regional Transport Officer ( RTO ),Androth, Lakshadweep - 682551 | RTO, Androth | https://lakshadweep.gov.in/ |\n...\n| RTO Codes | RTO Office |\n| --- | --- |\n| LD-01 | Kavaratti |\n| LD-02 | Agatti |\n| LD-03 | Amini |\n| LD-04 | Androth |\n| LD-05 | Kadamat |\n| LD-06 | Kiltan |\n| LD-07 | Chetlat |\n| LD-08 | Kalpeni |\n| LD-09 | Minicoy |\n...\n## Q. What is the address and contact for Androth RTO? \n\n Androth RTO Address: The Regional Transport Officer ( RTO ),Androth, Lakshadweep - 682551 RTO Code: LD-04 Website: https://lakshadweep.gov.in/"
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+          "text": "ld-04 Androth RTO Office Details - Vehicle Registration details in Androth | RTO Office Details\n...\n# RTO Code ld-04 – Androth, Lakshadweep Vehicle Registration & RC Details\n...\nRTO Code: ld-04\n...\nld-04\n...\nThe Regional Transport Office (RTO) Androth operates under the Lakshadweep Transport Department and enforces the Motor Vehicles Act, 1988.\n...\nVehicles in this region are registered under the ld-04 RTO code. The RTO office handles vehicle registration, issuing driving licences, collecting road tax, and providing other vehicle-related services.\n...\nRTO Code\n...\nld-04\n...\nLakshadweep\n...\nAndroth, Lakshadweep - 682551\n...\nRTO Code\n...\nld-04\n...\nRTO Code\n...\nld-04"
+        },
+        {
+          "id": "5.1",
+          "url": "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+          "text": "| RTO Code: | LD 04 Androth |\n| --- | --- |\n| RTO Name: | RTO Androth |\n| RTO Number: | LD04 |\n| RTO Phone Number: | 04896 - 263942 |\n| RTO Email ID: | |\n| RTO State: | LD/Lakshadweep |\n| RTO City: | 04/Androth |\n| RTO Pin Code: | 682551 |\n| RTO Address: | Regional Transport Office Androth, Lakshadweep - 682551 |\n| RTO Vehicle Details: | Click Here |\n...\nRto Androth agent LD 04 rto office Androth contact number and service RTO Androth or DTO Androth popularly known as Lakshadweep Transport Office Androth. Here we work as Androth RTO agent. RTO agent Androth provide Various online services at Androth RTO office. We pay the challan here at RTO office Androth. Removes the blacklist or block of the vehicle. Androth RTO office agent give Vehicle registration and name transfer, transfer of ownership services. Transport Department Lakshadweep has given RTO code of LD 04 to Androth RTO office. anyone can call the Androth rto agent contact number given on our online website of Androth rto consultant."
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+          "text": "RTO Code LD-04 Is For Androth, Lakshadweep\n...\n# RTO CODE - LD-04 : Androth, Lakshadweep\n...\nLD-04 is the RTO Code for Androth city in Lakshadweep. The RTO of Androth comes under the Lakshadweep State Vehicles Department. Established under the provisions of section 213(1) of the Motor Vehicles Act, 1988 Androth RTO is responsible for vehicles and drivers record management and collection of road tax etc.\n...\n| RTO Code | RTO Office | State |\n| --- | --- | --- |\n| LD-04 | Androth | Lakshadweep |\n...\nRegistration area for RTO Code LD-04 covers Androth in Lakshadweep"
+        },
+        {
+          "id": "7.1",
+          "url": "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+          "text": "Check LD-04 RTO Code Information - Androth RTO Office Details | Spinny\n...\n# Check Lakshadweep - Androth (LD-04) RTO: Vehicle Owner Details by Registration Number\n...\nThe LD-04 RTO is based in Androth, Lakshadweep and covers the South jurisdiction. Checking LD-04 city details or LD-04 district name? You can find the details below.\n...\n## Lakshadweep - Androth LD-04 RTO Office Details\n...\nThe LD-04 RTO in Androth handles vehicle registration, driving licences, road tax and permits for the South jurisdiction of Lakshadweep. Vehicles registered here carry the LD-04 series on their number plate. If you were checking LD-04 city or LD-04 district name, this is the office that covers that area.\n...\nThe office is located in Androth, Lakshadweep - 682551, and is open Monday to Saturday from 10 AM to 5 PM. You can reach it on $rtoContactsClause. Most services like - licence applications, fee payments, tax and appointment booking, can be started online at parivahan website, with a physical visit needed only for the driving test and biometric capture.\n...\n### LD-04\n...\n### Lakshadweep\n...\n### Androth, Lakshadweep - 682551\n...\nThe LD-04 office covers the South Lakshadweep jurisdiction in Lakshadweep. Vehicles registered here carry the LD-04 series on their number plate."
+        },
+        {
+          "id": "8.1",
+          "url": "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+          "text": "LD-04 RTO Code ANDROTH, Lakshadweep Islands : Office Address, Contact and Registration Details Drivespark Database\n...\nThe ANDROTH Regional Transport Office, operating under the code LD-04, plays a vital role in maintaining a safe and regulated road transport system in ANDROTH, Lakshadweep Islands. Whether you need to register a new vehicle, apply for a driving license, or renew your vehicle's fitness certificate, the LD-04 RTO provides all essential services under the purview of the Lakshadweep Islands Motor Vehicles Department. Read on to find complete contact details, fee structures, functions, and the step-by-step processes for the ANDROTH RTO.\n...\n| LD Registration - Regional Transport Office (RTO) LD-04 |\n| --- |\n...\n| Number | LD-04 |\n| --- | --- |\n| City | ANDROTH |\n| State | Lakshadweep Islands |\n| Phone | 04632-235355 |\n| Email | [email protected] |\n| Address | ANDROTH, Lakshadweep |\n...\nWhat is the official RTO code for ANDROTH in ANDROTH?\n...\nThe official RTO code for ANDROTH in ANDROTH, Lakshadweep Islands is LD-04. This code is used for vehicle registration numbers and official transport records."
+        },
+        {
+          "id": "9.1",
+          "url": "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+          "text": "RTO Androth | LD-04 RTO | RTO office Androth\n...\n# RTO Androth( LD-04)\n\n RTO Androth comes under Transport department of Lakshadweep. If you are wondering LD-04 is which city/district ,LD-04 is RTO code for RTO Androth. RTO office in Androth is responsible for traffic laws, road tax collection, driving licence issuance, vehicle registration, and other related services like as transfer of ownership of vehicle, HP addition/termination of vehicle, vehicle NOC, and so on. RTO Androth is where you pay your road tax.\n...\n04 XXXX\n...\n| Vehicle Number : | LD-04 XXXX |\n| --- | --- |\n| State Transport Code : | LD |\n| RTO Code : | 04 |\n| State : | Lakshadweep |\n| RTO Circle : | Androth |\n| Jurisdiction area : | |\n| Address : | Androth Lakshadweep |"
+        },
+        {
+          "id": "10.1",
+          "url": "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/",
+          "text": "# ANDROTH LD-04 Transport RTO: Find Vehicle Registration Details Online\n...\n## ANDROTH (LD-04) RTO Office Details\n...\nThe ANDROTH Regional Transport Office, situated in Lakshadweep Islands with RTO code LD-04 , can be contacted on Phone Number or Email ID. Additionally, the address for the ANDROTH LD-04 RTO is provided below. For broader inquiries or to check registration details of vehicles outside ANDROTH, use the search box to enter the vehicle's registration number. Cars24’s extensive RTO database ensures you get accurate information from any state or union territory in India.\n...\n- RTO office code\n...\nLD-04\n...\nANDROTH, Lakshadweep\n...\nLakshadweep Islands"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://rtocheck.com/lakshadweep/androth-ld04",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.policybazaar.com/rto/lakshadweep/androth/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://vahanx.in/rto-office-details/lakshadweep/androth",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 7900,
+      "estimatedTokens": 1975,
+      "latencyMs": 162
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0e8ad57d1bdd3210016aafe6b8ff2487d2ade4922f9a7de7aa",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "LD04",
+      "usage": {
+        "inputTokens": 2574,
+        "outputTokens": 3,
+        "totalTokens": 2577
+      },
+      "latencyMs": 567,
+      "provisionalGrade": {
+        "exactMatch": 0,
+        "tokenF1": 0,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0b691c07f02ba0b7016aafe6ba438487d29c74fcd0149775c9",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 208,
+          "outputTokens": 2,
+          "totalTokens": 210
+        },
+        "latencyMs": 616
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://rtocheck.com/lakshadweep/androth-ld04",
+        "https://www.policybazaar.com/rto/lakshadweep/androth/",
+        "https://vahanx.in/rto-office-details/lakshadweep/androth",
+        "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+        "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+        "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+        "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+        "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+        "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+        "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/"
+      ],
+      "highlights": {
+        "query": "What is the Regional Transport Office (RTO) code for the Androth location in Lakshadweep, India?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "3b3111218eff7bc8d5a070c0fecc634b",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://rtocheck.com/lakshadweep/androth-ld04",
+          "text": "R ... LD04\n\n...\n\n🏢 Office Address Androth, Lakshadweep - 682551\n\n...\n\nfor ... , ... we ... LD04. ... as the ... characters ... every vehicle ... number ... by this"
+        },
+        {
+          "id": "2.1",
+          "url": "https://www.policybazaar.com/rto/lakshadweep/androth/",
+          "text": "of ... the ... 0 ... . ... issues ... .\n\n...\n\n| R\n\n...\n\n| ... | ... |"
+        },
+        {
+          "id": "3.1",
+          "url": "https://vahanx.in/rto-office-details/lakshadweep/androth",
+          "text": "The Regional Transport Office (RTO) Androth operates under the RTO Lakshadweep. Vehicles in Androth are registered under the following RTO codes.\n\n...\n\n| Code | Address | City | Website |\n| --- | --- | --- | --- |\n| LD-04 | The Regional Transport Officer ( RTO ),Androth, Lakshadweep - 682551 | RTO, Androth | https://lakshadweep.gov.in/ |\n\n...\n\nAndroth RTO Address: The Regional Transport Officer ( RTO ),Androth, Lakshadweep - 682551 RTO Code: LD-04 Website: https://lakshadweep.gov.in/"
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+          "text": "ld-04 ... we"
+        },
+        {
+          "id": "5.1",
+          "url": "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+          "text": "| RTO Code: | LD 04 Androth |\n| --- | --- |\n| RTO Name: | RTO Androth |\n| RTO Number: | LD04 |\n| RTO Phone Number: | 04896 - 263942 |\n| RTO Email ID: | |\n| RTO State: | LD/Lakshadweep |\n| RTO City: | 04/Androth |\n| RTO Pin Code: | 682551 |\n| RTO Address: | Regional Transport Office Androth, Lakshadweep - 682551 |\n| RTO Vehicle Details: | Click Here |"
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+          "text": "RTO Code LD-04 Is For Androth, Lakshadweep\n\n...\n\n# RTO CODE - LD-04 : Androth, Lakshadweep\n\n...\n\nLD-04 is the RTO Code for Androth city in Lakshadweep. The RTO of Androth comes under the Lakshadweep State Vehicles Department. Established under the provisions of section 213(1) of the Motor Vehicles Act, 1988 Androth RTO is responsible for vehicles and drivers record management and collection of road tax etc.\n\n...\n\n| RTO Code | RTO Office | State |\n| --- | --- | --- |\n| LD-04 | Androth | Lakshadweep |"
+        },
+        {
+          "id": "8.1",
+          "url": "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+          "text": "the ... , ... a ... role in ... a ... and ... road transport system in ANDROTH, Lakshadweep Islands. Whether you need to ... a new vehicle, apply for a driving license ... or ... your vehicle's fitness certificate, the LD-0 ... RTO provides all essential ... under the purview of the Lakshadwe ... Islands Motor Vehicles Department. ... details ... structures ... the\n\n...\n\nRO ... adwe ... -0 ... is ... and"
+        },
+        {
+          "id": "9.1",
+          "url": "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+          "text": "Vehicle ... LD\n\n...\n\n| State\n\n...\n\n| ... 04\n\n...\n\n| ... : | ... roth\n\n...\n\n| |"
+        },
+        {
+          "id": "10.1",
+          "url": "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/",
+          "text": "## ANDRO ... (LD-04) RTO Office Details\n\n...\n\nThe ANDROTH Regional Transport Office, situated in Lakshadweep Islands with RTO code LD-04 , can be contacted on Phone Number or Email ID. Additionally, the address for the ANDROTH LD-04 RTO is provided below. For broader inquiries or to check registration details of vehicles outside ANDROTH, use the search box to enter the vehicle's registration number. Cars24’s extensive RTO database ensures you get accurate information from any state or union territory in India."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://rtocheck.com/lakshadweep/androth-ld04",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.policybazaar.com/rto/lakshadweep/androth/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://vahanx.in/rto-office-details/lakshadweep/androth",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.rtoofficedetails.app/lakshadweep/ld-04",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://rtovehicledetails.com/searchrto/lakshadweep/androth",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.getatoz.co/rto/code/ld-04/lakshadweep",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.spinny.com/rto-details-lakshadweep-ld-04/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.drivespark.com/rto-vehicle-registration-details/lakshadweep-islands-ld-04/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://itzeazy.in/vehicle-search/rto-androth-ld04-rto",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.cars24.com/rto-vehicle-registration-details-lakshadweep-islands-ld-04/",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.009
+    },
+    "metrics": {
+      "returnedCharacters": 2589,
+      "estimatedTokens": 648,
+      "latencyMs": 213
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_0d86c38ecfaf131d016aafe6b993e487d29a17c5f9c2ee0e86",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "LD-04",
+      "usage": {
+        "inputTokens": 1098,
+        "outputTokens": 4,
+        "totalTokens": 1102
+      },
+      "latencyMs": 714,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_03f48ca0ea931622016aafe6bae23487d288408f2ca0a5b3d7",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 209,
+          "outputTokens": 2,
+          "totalTokens": 211
+        },
+        "latencyMs": 610
+      }
+    }
+  }
+}

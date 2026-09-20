@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:59:03.080Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-3603",
+    "problem": "From what university did John P. Sall receive an honorary doctorate in 2003?",
+    "answer": " North Carolina State University",
+    "metadata": {
+      "metadata": "{'topic': 'Other', 'answer_type': 'Place', 'urls': ['https://en.wikipedia.org/wiki/John_Sall', 'https://en.wikipedia.org/wiki/John_Sall', 'https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html', 'https://www.myniu.com/article.html?aid=168']}"
+    }
+  },
+  "discovery": {
+    "query": "From what university did John P. Sall receive an honorary doctorate in 2003?",
+    "urls": [
+      "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+      "https://en.wikipedia.org/wiki/John_Sall",
+      "https://support.sas.com/en/books/authors/john-sall.html",
+      "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+      "https://ithistory.org/honoree/john-sall",
+      "https://www.jmp.com/en/bios/john-sall",
+      "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+      "https://www.myniu.com/article.html?aid=168",
+      "https://www.worldwildlife.org/about/profiles/john-sall/",
+      "https://alchetron.com/John-Sall"
+    ],
+    "requestId": "1973d85b7de603c2ae9ce194e6210c6a",
+    "latencyMs": 1141
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+        "https://en.wikipedia.org/wiki/John_Sall",
+        "https://support.sas.com/en/books/authors/john-sall.html",
+        "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+        "https://ithistory.org/honoree/john-sall",
+        "https://www.jmp.com/en/bios/john-sall",
+        "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+        "https://www.myniu.com/article.html?aid=168",
+        "https://www.worldwildlife.org/about/profiles/john-sall/",
+        "https://alchetron.com/John-Sall"
+      ],
+      "highlights": {
+        "query": "From what university did John P. Sall receive an honorary doctorate in 2003?"
+      }
+    },
+    "response": {
+      "requestId": "e23c9726e24cb4deb4b87369140b2a34",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+          "text": "At NC State, he studied graduate-level statistics and has been awarded an honorary doctorate by the university; faculty in our Department of Statistics often say that Sall is one of their own. He has also served on the board of trustees and, along with his wife, Ginger, has generously supported college and university initiatives."
+        },
+        {
+          "id": "2.1",
+          "url": "https://en.wikipedia.org/wiki/John_Sall",
+          "text": "He received a bachelor's degree in history from Beloit College in Beloit, Wisconsin. Sall felt he graduated into a weak job market, so he went to graduate school at Northern Illinois University, where he earned a master's degree in economics. It was at graduate school that Sall became interested in statistics and computer science. [3] He went on to study graduate-level statistics at North Carolina State University, where he received an honorary doctorate in 2003. [4] [5] [6] He received an honorary doctorate from NIU in 2014. [7]"
+        },
+        {
+          "id": "3.1",
+          "url": "https://support.sas.com/en/books/authors/john-sall.html",
+          "text": "John Sall is a co-founder of SAS, where he currently serves as the Executive Vice President and the head of the JMP Business Division. He received a bachelor's degree from Beloit College and a master's degree from Northern Illinois University. He was awarded an honorary doctorate from North Carolina State University in 2003. John has held several positions in the Statistical Computing Section of the American Statistical Association (ASA) and was named an ASA Fellow in 1998."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+          "text": "Sall received a bachelor's degree in history from Beloit College in Beloit, WI, and a master's degree in economics from Northern Illinois University in DeKalb, IL. He studied graduate-level statistics at NCSU, which awarded him an honorary doctorate in 2003."
+        },
+        {
+          "id": "5.1",
+          "url": "https://ithistory.org/honoree/john-sall",
+          "text": "He received an honorary doctorate from NC State in 2003 and has served as a member of the NC State University Board of Trustees. In 1973, Sall joined the SAS project that was then in progress, having been conceived by Anthony J. Barr in 1966, making extensive programming contributions in econometrics, time series, and matrix algebra. Other participants in the early years included Caroll G. Perkins, Jolayne W. Service, and Jane T. Helwig. Perkins made programming contributions, while Service and Helwig created the early documentation."
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.jmp.com/en/bios/john-sall",
+          "text": "Sall earned a bachelor's degree in history from Beloit College and a master’s degree in economics from Northern Illinois University (NIU). Both NIU and NC State awarded him honorary doctorates."
+        },
+        {
+          "id": "7.1",
+          "url": "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+          "text": "Sall received a bachelor’s degree in history from Beloit College in Beloit, WI, and a master’s degree in economics from Northern Illinois University in DeKalb, IL. He studied graduate-level statistics at NCSU, which awarded him an honorary doctorate in 2003."
+        },
+        {
+          "id": "8.1",
+          "url": "https://www.myniu.com/article.html?aid=168",
+          "text": "Sall received his bachelor’s degree in history from Beloit College, and a master’s degree in economics from Northern Illinois University. He studied graduate-level statistics at North Carolina State University (NCSU), where the SAS project started. NCSU awarded him an honorary doctoral degree in 2003, and he now sits on their board of trustees."
+        },
+        {
+          "id": "9.1",
+          "url": "https://www.worldwildlife.org/about/profiles/john-sall/",
+          "text": "John Sall is the founder of JMP Statistical Discovery LLC, a wholly owned subsidiary of SAS. As the primary architect for JMP® software, Sall heads the R&D team that creates interactive and highly visual statistical discovery software designed for scientists and engineers. Prior to leading JMP, Sall joined Jim Goodnight and two others in 1976 to establish SAS. He designed, developed and documented many of the earliest analytical procedures while also leading research and development efforts. In the late 1980s, Sall noticed a niche to fill for researchers and engineers whose jobs didn't revolve solely around statistical analysis. JMP launched in 1989 to dynamically link statistical analysis with the graphical capabilities of Macintosh computers. Now running on Windows as well, JMP continues to play an important role in modeling processes across industries as a desktop data visualization and analysis tool. The goal of JMP, Sall said, is to make statistical modeling as friendly, accessible and informative as possible, and to increase the efficiency of experimentation. “The value of statistics is realized when it is translated, taught and delivered with accessible computing environments to the scientists and analysts who use it,” he added. Sall is a Fellow of the American Statistical Association and the American Association for the Advancement of Science, the world’s largest general scientific society. Reflecting his passion for global conservation and environmental issues, he has served on the World Wildlife Fund board. Having completed his term on the Smithsonian Institution’s National Museum of Natural History advisory board, Sall is now part of the NMNH's board alumni group. He is also a former member of The Nature Conservancy Africa Advisory Council and the Friends of the North Carolina Museum of Natural Sciences board. Sall is a former trustee of North Carolina State University, where he studied graduate-level statistics. In 1997, he and his wife, Ginger, joined Jim and Ann Goodnight in founding Cary Academy, which integrates technology into all facets of education for students in grades six to 12. Sall earned a bachelor's degree in history from Beloit College and a master’s degree in economics from Northern Illinois University (NIU). Both NIU and NC State awarded him honorary doctorates."
+        },
+        {
+          "id": "10.1",
+          "url": "https://alchetron.com/John-Sall",
+          "text": "John Sall was born in Rockford, Illinois, in 1948. He received a bachelor's degree in history from Beloit College in Beloit, Wisconsin. Sall felt he graduated into a weak job market, so he went to graduate school at Northern Illinois University, where he earned a master's degree in economics. It was at graduate school that Sall became interested in statistics and computer science. He went on to study graduate–level statistics at North Carolina State University, where he received an honorary doctorate in 2003."
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://support.sas.com/en/books/authors/john-sall.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://ithistory.org/honoree/john-sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.jmp.com/en/bios/john-sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.myniu.com/article.html?aid=168",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.worldwildlife.org/about/profiles/john-sall/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/John-Sall",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 5783,
+      "estimatedTokens": 1446,
+      "latencyMs": 133
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_07f1a4f5295e3ca6016aafe6a7234487d2a5ef06be337ff4bc",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "North Carolina State University",
+      "usage": {
+        "inputTokens": 1483,
+        "outputTokens": 5,
+        "totalTokens": 1488
+      },
+      "latencyMs": 489,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0db22614444e9884016aafe6a9c43087d2a04917da6d1cddb5",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 204,
+          "outputTokens": 2,
+          "totalTokens": 206
+        },
+        "latencyMs": 608
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+        "https://en.wikipedia.org/wiki/John_Sall",
+        "https://support.sas.com/en/books/authors/john-sall.html",
+        "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+        "https://ithistory.org/honoree/john-sall",
+        "https://www.jmp.com/en/bios/john-sall",
+        "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+        "https://www.myniu.com/article.html?aid=168",
+        "https://www.worldwildlife.org/about/profiles/john-sall/",
+        "https://alchetron.com/John-Sall"
+      ],
+      "highlights": {
+        "query": "From what university did John P. Sall receive an honorary doctorate in 2003?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "efd7224e9cae338aa86693b645a480e2",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+          "text": ".\n\n...\n\nAt NC State, he studied graduate-level statistics and has been awarded an honorary doctorate by the university; faculty in our Department of Statistics often say that Sall is one of their own. He has also served on the board of trustees and, along with his wife, Ginger, has generously supported college and university initiatives."
+        },
+        {
+          "id": "3.1",
+          "url": "https://support.sas.com/en/books/authors/john-sall.html",
+          "text": "John Sall is a co-founder of SAS, where he currently serves as the Executive Vice President and the head of the JMP Business Division. He received a bachelor's degree from Beloit College and a master's degree from Northern Illinois University. He was awarded an honorary doctorate from North Carolina State University in 2003. John has held several positions in the Statistical Computing Section of the American Statistical Association (ASA) and was named an ASA Fellow in 1998."
+        },
+        {
+          "id": "4.1",
+          "url": "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+          "text": ".\n\n...\n\nSall received a bachelor's degree in history from Beloit College in Beloit, WI, and a master's degree in economics from Northern Illinois University in DeKalb, IL. He studied graduate-level statistics at NCSU, which awarded him an honorary doctorate in 2003."
+        },
+        {
+          "id": "5.1",
+          "url": "https://ithistory.org/honoree/john-sall",
+          "text": "|\n\n...\n\nin 20 ... and ... as ... of the NC ... University Board of Trustees. ... 1973, ... joined the SAS ... was ... in ... , ... been ... by Anthony J. Barr in 1966, making extensive ... contributions in econometrics, time series ... and matrix algebra. Other ... in ... early years ... Car ... . Perkins, Jolayne ... Service ... Jane ... Hel"
+        },
+        {
+          "id": "6.1",
+          "url": "https://www.jmp.com/en/bios/john-sall",
+          "text": "Sall earned a bachelor's degree in history from Beloit College and a master ... s degree in economics from Northern Illinois University (NIU). Both NIU ... NC State awarded ... doctor ... ."
+        },
+        {
+          "id": "7.1",
+          "url": "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+          "text": ".\n\n...\n\nSall received a bachelor’s degree in history from Beloit College in Beloit, WI, and a master’s degree in economics from Northern Illinois University in DeKalb, IL. He studied graduate-level statistics at NCSU, which awarded him an honorary doctorate in 2003."
+        },
+        {
+          "id": "8.1",
+          "url": "https://www.myniu.com/article.html?aid=168",
+          "text": "- ... .\n\n...\n\nSall received his bachelor’s degree in history from Beloit College, and a master’s degree in economics from Northern Illinois University. He studied graduate-level statistics at North Carolina State University (NCSU), where the SAS project started. NCSU awarded him an honorary doctoral degree in 2003, and he now sits on their board of trustees."
+        },
+        {
+          "id": "9.1",
+          "url": "https://www.worldwildlife.org/about/profiles/john-sall/",
+          "text": ", ... a ... in ... College ... from ... ( ... U"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://sciences.ncsu.edu/news/2017-distinguished-alumnus-award-john-sall/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://support.sas.com/en/books/authors/john-sall.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.sas.com/pl_pl/company-information/sas-na-swiecie/executive-bios/john-sall.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://ithistory.org/honoree/john-sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.jmp.com/en/bios/john-sall",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://decisionstats.com/2009/07/28/interview-john-sall-jmp/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.myniu.com/article.html?aid=168",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.worldwildlife.org/about/profiles/john-sall/",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://alchetron.com/John-Sall",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.008
+    },
+    "metrics": {
+      "returnedCharacters": 2289,
+      "estimatedTokens": 573,
+      "latencyMs": 190
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_08aece30c4ca3095016aafe6a88f4087d2b049656f5734f1af",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "North Carolina State University",
+      "usage": {
+        "inputTokens": 790,
+        "outputTokens": 5,
+        "totalTokens": 795
+      },
+      "latencyMs": 2124,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0ff103aeac2a12d4016aafe6aa6da487d28ea89cfb76638438",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 204,
+          "outputTokens": 2,
+          "totalTokens": 206
+        },
+        "latencyMs": 624
+      }
+    }
+  }
+}

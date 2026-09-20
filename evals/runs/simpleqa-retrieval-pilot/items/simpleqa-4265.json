@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20T13:58:51.596Z",
+  "benchmark": "simpleqa",
+  "item": {
+    "id": "simpleqa-4265",
+    "problem": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?",
+    "answer": "Lucy Suchman",
+    "metadata": {
+      "metadata": "{'topic': 'Science and technology', 'answer_type': 'Person', 'urls': ['https://en.wikipedia.org/wiki/Franklin_Institute_Awards#Benjamin_Franklin_Medals', 'https://fi.edu/en/awards/laureates/lucy-suchman', 'https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462', 'https://publish.illinois.edu/prairiefutures/files/2017/02/Suchman-poster-28final29.pdf']}"
+    }
+  },
+  "discovery": {
+    "query": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?",
+    "urls": [
+      "https://doi.org/10.1016/s0016-0032(03)00046-2",
+      "https://fi.edu/en/awards/laureates/lucy-suchman",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+      "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+      "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+      "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+      "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+      "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+      "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+      "https://en.wikipedia.org/wiki/Lucy_Suchman"
+    ],
+    "requestId": "55425c4b8f1d73ddc053f634ed4bd344",
+    "latencyMs": 1252
+  },
+  "standard": {
+    "mode": "standard",
+    "request": {
+      "ids": [
+        "https://doi.org/10.1016/s0016-0032(03)00046-2",
+        "https://fi.edu/en/awards/laureates/lucy-suchman",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+        "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+        "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+        "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+        "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+        "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+        "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+        "https://en.wikipedia.org/wiki/Lucy_Suchman"
+      ],
+      "highlights": {
+        "query": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?"
+      }
+    },
+    "response": {
+      "requestId": "d204e9832fec0b715b7c5f4dfd5fe913",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://doi.org/10.1016/s0016-0032(03)00046-2",
+          "text": "# Bringing considerations of situated action to bear on the paradigm of cognitive modeling: the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman"
+        },
+        {
+          "id": "2.1",
+          "url": "https://fi.edu/en/awards/laureates/lucy-suchman",
+          "text": "Lucy Suchman | The Franklin Institute\n...\n# Lucy Suchman \n\n \n\nLucy\n\nSuchman\n...\nYear 2002\n...\nComputer and Cognitive Science\n...\nBenjamin Franklin Medal\n...\nFor her fundamental contributions to ethnographic analysis, conversational analysis and Participatory Design techniques for the development of interactive computer systems. Her techniques for system development have created a paradigm change in the way interactive systems are designed."
+        },
+        {
+          "id": "3.1",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+          "text": "# Bringing considerations of situated action to bear on the paradigm of cognitive modeling: the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman☆\n...\nAuthor links open overlay panelBethAdelson\nShow more\nAdd to Mendeley\nShare\n...\n## Medal legacy\n...\n1992|Allen Newell|Development of Languages and Architecture for a Unified Theory of Cognition|\n1999|Douglas C. Engelbart|Development of Interactive Computer Systems|\n2001|Marvin Minsky|Development of Conceptual Models of Mind|"
+        },
+        {
+          "id": "4.1",
+          "url": "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+          "text": " Honoring Dr. Lucy Suchman (2002 Benjamin Franklin Medal in Computer and Cognitive Science); Refiguring Sociomaterial Relations at the Interface. University of Pennsylvania Museum Academic Wing, Room 345, Wednesday, April 24, 10 a.m.-noon. Chaired by Dr. Gregory P. Urban, Department of Anthropology.\n...\nDr. Suchman, professor of sociology at Cartmel College at Lancaster University in the United Kingdom, is being honored \" For her fundamental contributions to ethnographic analysis, conversational analysis and Participatory Design techniques for the development of interactive computer systems. Her techniques for system development have created a paradigm change in the way interactive systems are designed.\""
+        },
+        {
+          "id": "5.1",
+          "url": "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+          "text": "2002\n...\nAllinger | Chemistry |\n...\n| 2002 | John W. Cahn | Materials Science, Bower Award and Prize for Achievement in Science |\n...\n| 2002 | Mary-Dell Chilton | Life Science |\n| 2002 | Sumio Iijima | Physics |\n| 2002 | Gordon E. Moore | Bower Award for Business Leadership |\n| 2002 | Shuji Nakamura | Engineering |\n| 2002 | Alexandra Navrotsky | Earth Science |\n| 2002 | Lucy Suchman | Computer and Cognitive Science |\n...\n| 2003 | Bishnu S. Atal | Electrical Engineering |\n| 2003 | John N. Bahcall | Physics |\n| 2003 | Raymond Davis Jr. | Physics |\n| 2003 | Jane Goodall | Life Science |\n| 2003 | Robin M. Hochstrasser | Chemistry |\n| 2003 | Masatoshi Koshiba | Physics |\n...\n| 2003 | Paul B. MacCready | Engineering, Bower Award and Prize for Achievement in Science |\n| 2003 | John McCarthy | Computer and Cognitive Science |\n...\n| 2003 | Norman A. Phillips | Earth Science |\n...\n| 200\n...\n| Earth Science |"
+        },
+        {
+          "id": "6.1",
+          "url": "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+          "text": "elementary particles decay through the weak interaction.\n\nRoberto\n\nCar\n\nYear\n\n2021\n\nSubject\n\nChemistry\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nPrinceton University | Princeton, New Jersey\n\nCitation\n\nWith Michele Parrinello, for inventing an efficient computational method that maps the interactions of large numbers of atoms in motion using quantum mechanics, an approach now used to describe and design diverse chemicals and materials, as well as to understand biological systems.\n\nSean B.\n\nCarroll\n\nYear\n\n2012\n\nSubject\n\nLife Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nHoward Hughes Medical Institute | University of Wisconsin-Madison | Madison, Wisconsin\n\nCitation\n\nFor proposing and demonstrating that the diversity and multiplicity of animal life is largely due to the different ways that the same genes are regulated rather than to mutation of the genes themselves.\n\nVinton\n\nCerf\n\nYear\n\n2018\n\nSubject\n\nComputer and Cognitive Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nGoogle Inc.│ Reston, Virginia\n\nCitation\n\nWith Robert E. Kahn, for enabling the Internet by developing TCP/IP, the set of methods that allows effective communication between millions of computer networks.\n\nShu\n\nChien\n\nYear\n\n2016\n\nSubject\n\nMechanical Engineering\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nUniversity of California, San Diego │ La Jolla California\n\nCitation\n\nFor contributions to the understanding of the physics of blood flow and for applying this knowledge to better diagnose cardiovascular disease.\n\nMary-Dell\n\nChilton\n\nYear\n\n2002\n\nSubject\n\nLife Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nResearch Triangle Park | North Carolina\n\nCitation\n\nFor her key discoveries and wide-ranging contributions in the development of the Agrobacterium tumefaciens Ti plasmid as a major vector system for plant genetic engineering.\n\nSallie\n\nChisholm\n\nYear\n\n2022\n\nSubject\n\nEarth and Environmental Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nMassachusetts Institute of Technology │ Cambridge, Massachusetts\n\nCitation\n\nFor her leading role in the discovery of Prochlorococcus, a marine microorganism that is the most abundant photosynthetic organism known, and for her pioneering studies exploring the role of Prochlorococcus and other ocean microbes in global chemical cycles and Earth’s climate.\n\nNoam\n\nChomsky\n\nYear\n\n1999\n\nSubject\n\nComputer and Cognitive Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nMassachusetts Institute of Technology | Cambridge, Massachusetts\n\nCitation\n\nFor his contributions to the world of linguistics and their effects on computer science, and insight into human thought processes.\n\nJoanne\n\nChory\n\nYear\n\n2024\n\nSubject\n\nLife Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nThe Salk Institute for Biological Studies │ La Jolla, California\n\nCitation\n\nFor applying genetics to the understanding of how plants sense and respond to light, and for inspiring new strategies for utilizing plants to combat climate change.\n\nJ. Ignacio\n\nCirac\n\nYear\n\n2010\n\nSubject\n\nPhysics\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nMax-Planck Institute for Quantum Optics | Garching, Germany\n\nCitation\n\nWith David Wineland and Peter Zoller, for their theoretical proposal and experimental realization of the first device that performs elementary computer-logic operations using the quantum properties of individual atoms.\n\nRay W.\n\nClough\n\nYear\n\n2006\n\nSubject\n\nCivil Engineering\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nUniversity of California, Berkeley | Berkeley, California\n\nCitation\n\nFor revolutionizing engineering and scientific computation and engineering design methods through his formulation and development of the finite element method, and for his innovative leadership in applying the method to the field of earthquake engineering with special emphasis on the seismic performance of dams.\n\nGeoffrey W.\n\nCoates\n\nYear\n\n2026\n\nSubject\n\nChemistry\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nCornell University │ Ithaca, New York\n\nCitation\n\nFor transformative work at the interface of chemical catalyst design and polymer science leading to novel ways of making biodegradable and recyclable plastics.\n\nJohn\n\nCocke\n\nYear\n\n2000\n\nSubject\n\nComputer and Cognitive Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nIBM Thomas J. Watson Research Center, Yorktown Heights | Yorktown Heights, New York\n\nCitation\n\nFor the development of reduced instruction set computing (RISC), which has led to a revolution in computer architecture.\n\nMarvin L.\n\nCohen\n\nYear\n\n2017\n\nSubject\n\nPhysics\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nUniversity of California, Berkeley and Lawrence Berkeley National Laboratory │Berkeley, California\n\nCitation\n\nFor making possible atomic-scale calculations of the properties of materials so detailed that new materials and their mechanical, thermal, electrical, and optical properties can be predicted in agreement with experiments.\n\nEric\n\nCornell\n\nYear\n\n2000\n\nSubject\n\nPhysics\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nUniversity of Colorado, Boulder | Boulder, Colorado\n\nCitation\n\nWith Carl Wieman and Wolfgang Ketterle, for their epoch-making experimental confirmation of the 1925 prediction by Satyendra Bose and Albert Einstein, who claimed on theoretical grounds that a dilute gas can condense into a large quantum-mechanical system and display properties that are usually found only on an atomic or molecular scale.\n\nAlexander\n\nDalgarno\n\nYear\n\n2013\n\nSubject\n\nPhysics\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nHarvard University | Cambridge, Massachusetts\n\nCitation\n\nFor his many fundamental contributions to the development of the field of molecular astrophysics, which led to a better understanding of interstellar space, including the giant molecular clouds that are the birthplaces of stars and planets.\n\nWilliam James\n\nDally\n\nYear\n\n2025\n\nSubject\n\nComputer and Cognitive Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nNVIDIA │ Santa Clara, California │ Stanford University │ Stanford, California\n\nCitation\n\nFor his contributions to the design of affordable, high-performance, parallel computer systems, a core technology that has enabled the rapid advancement of Artificial Intelligence and other applications that require massive amounts of computation.\n\nGordon\n\nDanby\n\nYear\n\n2000\n\nSubject\n\nMechanical Engineering\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nDanby Powell Maglev Technology Corporation\n\nCitation\n\nWith James Powell, for the invention of a novel repulsive magnetically-levitated train system using superconducting magnets and subsequent work in the field.\n\nSamuel J.\n\nDanishefsky\n\nYear\n\n2006\n\nSubject\n\nChemistry\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation\n\nColumbia University | New York, New York\n\nCitation\n\nFor his achievements in synthetic organic chemistry, particularly for the development of methods for preparing complex substances found in nature, and their emerging applications in the field of cancer treatment.\n\nNotes:\n\n- \"Franklin\" Medals are not the same as \"Benjamin Franklin\" Medals. The Benjamin Franklin Medal was initiated in 1998 to represent the combined legacies of several historic medals, including the Franklin Medal.\n- The Scott Medal is awarded by the City of Philadelphia. Prior to 1920, the Institute's Committee on Science and the Arts selected the medalists and the Scott Medals were presented on Awards Day at The Franklin Institute.\n- For more information about The Franklin Institute Awards program, contact the Awards Program Director at awards@fi.edu.\n\nVisit\n\nPlan Your Visit\n\n- Accessibility\n- Frequently Asked Questions\n\nExhibits & Experiences\n\n- All Exhibits & Experiences\n- Universal Theme Parks: The Exhibition (Limited Time Only)\n- Wondrous Space\n- Body Odyssey\n- Science Park\n\nUpcoming Events\n\n- Events Calendar\n\nScience & Education\n\nThe Franklin Institute Awards\n\nExhibit Resources for Educators\n\n- Next Generation Science Standards\n- Title I Schools\n- Neuroscience & Society Curriculum\n\nYouth and Community Programs"
+        },
+        {
+          "id": "7.1",
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+          "text": "200\n...\n2002\n...\nJohn W. Cahn | Materials Science, Bower\n...\nand Prize for Achievement in Science |\n| 2002 | Mary-Dell Chilton | Life Science |\n| 2002 | Sum\n...\nIijima | Physics |\n| 2002 | Gordon E. Moore | Bower Award for Business Leadership |\n| 2002 | Shuji Nakamura | Engineering |\n| 2002 | Alexandra Navrotsky | Earth Science |\n| 2002 | Lucy Suchman | Computer and Cognitive Science |"
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+          "text": "| 2002 | Norman L. Allinger | Chemistry |\n| 2002 | John W. Cahn | Materials Science, Bower Award and Prize for Achievement in Science |\n| 2002 | Mary-Dell Chilton | Life Science |\n| 2002 | Sumio Iijima | Physics |\n| 2002 | Gordon E. Moore | Bower Award for Business Leadership |\n| 2002 | Shuji Nakamura | Engineering |\n| 2002 | Alexandra Navrotsky | Earth Science |\n| 2002 | Lucy Suchman | Computer and Cognitive Science |\n| 2003 | Bishnu S. Atal | Electrical Engineering |\n| 2003 | John N. Bahcall | Physics |\n| 2003 | Raymond Davis Jr. | Physics |\n| 2003 | Jane Goodall | Life Science |\n| 2003 | Robin M. Hochstrasser | Chemistry |\n...\n| 2003 | Mas\n...\nKoshiba | Physics |\n...\n| 2003 | Paul\n...\nMacCready | Engineering, Bower Award and Prize for Achievement in Science |\n| 2003 |\n...\n| Computer and Cognitive Science |"
+        },
+        {
+          "id": "9.1",
+          "url": "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+          "text": "The Benjamin Franklin Medal in Chemistry is going to Norman L. Allinger, who directs the Computational Center for Molecular Structure and Design at the University of Georgia in Athens. He is being honored for his “pioneering work in computational chemistry [and] his seminal contributions to the development of molecular mechanics series of force fields, their widespread application to the fundamental understanding of molecular structure and energetics, and their implementation as a significant tool to practicing chemists.”"
+        },
+        {
+          "id": "10.1",
+          "url": "https://en.wikipedia.org/wiki/Lucy_Suchman",
+          "text": "- 1988 Xerox Corporate Research Group's Excellence in Science and Technology Award [6] \n- 2002 Benjamin Franklin Medal in Computer and Cognitive Science [12] \n- 2005 Outstanding Contribution to Research Award from the Communication and Information Technologies Section of the American Sociological Association [6] \n- 2010 Lifetime Research Award from the Association for Computing Machinery (ACM) Special Interest Group on Computer-Human Interaction [13] \n- 2011 Honorary Doctorate at Malmö University. [14] \n- 2014 John Desmond Bernal Prize from the Society for Social Studies of Science. [15] \n- 2018 Honorary Doctorate at Maastricht University. [16]\n...\n2. 1 2 Adelson, Beth (2003). \"Bringing considerations of situated action to bear on the paradigm of cognitive modeling: the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman\". Journal of the Franklin Institute. 340 (3– 4): 290. doi: 10.1016/s0016-0032(03)00046-2.\n...\n| Preceded by Marvin Minsky | Benjamin Franklin Medal in Computer and Cognitive Science 2002 | Succeeded by John McCarthy (computer scientist) |\n| --- | --- | --- |"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://doi.org/10.1016/s0016-0032(03)00046-2",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://fi.edu/en/awards/laureates/lucy-suchman",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lucy_Suchman",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.01
+    },
+    "metrics": {
+      "returnedCharacters": 13608,
+      "estimatedTokens": 3402,
+      "latencyMs": 136
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_064238a6bb4906b9016aafe69ba5c087d28e49ba437d00acde",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Lucy Suchman",
+      "usage": {
+        "inputTokens": 3313,
+        "outputTokens": 4,
+        "totalTokens": 3317
+      },
+      "latencyMs": 744,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_015b6123969f3b55016aafe69e0bb887d2a38a56537d1eb1a2",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 200,
+          "outputTokens": 2,
+          "totalTokens": 202
+        },
+        "latencyMs": 2658
+      }
+    }
+  },
+  "dynamic": {
+    "mode": "dynamic",
+    "request": {
+      "ids": [
+        "https://doi.org/10.1016/s0016-0032(03)00046-2",
+        "https://fi.edu/en/awards/laureates/lucy-suchman",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+        "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+        "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+        "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+        "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+        "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+        "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+        "https://en.wikipedia.org/wiki/Lucy_Suchman"
+      ],
+      "highlights": {
+        "query": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?",
+        "dynamic": true
+      },
+      "beta": "dynamic-highlights-2026-08-28"
+    },
+    "response": {
+      "requestId": "7ba5ce48759288713585e47798f539b1",
+      "excerpts": [
+        {
+          "id": "1.1",
+          "url": "https://doi.org/10.1016/s0016-0032(03)00046-2",
+          "text": "# Bringing considerations of situated action to bear on the paradigm of cognitive modeling: the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman"
+        },
+        {
+          "id": "2.1",
+          "url": "https://fi.edu/en/awards/laureates/lucy-suchman",
+          "text": "Suchman ... The Franklin Institute\n\n...\n\n# Lucy Suchman\n\n...\n\nLucy\n\n...\n\nSuchman\n\n...\n\nYear 2002\n\nSubject\n\nComputer and Cognitive Science\n\nAward\n\nBenjamin Franklin Medal\n\nAffiliation Cartmel College at Lancaster University | United Kingdom\n\n...\n\nethnographic analysis, conversational analysis and Participatory Design techniques for the development of interactive computer systems. Her techniques for system development have created a paradigm change in the way interactive systems are designed."
+        },
+        {
+          "id": "3.1",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+          "text": "considerations of situated action to bear on the paradigm of cognitive ... : the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman -\n\n...\n\nSkip\n\n...\n\nVolume ... 340, Issues 3–4,May–July 2003, Pages ... 283-292\nJournal of the Franklin Institute\n# Bringing considerations of situated action to bear on the paradigm of cognitive modeling: the 2002 Benjamin Franklin Medal in computer and cognitive science presented to Lucy Suchman☆\nAuthor links open overlay panelBethAdelson\nShow more\nAdd to Mendeley\nShare\nCite\n\n...\n\ndoi ... org/1 ... . ... 016/S00 ... 2( ... 3 ... 2"
+        },
+        {
+          "id": "4.1",
+          "url": "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+          "text": " Honoring Dr. Lucy Suchman (2002 Benjamin Franklin Medal in Computer and Cognitive Science); Refiguring Sociomaterial Relations at the Interface. University of Pennsylvania Museum Academic Wing, Room 345, Wednesday, April 24, 10 a.m.-noon. Chaired by Dr. Gregory P. Urban, Department of Anthropology.\n\n...\n\nDr. Suchman, professor of sociology at Cartmel ... at Lancaster University in the United ... is being honored \" For her fundamental contributions to ethnographic analysis, conversational analysis and Participatory Design techniques for the development of interactive computer ... . Her techniques for system development have created a paradigm change in ... way interactive systems are designed.\""
+        },
+        {
+          "id": "5.1",
+          "url": "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+          "text": "200 ... | ... Navrotsky | ... Science |\n\n...\n\n| 2002 | ... Suchman | Computer and Cognitive Science |"
+        },
+        {
+          "id": "7.1",
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+          "text": "20 ... | ... inger | ... |\n\n...\n\n0 ... | ... ahn | ... Science\n\n...\n\nio ... |\n\n...\n\n200 ... | ... . Moore ... |\n\n...\n\n| 2002 | Shuji Nakamura | Engineering |\n| 2002 | Alexandra Navrotsky | Earth Science |\n| 2002 | Lucy Suchman | Computer and Cognitive Science |\n| 2003 | Bishnu S. Atal | Electrical Engineering |\n| ... |"
+        },
+        {
+          "id": "8.1",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+          "text": "| ... 2002 | Norman L. Allinger | Chemistry |\n\n...\n\n| 2002 | John W. Cahn | Materials Science ... Bower Award and Prize for Achievement in Science |\n\n...\n\n002 | ... -Dell Chilton | Life Science |\n\n...\n\n2 ... 0 ... | ... io Iijima | ... |\n\n...\n\n| 2002 | Gordon E. Moore | Bower Award for Business Leadership |\n\n...\n\n| 2002 | Shuji Nakamura | Engineering |\n\n...\n\n| 2002 | Alexandra Navrotsky | Earth Science |\n| 2002 | Lucy Suchman | Computer and Cognitive Science |\n| 2003 | Bishnu S. Atal | Electrical Engineering |\n\n...\n\n|"
+        }
+      ],
+      "statuses": [
+        {
+          "url": "https://doi.org/10.1016/s0016-0032(03)00046-2",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://fi.edu/en/awards/laureates/lucy-suchman",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016003203000462",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://almanac.upenn.edu/archive/v48/n30/Franklin.html",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en-wp.org/wiki/Benjamin_Franklin_Medal_(Franklin_Institute)",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://fi.edu/en/awards/laureates-search?field_awards_target_id=402&field_lastname_value=&field_subject_target_id=All&field_year_value=&field_year_value_1=&page=1",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Franklin_Institute_Awards",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Franklin_Institute_Awards",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://physicstoday.aip.org/news/franklin-medals-to-be-awarded",
+          "status": "success",
+          "source": "cached"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lucy_Suchman",
+          "status": "success",
+          "source": "cached"
+        }
+      ],
+      "costDollars": 0.007
+    },
+    "metrics": {
+      "returnedCharacters": 2932,
+      "estimatedTokens": 733,
+      "latencyMs": 373
+    },
+    "answer": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-2024-07-18",
+      "responseId": "resp_04abe6fbcd914bd3016aafe69c632887d285eaf9fc113bd2ab",
+      "promptVersion": "simpleqa-grounded-short-answer-v1",
+      "text": "Lucy Suchman",
+      "usage": {
+        "inputTokens": 960,
+        "outputTokens": 4,
+        "totalTokens": 964
+      },
+      "latencyMs": 584,
+      "provisionalGrade": {
+        "exactMatch": 1,
+        "tokenF1": 1,
+        "note": "debug-only-not-official-simpleqa-grade"
+      },
+      "simpleQAGrade": {
+        "provider": "openai",
+        "model": "gpt-4o-mini-2024-07-18",
+        "responseId": "resp_0b840547088519d0016aafe69faf3c87d2803637e4423c2aa0",
+        "promptVersion": "openai-simpleqa-three-way-v1",
+        "rawOutput": "A",
+        "label": "CORRECT",
+        "score": 1,
+        "usage": {
+          "inputTokens": 200,
+          "outputTokens": 2,
+          "totalTokens": 202
+        },
+        "latencyMs": 452
+      }
+    }
+  }
+}
