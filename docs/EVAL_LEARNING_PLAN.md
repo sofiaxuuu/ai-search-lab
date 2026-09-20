@@ -58,6 +58,10 @@ Move from 10 to 25, then 100 items. Add resumability and concurrency limits
 before a full run. Add FRAMES or SealQA only after the SimpleQA trace is easy to
 audit without reading source code.
 
+The multi-benchmark implementation and pre-registered budget sweep now live in
+[`docs/SINGLE_TURN_SUITE.md`](./SINGLE_TURN_SUITE.md). Keep the 10-item pilot as
+the learning artifact; use the new suite for larger local claims.
+
 ## Commands
 
 ```bash

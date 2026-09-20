@@ -6,6 +6,15 @@ import { parseSimpleQAGrade } from "../lib/evals/openai-simpleqa-grader";
 import { summarizePairs } from "../lib/evals/aggregate";
 import type { RetrievalPair } from "../lib/evals/types";
 import { approximateSharedSentence, charactersByUrl, splitSentences } from "../lib/visualization/selection-compare";
+import {
+  adaptFrames,
+  adaptMultiLoKoRows,
+  adaptSealQARows,
+  adaptSimpleQA,
+  adaptSweQAJsonl,
+} from "../lib/evals/benchmark-adapters";
+import { pairedBootstrapCI } from "../lib/evals/bootstrap";
+import { countRetrievalTokens, RETRIEVAL_TOKENIZER } from "../lib/evals/retrieval-tokenizer";
 
 describe("deterministic sampling", () => {
   it("returns the same identities for the same seed", () => {
@@ -109,5 +118,66 @@ describe("selection comparison", () => {
       { id: "1", url: "https://a.example", text: "1234" },
       { id: "2", url: "https://a.example", text: "56" },
     ]).get("https://a.example")).toBe(6);
+  });
+});
+
+describe("single-turn benchmark adapters", () => {
+  it("normalizes each public benchmark into the shared item contract", () => {
+    expect(adaptSimpleQA("problem,answer\nWho?,Alice\n")[0]).toMatchObject({
+      problem: "Who?",
+      answer: "Alice",
+    });
+    expect(adaptMultiLoKoRows([{
+      question: "Quand?",
+      targets: ["1999", "en 1999"],
+      id: "Article",
+      output_type: "year",
+    }], "fr")[0]).toMatchObject({
+      answer: "1999",
+      acceptableAnswers: ["1999", "en 1999"],
+      metadata: { language: "fr" },
+    });
+    expect(adaptFrames("\tPrompt\tAnswer\treasoning_types\twiki_links\n0\tWhy?\tBecause\tmulti\t[]\n")[0]).toMatchObject({
+      problem: "Why?",
+      answer: "Because",
+    });
+    expect(adaptSealQARows([{ row_idx: 4, row: {
+      question: "What?",
+      answer: "That",
+      urls: ["https://example.com"],
+    } }], "sealqa-hard")[0]).toMatchObject({
+      id: "sealqa-hard-00005",
+      answer: "That",
+    });
+    expect(adaptSweQAJsonl('{"question":"How?","answer":"Carefully"}\n')[0]).toMatchObject({
+      id: "sweqa-code-proxy-00001",
+      answer: "Carefully",
+    });
+  });
+});
+
+describe("fixed retrieval tokenizer", () => {
+  it("counts the exact formatted context with the pinned encoding", () => {
+    expect(RETRIEVAL_TOKENIZER).toMatchObject({
+      libraryVersion: "1.0.21",
+      encoding: "o200k_base",
+      countedText: "formatted-retrieval-context",
+    });
+    expect(countRetrievalTokens([
+      { id: "1", url: "https://a.example", text: "First fact." },
+    ])).toBe(19);
+  });
+});
+
+describe("paired bootstrap", () => {
+  it("resamples paired question deltas deterministically", () => {
+    const rows = [{ standard: 1, dynamic: 1 }, { standard: 0, dynamic: 1 }];
+    const statistic = (sample: typeof rows) =>
+      sample.reduce((sum, row) => sum + row.dynamic - row.standard, 0) / sample.length;
+    const first = pairedBootstrapCI(rows, statistic, { iterations: 500, seed: 7 });
+    const second = pairedBootstrapCI(rows, statistic, { iterations: 500, seed: 7 });
+    expect(first).toEqual(second);
+    expect(first.low).toBe(0);
+    expect(first.high).toBe(1);
   });
 });

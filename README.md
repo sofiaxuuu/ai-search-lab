@@ -87,3 +87,6 @@ controls, reporting rules, and cost controls.
 If you are learning evals, follow [docs/EVAL_LEARNING_PLAN.md](./docs/EVAL_LEARNING_PLAN.md).
 It begins with a deterministic 10-item SimpleQA sample and one paired retrieval
 trace before introducing answer models or LLM graders.
+The larger single-turn reproduction protocol, dataset adapters, four-configuration
+sweep, fixed tokenizer, paired bootstrap intervals, and local SVG plot workflow
+are documented in [`docs/SINGLE_TURN_SUITE.md`](docs/SINGLE_TURN_SUITE.md).

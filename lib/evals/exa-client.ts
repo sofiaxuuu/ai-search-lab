@@ -1,4 +1,5 @@
 import type { DiscoveryTrace, HighlightMode, RetrievalArm } from "./types";
+import { countRetrievalTokens, RETRIEVAL_TOKENIZER } from "./retrieval-tokenizer";
 
 const API_BASE = "https://api.exa.ai";
 const DYNAMIC_BETA = "dynamic-highlights-2026-08-28";
@@ -23,7 +24,14 @@ async function postExa(
   const latencyMs = Math.round(performance.now() - startedAt);
   const payload = (await response.json().catch(() => ({}))) as Record<string, unknown>;
   if (!response.ok) {
-    const message = typeof payload.message === "string" ? payload.message : `HTTP ${response.status}`;
+    const error = payload.error as { message?: unknown } | string | undefined;
+    const message = typeof payload.message === "string"
+      ? payload.message
+      : typeof error === "string"
+        ? error
+        : typeof error?.message === "string"
+          ? error.message
+          : `HTTP ${response.status}: ${JSON.stringify(payload).slice(0, 500)}`;
     throw new Error(`Exa ${path} failed: ${message}`);
   }
   return { payload, latencyMs };
@@ -57,9 +65,18 @@ export async function retrieveHighlights(
   question: string,
   urls: string[],
   mode: HighlightMode,
+  options: { maxCharacters?: number; verbosity?: "low" | "medium" | "high" } = {},
 ): Promise<RetrievalArm> {
   const dynamic = mode === "dynamic";
-  const highlights = { query: question, ...(dynamic ? { dynamic: true as const } : {}) };
+  if (dynamic && options.maxCharacters !== undefined) {
+    throw new Error("Exa's public API does not allow maxCharacters with Dynamic Highlights");
+  }
+  const highlights = {
+    query: question,
+    ...(dynamic ? { dynamic: true as const } : {}),
+    ...(options.maxCharacters === undefined ? {} : { maxCharacters: options.maxCharacters }),
+    ...(options.verbosity === undefined ? {} : { verbosity: options.verbosity }),
+  };
   const { payload, latencyMs } = await postExa(
     "/contents",
     apiKey,
@@ -103,6 +120,8 @@ export async function retrieveHighlights(
     metrics: {
       returnedCharacters,
       estimatedTokens: Math.ceil(returnedCharacters / 4),
+      retrievalTokens: countRetrievalTokens(excerpts),
+      tokenizer: RETRIEVAL_TOKENIZER,
       latencyMs,
     },
   };

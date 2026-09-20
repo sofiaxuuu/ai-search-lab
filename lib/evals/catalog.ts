@@ -11,11 +11,11 @@ export type Benchmark = {
 };
 
 export const benchmarkCatalog: Benchmark[] = [
-  { id: "simpleqa", name: "SimpleQA", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 100, note: "Short factual answers." },
-  { id: "long-context-code-qa", name: "Long-context code QA", track: "single-turn", metric: "accuracy", availability: "unclear", defaultSampleSize: 50, note: "Exa does not identify the exact dataset; use a named public proxy and label it." },
-  { id: "multiloko", name: "MultiLoKo", track: "single-turn", metric: "exact match", availability: "public", defaultSampleSize: 100, note: "Locally sourced questions across 31 languages." },
-  { id: "frames", name: "FRAMES", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 100, note: "Multi-hop questions requiring several sources." },
-  { id: "sealqa", name: "SealQA + SealQA-Hard", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 100, note: "Noisy and conflicting search evidence." },
+  { id: "simpleqa", name: "SimpleQA", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 10, note: "Short factual answers." },
+  { id: "sweqa-code-proxy", name: "SWE-QA (public code-QA proxy)", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 10, note: "Our named public proxy for Exa's unspecified long-context code QA dataset; it is not Exa's dataset." },
+  { id: "multiloko", name: "MultiLoKo", track: "single-turn", metric: "exact match", availability: "public", defaultSampleSize: 10, note: "Locally sourced questions across 31 languages." },
+  { id: "frames", name: "FRAMES", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 10, note: "Multi-hop questions requiring several sources." },
+  { id: "sealqa", name: "SealQA + SealQA-Hard", track: "single-turn", metric: "accuracy", availability: "public", defaultSampleSize: 10, note: "Noisy and conflicting search evidence." },
   { id: "dsqa", name: "DSQA", track: "agentic", metric: "F1", availability: "public", defaultSampleSize: 30, note: "DeepSearchQA; multi-step information seeking." },
   { id: "browsecomp", name: "BrowseComp", track: "agentic", metric: "accuracy", availability: "public", defaultSampleSize: 30, note: "Hard-to-find, easy-to-verify facts." },
   { id: "finsearchcomp", name: "FinSearchComp", track: "agentic", metric: "accuracy", availability: "public", defaultSampleSize: 30, note: "Historical and multi-step financial research." },

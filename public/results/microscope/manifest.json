@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "totalQuestions": 60,
+  "defaultBenchmark": "simpleqa",
+  "defaultDynamicConfig": "medium",
+  "benchmarks": [
+    {
+      "id": "simpleqa",
+      "name": "SimpleQA",
+      "count": 10,
+      "path": "/results/microscope/simpleqa.json"
+    },
+    {
+      "id": "multiloko",
+      "name": "MultiLoKo",
+      "count": 10,
+      "path": "/results/microscope/multiloko.json"
+    },
+    {
+      "id": "frames",
+      "name": "FRAMES",
+      "count": 10,
+      "path": "/results/microscope/frames.json"
+    },
+    {
+      "id": "sealqa",
+      "name": "SealQA (SEAL-0)",
+      "count": 10,
+      "path": "/results/microscope/sealqa.json"
+    },
+    {
+      "id": "sealqa-hard",
+      "name": "SealQA-Hard",
+      "count": 10,
+      "path": "/results/microscope/sealqa-hard.json"
+    },
+    {
+      "id": "sweqa-code-proxy",
+      "name": "SWE-QA (public proxy for Exa's unspecified long-context code QA)",
+      "count": 10,
+      "path": "/results/microscope/sweqa-code-proxy.json"
+    }
+  ]
+}

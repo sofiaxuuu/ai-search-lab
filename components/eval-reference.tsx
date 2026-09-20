@@ -65,10 +65,10 @@ export function EvalReference({ singleTurn, agentic }: { singleTurn: PublishedPo
     <section className="evalSection" id="evals">
       <header className="evalIntro">
         <div>
-          <p className="eyebrow">Evaluation lab · Phase two</p>
+          <p className="eyebrow">Exa-published reference</p>
           <h2>Quality against context cost</h2>
         </div>
-        <p>We will hold the answer model, prompts, search settings, and question set fixed. The only experimental variable is Standard versus Dynamic Highlights.</p>
+        <p>Compare our local 60-question result above with Exa’s published single-turn and agentic figures. These reference points come from Exa’s evaluation and are separate from our local run.</p>
       </header>
       <div className="protocolStrip" aria-label="Evaluation protocol">
         <div><strong>01</strong><span>Same benchmark question</span></div>

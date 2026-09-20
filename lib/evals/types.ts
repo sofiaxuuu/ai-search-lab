@@ -1,15 +1,31 @@
 export type HighlightMode = "standard" | "dynamic";
 
+export const SINGLE_TURN_BENCHMARK_IDS = [
+  "simpleqa",
+  "multiloko",
+  "frames",
+  "sealqa",
+  "sealqa-hard",
+  "sweqa-code-proxy",
+] as const;
+
+export type SingleTurnBenchmarkId = (typeof SINGLE_TURN_BENCHMARK_IDS)[number];
+
 export type BenchmarkItem = {
   id: string;
   problem: string;
   answer: string;
-  metadata?: Record<string, string>;
+  acceptableAnswers?: string[];
+  metadata?: Record<string, unknown>;
 };
 
 export type DatasetSnapshot = {
-  benchmark: "simpleqa";
+  schemaVersion?: 1 | 2;
+  benchmark: SingleTurnBenchmarkId;
+  benchmarkName?: string;
   source: string;
+  sourceRevision?: string;
+  adapterVersion?: string;
   importedAt: string;
   seed: number;
   totalSourceItems: number;
@@ -33,7 +49,12 @@ export type RetrievalArm = {
   mode: HighlightMode;
   request: {
     ids: string[];
-    highlights: { query: string; dynamic?: true };
+    highlights: {
+      query: string;
+      dynamic?: true;
+      maxCharacters?: number;
+      verbosity?: "low" | "medium" | "high";
+    };
     beta?: string;
   };
   response: {
@@ -45,6 +66,8 @@ export type RetrievalArm = {
   metrics: {
     returnedCharacters: number;
     estimatedTokens: number;
+    retrievalTokens?: number;
+    tokenizer?: TokenizerDescriptor;
     latencyMs: number;
   };
   answer?: AnswerTrace;
@@ -68,6 +91,7 @@ export type AnswerTrace = {
     note: "debug-only-not-official-simpleqa-grade";
   };
   simpleQAGrade?: SimpleQAGradeTrace;
+  grade?: SimpleQAGradeTrace;
 };
 
 export type SimpleQAGradeLabel = "CORRECT" | "INCORRECT" | "NOT_ATTEMPTED";
@@ -76,7 +100,7 @@ export type SimpleQAGradeTrace = {
   provider: "openai";
   model: string;
   responseId: string;
-  promptVersion: "openai-simpleqa-three-way-v1";
+  promptVersion: "openai-simpleqa-three-way-v1" | "reference-answer-three-way-v1";
   rawOutput: string;
   label: SimpleQAGradeLabel;
   score: 0 | 1;
@@ -96,4 +120,23 @@ export type RetrievalPair = {
   discovery: DiscoveryTrace;
   standard: RetrievalArm;
   dynamic: RetrievalArm;
+};
+
+export type TokenizerDescriptor = {
+  library: "js-tiktoken";
+  libraryVersion: "1.0.21";
+  encoding: "o200k_base";
+  countedText: "formatted-retrieval-context";
+};
+
+export type BudgetSweepTrace = {
+  schemaVersion: 2;
+  createdAt: string;
+  benchmark: SingleTurnBenchmarkId;
+  item: BenchmarkItem;
+  discovery: DiscoveryTrace;
+  standard: RetrievalArm;
+  dynamicByConfig: Record<string, RetrievalArm>;
+  /** Present only on an interrupted pre-migration trace. */
+  dynamicByBudget?: Record<string, RetrievalArm>;
 };
