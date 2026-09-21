@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-21T17:54:59.516Z",
+  "completedPairs": 12,
+  "aggregation": "paired by question; macro average weights each benchmark equally",
+  "bootstrap": "10,000 paired resamples per benchmark; percentile 95% CI; seed 20260920",
+  "byBenchmark": {
+    "browsecomp": {
+      "completedItems": 3,
+      "standardScore": 0.3333333333333333,
+      "dynamicScore": 0.3333333333333333,
+      "scoreDelta": 0,
+      "scoreDeltaCI95": {
+        "level": 0.95,
+        "low": 0,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardObservedTokens": {
+        "mean": 22916.333333333332,
+        "median": 20814,
+        "q1": 14693.5,
+        "q3": 30088
+      },
+      "dynamicObservedTokens": {
+        "mean": 18181.333333333332,
+        "median": 15512,
+        "q1": 14151.5,
+        "q3": 20876.5
+      },
+      "observedTokenReduction": 0.20662118721726863,
+      "observedTokenReductionCI95": {
+        "level": 0.95,
+        "low": -0.8094016097048875,
+        "high": 0.3854617084654559,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardRetrievalTokens": {
+        "mean": 7704.333333333333,
+        "median": 7991,
+        "q1": 5907,
+        "q3": 9645
+      },
+      "dynamicRetrievalTokens": {
+        "mean": 6083.333333333333,
+        "median": 5590,
+        "q1": 5228,
+        "q3": 6692
+      },
+      "standardSearches": {
+        "mean": 2,
+        "median": 2,
+        "q1": 1.5,
+        "q3": 2.5
+      },
+      "dynamicSearches": {
+        "mean": 2.3333333333333335,
+        "median": 2,
+        "q1": 2,
+        "q3": 2.5
+      },
+      "meanSearchDelta": 0.3333333333333333,
+      "searchDeltaCI95": {
+        "level": 0.95,
+        "low": 0,
+        "high": 1,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "rows": [
+        {
+          "itemId": "browsecomp-00473",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 20814,
+          "dynamicObservedTokens": 12791,
+          "standardRetrievalTokens": 7991,
+          "dynamicRetrievalTokens": 4866,
+          "standardSearches": 2,
+          "dynamicSearches": 2
+        },
+        {
+          "itemId": "browsecomp-00506",
+          "standardScore": 1,
+          "dynamicScore": 1,
+          "scoreDelta": 0,
+          "standardObservedTokens": 8573,
+          "dynamicObservedTokens": 15512,
+          "standardRetrievalTokens": 3823,
+          "dynamicRetrievalTokens": 5590,
+          "standardSearches": 1,
+          "dynamicSearches": 2
+        },
+        {
+          "itemId": "browsecomp-00537",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 39362,
+          "dynamicObservedTokens": 26241,
+          "standardRetrievalTokens": 11299,
+          "dynamicRetrievalTokens": 7794,
+          "standardSearches": 3,
+          "dynamicSearches": 3
+        }
+      ]
+    },
+    "dsqa": {
+      "completedItems": 3,
+      "standardScore": 0.3244444444444445,
+      "dynamicScore": 0.14814814814814814,
+      "scoreDelta": -0.17629629629629628,
+      "scoreDeltaCI95": {
+        "level": 0.95,
+        "low": -0.5288888888888889,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardObservedTokens": {
+        "mean": 58264.333333333336,
+        "median": 56131,
+        "q1": 37801.5,
+        "q3": 77660.5
+      },
+      "dynamicObservedTokens": {
+        "mean": 33305,
+        "median": 27963,
+        "q1": 21173.5,
+        "q3": 42765.5
+      },
+      "observedTokenReduction": 0.4283809992391,
+      "observedTokenReductionCI95": {
+        "level": 0.95,
+        "low": 0.26129827444535747,
+        "high": 0.5018260854073506,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardRetrievalTokens": {
+        "mean": 20698.333333333332,
+        "median": 17752,
+        "q1": 12640.5,
+        "q3": 27283
+      },
+      "dynamicRetrievalTokens": {
+        "mean": 12807.666666666666,
+        "median": 10612,
+        "q1": 7931,
+        "q3": 16586.5
+      },
+      "standardSearches": {
+        "mean": 3.3333333333333335,
+        "median": 4,
+        "q1": 3,
+        "q3": 4
+      },
+      "dynamicSearches": {
+        "mean": 3,
+        "median": 3,
+        "q1": 2.5,
+        "q3": 3.5
+      },
+      "meanSearchDelta": -0.3333333333333333,
+      "searchDeltaCI95": {
+        "level": 0.95,
+        "low": -1,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "rows": [
+        {
+          "itemId": "dsqa-00155",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 19472,
+          "dynamicObservedTokens": 14384,
+          "standardRetrievalTokens": 7529,
+          "dynamicRetrievalTokens": 5250,
+          "standardSearches": 2,
+          "dynamicSearches": 2
+        },
+        {
+          "itemId": "dsqa-00744",
+          "standardScore": 0.64,
+          "dynamicScore": 0.11111111111111112,
+          "scoreDelta": -0.5288888888888889,
+          "standardObservedTokens": 56131,
+          "dynamicObservedTokens": 27963,
+          "standardRetrievalTokens": 17752,
+          "dynamicRetrievalTokens": 10612,
+          "standardSearches": 4,
+          "dynamicSearches": 3
+        },
+        {
+          "itemId": "dsqa-00820",
+          "standardScore": 0.3333333333333333,
+          "dynamicScore": 0.3333333333333333,
+          "scoreDelta": 0,
+          "standardObservedTokens": 99190,
+          "dynamicObservedTokens": 57568,
+          "standardRetrievalTokens": 36814,
+          "dynamicRetrievalTokens": 22561,
+          "standardSearches": 4,
+          "dynamicSearches": 4
+        }
+      ]
+    },
+    "finsearchcomp": {
+      "completedItems": 3,
+      "standardScore": 0,
+      "dynamicScore": 0,
+      "scoreDelta": 0,
+      "scoreDeltaCI95": {
+        "level": 0.95,
+        "low": 0,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardObservedTokens": {
+        "mean": 19990.333333333332,
+        "median": 22482,
+        "q1": 17096,
+        "q3": 24130.5
+      },
+      "dynamicObservedTokens": {
+        "mean": 28480.333333333332,
+        "median": 39904,
+        "q1": 22746.5,
+        "q3": 39926
+      },
+      "observedTokenReduction": -0.424705274215871,
+      "observedTokenReductionCI95": {
+        "level": 0.95,
+        "low": -0.7749310559558757,
+        "high": 0.5227156276686593,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardRetrievalTokens": {
+        "mean": 7559,
+        "median": 8061,
+        "q1": 6810.5,
+        "q3": 8558.5
+      },
+      "dynamicRetrievalTokens": {
+        "mean": 11194.333333333334,
+        "median": 15382,
+        "q1": 8944,
+        "q3": 15538.5
+      },
+      "standardSearches": {
+        "mean": 2,
+        "median": 2,
+        "q1": 1.5,
+        "q3": 2.5
+      },
+      "dynamicSearches": {
+        "mean": 1.6666666666666667,
+        "median": 2,
+        "q1": 1.5,
+        "q3": 2
+      },
+      "meanSearchDelta": -0.3333333333333333,
+      "searchDeltaCI95": {
+        "level": 0.95,
+        "low": -1,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "rows": [
+        {
+          "itemId": "(T2)Simple_Historical_Lookup_064",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 22482,
+          "dynamicObservedTokens": 39904,
+          "standardRetrievalTokens": 9056,
+          "dynamicRetrievalTokens": 15382,
+          "standardSearches": 2,
+          "dynamicSearches": 2
+        },
+        {
+          "itemId": "(T2)Simple_Historical_Lookup_537",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 11710,
+          "dynamicObservedTokens": 5589,
+          "standardRetrievalTokens": 5560,
+          "dynamicRetrievalTokens": 2506,
+          "standardSearches": 1,
+          "dynamicSearches": 1
+        },
+        {
+          "itemId": "(T2)Simple_Historical_Lookup_601",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 25779,
+          "dynamicObservedTokens": 39948,
+          "standardRetrievalTokens": 8061,
+          "dynamicRetrievalTokens": 15695,
+          "standardSearches": 3,
+          "dynamicSearches": 2
+        }
+      ]
+    },
+    "livebrowsecomp": {
+      "completedItems": 3,
+      "standardScore": 0.3333333333333333,
+      "dynamicScore": 0.3333333333333333,
+      "scoreDelta": 0,
+      "scoreDeltaCI95": {
+        "level": 0.95,
+        "low": 0,
+        "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardObservedTokens": {
+        "mean": 37120.333333333336,
+        "median": 27800,
+        "q1": 27553,
+        "q3": 42027.5
+      },
+      "dynamicObservedTokens": {
+        "mean": 30453.333333333332,
+        "median": 30272,
+        "q1": 29965.5,
+        "q3": 30850.5
+      },
+      "observedTokenReduction": 0.1796050682016147,
+      "observedTokenReductionCI95": {
+        "level": 0.95,
+        "low": -0.10862081593788919,
+        "high": 0.4413118833881433,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardRetrievalTokens": {
+        "mean": 11452.666666666666,
+        "median": 9885,
+        "q1": 8624.5,
+        "q3": 13497
+      },
+      "dynamicRetrievalTokens": {
+        "mean": 8999.666666666666,
+        "median": 8865,
+        "q1": 8748.5,
+        "q3": 9183.5
+      },
+      "standardSearches": {
+        "mean": 2.6666666666666665,
+        "median": 3,
+        "q1": 2.5,
+        "q3": 3
+      },
+      "dynamicSearches": {
+        "mean": 3,
+        "median": 3,
+        "q1": 3,
+        "q3": 3
+      },
+      "meanSearchDelta": 0.3333333333333333,
+      "searchDeltaCI95": {
+        "level": 0.95,
+        "low": 0,
+        "high": 1,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "rows": [
+        {
+          "itemId": "195",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 27800,
+          "dynamicObservedTokens": 29659,
+          "standardRetrievalTokens": 7364,
+          "dynamicRetrievalTokens": 8632,
+          "standardSearches": 3,
+          "dynamicSearches": 3
+        },
+        {
+          "itemId": "213",
+          "standardScore": 1,
+          "dynamicScore": 1,
+          "scoreDelta": 0,
+          "standardObservedTokens": 27306,
+          "dynamicObservedTokens": 30272,
+          "standardRetrievalTokens": 9885,
+          "dynamicRetrievalTokens": 8865,
+          "standardSearches": 2,
+          "dynamicSearches": 3
+        },
+        {
+          "itemId": "228",
+          "standardScore": 0,
+          "dynamicScore": 0,
+          "scoreDelta": 0,
+          "standardObservedTokens": 56255,
+          "dynamicObservedTokens": 31429,
+          "standardRetrievalTokens": 17109,
+          "dynamicRetrievalTokens": 9502,
+          "standardSearches": 3,
+          "dynamicSearches": 3
+        }
+      ]
+    }
+  },
+  "macro": {
+    "standardScore": 0.24777777777777776,
+    "dynamicScore": 0.2037037037037037,
+    "scoreDelta": -0.04407407407407407,
+    "observedTokenReduction": 0.09747549511052808,
+    "meanSearchDelta": 0
+  }
+}

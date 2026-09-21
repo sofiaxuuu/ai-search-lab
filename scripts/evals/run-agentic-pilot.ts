@@ -1,11 +1,9 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { dirname, resolve } from "node:path";
-import { runPairedSearchAgent, type DiscoveryCache } from "../../lib/evals/agent-loop";
-import { gradeAgenticPair } from "../../lib/evals/agentic-grading";
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import { runAndSaveAgenticPair } from "../../lib/evals/run-agentic-pair";
 import type {
   AgenticBenchmarkId,
   AgenticDatasetSnapshot,
-  AgenticPairTrace,
 } from "../../lib/evals/types";
 import { AGENTIC_BENCHMARK_IDS } from "../../lib/evals/types";
 
@@ -41,42 +39,25 @@ if (!isLive) {
 const openaiApiKey = process.env.OPENAI_API_KEY;
 const exaApiKey = process.env.EXA_API_KEY;
 if (!openaiApiKey || !exaApiKey) throw new Error("OPENAI_API_KEY and EXA_API_KEY are required");
-const discoveryCache: DiscoveryCache = new Map();
-const standard = await runPairedSearchAgent({ openaiApiKey, exaApiKey, question: item.problem, mode: "standard", discoveryCache });
-const dynamic = await runPairedSearchAgent({ openaiApiKey, exaApiKey, question: item.problem, mode: "dynamic", discoveryCache });
-const grading = await gradeAgenticPair(
+const trace = await runAndSaveAgenticPair({
   openaiApiKey,
-  dataset.benchmark as AgenticBenchmarkId,
+  exaApiKey,
+  benchmark: dataset.benchmark as AgenticBenchmarkId,
   item,
-  standard.finalAnswer,
-  dynamic.finalAnswer,
-);
-const trace: AgenticPairTrace = {
-  schemaVersion: 1,
-  createdAt: new Date().toISOString(),
-  benchmark: dataset.benchmark,
-  item,
-  standard,
-  dynamic,
-  ...grading,
-};
-await mkdir(dirname(output), { recursive: true });
-await writeFile(output, `${JSON.stringify(trace, null, 2)}\n`);
+  output,
+});
+const { standard, dynamic } = trace;
 console.log(JSON.stringify({
   output,
   item: item.id,
   standard: {
     searches: standard.searches.length,
     ...standard.usage,
-    score: "dsqaF1Grades" in grading
-      ? grading.dsqaF1Grades.standard.f1
-      : grading.benchmarkGrades.standard.score,
+    score: trace.dsqaF1Grades?.standard.f1 ?? trace.benchmarkGrades?.standard.score,
   },
   dynamic: {
     searches: dynamic.searches.length,
     ...dynamic.usage,
-    score: "dsqaF1Grades" in grading
-      ? grading.dsqaF1Grades.dynamic.f1
-      : grading.benchmarkGrades.dynamic.score,
+    score: trace.dsqaF1Grades?.dynamic.f1 ?? trace.benchmarkGrades?.dynamic.score,
   },
 }, null, 2));
