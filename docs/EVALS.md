@@ -40,6 +40,47 @@ calls, latency, and task score. Because the public Exa Agent API does not expose
 an experiment switch for its internal highlight mode, this repo should use its
 own fixed agent loop rather than claim to reproduce Exa Agent's internal run.
 
+### First local agentic pilot
+
+Create deterministic 10-question local snapshots without making paid API calls:
+
+`npm run eval:agentic:prepare`
+
+This prepares DSQA, BrowseComp, FinSearchComp, and LiveBrowseComp. BrowseComp's
+and LiveBrowseComp's protected questions are decrypted only into
+`evals/datasets/generated/`, which is ignored by Git and must not be exported
+to the app or published.
+
+`npm run eval:agentic:dry -- --dataset=evals/datasets/generated/dsqa-10.json`
+prints the upper request cap for one paired question. Add `--live` only after
+reviewing it. The agent has one `search_web` tool and a four-search limit. Each
+tool call discovers a URL set once and caches it by query, then retrieves the
+same cached URLs with Standard or Dynamic Highlights. Thus the mode may change
+what the agent searches next and whether it needs another search—an intended
+agentic outcome—while a matching query sees identical candidate URLs.
+
+Report these separately: (1) sum of Responses API input/output tokens over all
+agent turns, (2) exact formatted retrieval-context tokens returned by Exa, and
+(3) their sum, called `totalObservedTokens`. The last is useful for comparing
+the loop's context load, but is not a provider billing total. Start with one
+question from each public agentic benchmark once adapters are added; do not
+pool those scores with the existing single-turn suite.
+
+DSQA traces also include precision, recall, and F1 from
+`dsqa-list-f1-openai-proxy-v1`. The proxy uses structured item extraction and
+one-to-one semantic matching, then computes the metrics deterministically in
+code. It is useful for local partial-credit comparisons, but it is not the
+official DSQA Gemini 2.5 Flash autorater and must remain labeled as a proxy.
+
+The remaining agentic tracks use their own accuracy contracts. BrowseComp uses
+its published strict semantic match criteria. FinSearchComp uses the system and
+user judge templates shipped with each dataset row and parses `answer_score`.
+LiveBrowseComp uses a clearly labeled BrowseComp-style exact-answer proxy
+because its release does not include a separate grader implementation. All use
+the fixed OpenAI grader model in this repo, so only BrowseComp is described as
+benchmark-compatible; none are claimed as exact reproductions of unpublished
+or differently modeled leaderboard evaluators.
+
 ## Reporting
 
 - Pair Standard and Dynamic runs by benchmark item and random seed.
