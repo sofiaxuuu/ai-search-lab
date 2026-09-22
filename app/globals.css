@@ -43,7 +43,7 @@ main { min-height: 100vh; padding-bottom: 56px; }
 .runState { display: flex; align-items: center; gap: 8px; color: var(--muted); font: 600 13px/1 monospace; text-transform: uppercase; letter-spacing: .06em; }
 .statusDot { width: 8px; height: 8px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 4px rgba(85, 214, 167, .18); }
 
-.workspaceIntro, .queryCard, .comparisonGrid, .methodNote, .evalSection, .microscopeSection, .localEvalSection, .agenticEvalSection { width: min(1440px, calc(100% - 36px)); margin-inline: auto; }
+.workspaceIntro, .queryCard, .comparisonGrid, .methodNote, .evalSection, .microscopeSection, .localEvalSection, .agenticEvalSection, .agentInspectorSection { width: min(1440px, calc(100% - 36px)); margin-inline: auto; }
 .workspaceIntro { padding: 54px 0 32px; display: flex; align-items: end; justify-content: space-between; gap: 32px; }
 .eyebrow { margin: 0 0 10px; color: #41735e; font: 700 12px/1.3 monospace; text-transform: uppercase; letter-spacing: .09em; }
 h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-height: .98; letter-spacing: -.065em; }
@@ -215,6 +215,52 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
 .agenticTable tbody th { font-weight: 700; }
 .agenticTable tbody td { font-family: monospace; }
 
+.agentInspectorSection { margin-top: 72px; padding-top: 42px; border-top: 1px solid var(--ink); }
+.agentInspectorControl { margin-top: 28px; padding: 18px; border: 1px solid var(--ink); background: var(--panel); display: grid; grid-template-columns: minmax(180px, .55fr) minmax(300px, 1fr) auto auto; align-items: end; gap: 14px; box-shadow: 4px 4px 0 var(--ink); }
+.protectedTraceNote { margin-top: 18px; padding: 14px 16px; border-left: 4px solid #ef5a3c; background: #feece4; display: flex; align-items: baseline; gap: 14px; }
+.protectedTraceNote strong { font: 700 11px/1.2 monospace; text-transform: uppercase; white-space: nowrap; }
+.protectedTraceNote span { color: #6f493b; font-size: 13px; line-height: 1.45; }
+.agentInspectorAnswers { margin-top: 18px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); background: var(--panel); }
+.agentInspectorAnswers > div { min-width: 0; padding: 17px 18px; border-right: 1px solid var(--line); }
+.agentInspectorAnswers > div:last-child { border-right: 0; }
+.agentInspectorAnswers span { display: block; margin-bottom: 9px; color: var(--muted); font: 700 10px/1.25 monospace; text-transform: uppercase; }
+.agentInspectorAnswers strong { font-size: 14px; line-height: 1.45; }
+.agentTraceGrid { margin-top: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.agentTraceArm { min-width: 0; border: 1px solid var(--line); background: var(--panel); }
+.agentTraceArm.standard { border-top: 4px solid var(--dark); }
+.agentTraceArm.dynamic { border-top: 4px solid var(--mint); }
+.agentTraceArm > header { padding: 17px 18px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 18px; }
+.agentTraceArm > header span { font-weight: 700; }
+.agentTraceArm > header strong { color: var(--muted); font: 700 11px/1.3 monospace; text-transform: uppercase; }
+.agentTraceMetrics { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+.agentTraceMetrics > div { min-width: 0; padding: 13px 15px; border-right: 1px solid var(--line); }
+.agentTraceMetrics > div:last-child { border-right: 0; }
+.agentTraceMetrics span { display: block; color: var(--muted); font: 9px/1.2 monospace; text-transform: uppercase; }
+.agentTraceMetrics strong { display: block; margin-top: 7px; font: 700 16px/1 monospace; }
+.agentSearchList { padding: 10px; display: grid; gap: 9px; }
+.agentSearchCard { border: 1px solid var(--line); background: white; }
+.agentSearchCard > summary { padding: 12px 13px; cursor: pointer; list-style: none; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; }
+.agentSearchCard > summary::-webkit-details-marker, .agentSearchExcerpt > summary::-webkit-details-marker { display: none; }
+.agentSearchCard > summary span { padding: 5px 7px; border-radius: 3px; background: #e9ede7; font: 700 10px/1 monospace; text-transform: uppercase; }
+.agentSearchCard.dynamic > summary span { background: #d7f4e7; color: #155b43; }
+.agentSearchCard > summary strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+.agentSearchCard > summary small { color: var(--muted); font: 10px/1 monospace; white-space: nowrap; }
+.agentSearchAllocation { padding: 10px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.agentSearchSource { padding: 10px; border: 1px solid #e1e5df; background: var(--panel); }
+.agentSearchSource > div { min-width: 0; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 8px; }
+.agentSearchSource b { color: #347058; font: 700 10px/1 monospace; }
+.agentSearchSource span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 12px/1.2 monospace; }
+.agentSearchSource small { color: var(--muted); font: 9px/1 monospace; white-space: nowrap; }
+.agentSearchSource > i { height: 9px; margin-top: 8px; display: block; background: #e2e7e0; }
+.agentSearchSource > i span { height: 100%; min-width: 1px; display: block; background: var(--dark); }
+.agentTraceArm.dynamic .agentSearchSource > i span { background: var(--mint); }
+.agentSearchExcerpt { margin-top: 9px; border-top: 1px dashed var(--line); }
+.agentSearchExcerpt > summary { padding-top: 9px; cursor: pointer; color: #17664b; font: 700 10px/1 monospace; text-transform: uppercase; }
+.agentSearchEvidence { max-height: 320px; margin-top: 9px; overflow: auto; background: white; }
+.agentSearchEvidence.sentenceList { padding: 10px; }
+.agentSearchEvidence.sentenceList p { font-size: 13px; }
+.agentSearchExcerpt a { margin-top: 9px; display: inline-block; color: #17664b; font-size: 11px; font-weight: 700; }
+
 .evalSection { margin-top: 72px; padding-top: 42px; border-top: 1px solid var(--ink); }
 .evalIntro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 560px); gap: 40px; align-items: end; }
 .evalIntro h2 { margin: 0; font-size: clamp(34px, 4vw, 58px); line-height: 1; letter-spacing: -.055em; }
@@ -258,6 +304,10 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
   .microscopeControls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .microscopeControls .questionField { grid-column: 1 / -1; }
   .selectionEvidenceGrid { grid-template-columns: 1fr; }
+  .agentTraceGrid { grid-template-columns: 1fr; }
+  .agentInspectorAnswers { grid-template-columns: 1fr; }
+  .agentInspectorAnswers > div { border-right: 0; border-bottom: 1px solid var(--line); }
+  .agentInspectorAnswers > div:last-child { border-bottom: 0; }
   .microscopeAnswer { grid-template-columns: 1fr; }
   .microscopeAnswer div { border-right: 0; border-bottom: 1px solid var(--line); }
   .microscopeAnswer div:last-child { border-bottom: 0; }
@@ -282,6 +332,7 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(38px, 5.4vw, 76px); line-heig
   .localMetricStrip > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .questionControl { grid-template-columns: 1fr; }
   .microscopeControls { grid-template-columns: 1fr; }
+  .agentInspectorControl { grid-template-columns: 1fr; }
   .microscopeControls .questionField { grid-column: auto; }
   .deltaChip { width: 100%; }
   .selectionModel { grid-template-columns: 1fr; gap: 8px; }

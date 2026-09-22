@@ -59,12 +59,14 @@ same cached URLs with Standard or Dynamic Highlights. Thus the mode may change
 what the agent searches next and whether it needs another search—an intended
 agentic outcome—while a matching query sees identical candidate URLs.
 
-Report these separately: (1) sum of Responses API input/output tokens over all
-agent turns, (2) exact formatted retrieval-context tokens returned by Exa, and
-(3) their sum, called `totalObservedTokens`. The last is useful for comparing
-the loop's context load, but is not a provider billing total. Start with one
-question from each public agentic benchmark once adapters are added; do not
-pool those scores with the existing single-turn suite.
+Report these separately: (1) observed Responses API input/output tokens summed
+over all agent turns, (2) exact formatted retrieval-context tokens returned by
+Exa, and (3) search count. Use model tokens as the primary agent-efficiency
+measure because retrieval text is already present in later model inputs. Older
+traces retain `totalObservedTokens` as a diagnostic sum, but it must not be used
+as a billing total or the primary chart axis because it adds retrieval tokens a
+second time. Start with one question from each public agentic benchmark once
+adapters are added; do not pool those scores with the existing single-turn suite.
 
 DSQA traces also include precision, recall, and F1 from
 `dsqa-list-f1-openai-proxy-v1`. The proxy uses structured item extraction and

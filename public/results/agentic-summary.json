@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T17:54:59.516Z",
+  "generatedAt": "2026-09-22T15:11:34.127Z",
   "completedPairs": 12,
   "aggregation": "paired by question; macro average weights each benchmark equally",
   "bootstrap": "10,000 paired resamples per benchmark; percentile 95% CI; seed 20260920",
@@ -14,6 +14,26 @@
         "level": 0.95,
         "low": 0,
         "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardModelTokens": {
+        "mean": 15212,
+        "median": 12823,
+        "q1": 8786.5,
+        "q3": 20443
+      },
+      "dynamicModelTokens": {
+        "mean": 12098,
+        "median": 9922,
+        "q1": 8923.5,
+        "q3": 14184.5
+      },
+      "modelTokenReduction": 0.204706810412832,
+      "modelTokenReductionCI95": {
+        "level": 0.95,
+        "low": -1.0888421052631578,
+        "high": 0.38196989783981905,
         "iterations": 10000,
         "seed": 20260920
       },
@@ -75,6 +95,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 12823,
+          "dynamicModelTokens": 7925,
           "standardObservedTokens": 20814,
           "dynamicObservedTokens": 12791,
           "standardRetrievalTokens": 7991,
@@ -87,6 +109,8 @@
           "standardScore": 1,
           "dynamicScore": 1,
           "scoreDelta": 0,
+          "standardModelTokens": 4750,
+          "dynamicModelTokens": 9922,
           "standardObservedTokens": 8573,
           "dynamicObservedTokens": 15512,
           "standardRetrievalTokens": 3823,
@@ -99,6 +123,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 28063,
+          "dynamicModelTokens": 18447,
           "standardObservedTokens": 39362,
           "dynamicObservedTokens": 26241,
           "standardRetrievalTokens": 11299,
@@ -117,6 +143,26 @@
         "level": 0.95,
         "low": -0.5288888888888889,
         "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardModelTokens": {
+        "mean": 37566,
+        "median": 38379,
+        "q1": 25161,
+        "q3": 50377.5
+      },
+      "dynamicModelTokens": {
+        "mean": 20497.333333333332,
+        "median": 17351,
+        "q1": 13242.5,
+        "q3": 26179
+      },
+      "modelTokenReduction": 0.45436476246251045,
+      "modelTokenReductionCI95": {
+        "level": 0.95,
+        "low": 0.23520053587875744,
+        "high": 0.5479038015581438,
         "iterations": 10000,
         "seed": 20260920
       },
@@ -178,6 +224,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 11943,
+          "dynamicModelTokens": 9134,
           "standardObservedTokens": 19472,
           "dynamicObservedTokens": 14384,
           "standardRetrievalTokens": 7529,
@@ -190,6 +238,8 @@
           "standardScore": 0.64,
           "dynamicScore": 0.11111111111111112,
           "scoreDelta": -0.5288888888888889,
+          "standardModelTokens": 38379,
+          "dynamicModelTokens": 17351,
           "standardObservedTokens": 56131,
           "dynamicObservedTokens": 27963,
           "standardRetrievalTokens": 17752,
@@ -202,6 +252,8 @@
           "standardScore": 0.3333333333333333,
           "dynamicScore": 0.3333333333333333,
           "scoreDelta": 0,
+          "standardModelTokens": 62376,
+          "dynamicModelTokens": 35007,
           "standardObservedTokens": 99190,
           "dynamicObservedTokens": 57568,
           "standardRetrievalTokens": 36814,
@@ -220,6 +272,26 @@
         "level": 0.95,
         "low": 0,
         "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardModelTokens": {
+        "mean": 12431.333333333334,
+        "median": 13426,
+        "q1": 9788,
+        "q3": 15572
+      },
+      "dynamicModelTokens": {
+        "mean": 17286,
+        "median": 24253,
+        "q1": 13668,
+        "q3": 24387.5
+      },
+      "modelTokenReduction": -0.39051858207754586,
+      "modelTokenReductionCI95": {
+        "level": 0.95,
+        "low": -0.8264561298972144,
+        "high": 0.4986991869918699,
         "iterations": 10000,
         "seed": 20260920
       },
@@ -281,6 +353,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 13426,
+          "dynamicModelTokens": 24522,
           "standardObservedTokens": 22482,
           "dynamicObservedTokens": 39904,
           "standardRetrievalTokens": 9056,
@@ -293,6 +367,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 6150,
+          "dynamicModelTokens": 3083,
           "standardObservedTokens": 11710,
           "dynamicObservedTokens": 5589,
           "standardRetrievalTokens": 5560,
@@ -305,6 +381,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 17718,
+          "dynamicModelTokens": 24253,
           "standardObservedTokens": 25779,
           "dynamicObservedTokens": 39948,
           "standardRetrievalTokens": 8061,
@@ -323,6 +401,26 @@
         "level": 0.95,
         "low": 0,
         "high": 0,
+        "iterations": 10000,
+        "seed": 20260920
+      },
+      "standardModelTokens": {
+        "mean": 25667.666666666668,
+        "median": 20436,
+        "q1": 18928.5,
+        "q3": 29791
+      },
+      "dynamicModelTokens": {
+        "mean": 21453.666666666668,
+        "median": 21407,
+        "q1": 21217,
+        "q3": 21667
+      },
+      "modelTokenReduction": 0.16417542173681543,
+      "modelTokenReductionCI95": {
+        "level": 0.95,
+        "low": -0.2288043166293554,
+        "high": 0.4398661421345731,
         "iterations": 10000,
         "seed": 20260920
       },
@@ -384,6 +482,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 20436,
+          "dynamicModelTokens": 21027,
           "standardObservedTokens": 27800,
           "dynamicObservedTokens": 29659,
           "standardRetrievalTokens": 7364,
@@ -396,6 +496,8 @@
           "standardScore": 1,
           "dynamicScore": 1,
           "scoreDelta": 0,
+          "standardModelTokens": 17421,
+          "dynamicModelTokens": 21407,
           "standardObservedTokens": 27306,
           "dynamicObservedTokens": 30272,
           "standardRetrievalTokens": 9885,
@@ -408,6 +510,8 @@
           "standardScore": 0,
           "dynamicScore": 0,
           "scoreDelta": 0,
+          "standardModelTokens": 39146,
+          "dynamicModelTokens": 21927,
           "standardObservedTokens": 56255,
           "dynamicObservedTokens": 31429,
           "standardRetrievalTokens": 17109,
@@ -422,6 +526,7 @@
     "standardScore": 0.24777777777777776,
     "dynamicScore": 0.2037037037037037,
     "scoreDelta": -0.04407407407407407,
+    "modelTokenReduction": 0.10818210313365301,
     "observedTokenReduction": 0.09747549511052808,
     "meanSearchDelta": 0
   }

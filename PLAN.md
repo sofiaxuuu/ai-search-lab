@@ -17,9 +17,11 @@ Exa describes Dynamic Highlights as a research-preview feature that selects rele
 ## Product concept
 
 ### Name
+
 **Dynamic Highlights Inspector**
 
 ### One-sentence pitch
+
 A retrieval microscope for comparing the context an agent receives from Exa Standard Highlights and Dynamic Highlights.
 
 ### User flow
@@ -51,11 +53,13 @@ The important question is: **What did the agent actually get to read?**
 ## Guardrails: what the demo does and does not test
 
 ### It tests
+
 - **Evidence selection** across a fixed query and URL set.
 - Whether required facts and qualifications survive the selection process.
 - Context-size, redundancy, and latency trade-offs.
 
 ### It does not test in v1
+
 - Search discovery or ranking quality.
 - “Exa vs. Google” or a generic search API leaderboard.
 - A universal answer-quality claim based only on fewer tokens.
@@ -65,13 +69,13 @@ This distinction is essential: Dynamic Highlights is an evidence-selection primi
 
 ## Seeded task set
 
-Start with **three** hand-authored tasks. For each task, use 4–6 stable URLs and define 3–5 required atomic facts *before* observing either mode’s output.
+Start with **three** hand-authored tasks. For each task, use 4–6 stable URLs and define 3–5 required atomic facts _before_ observing either mode’s output.
 
-| Task | What it reveals |
-|---|---|
-| Multi-source fact synthesis | Whether several necessary facts survive across several sources |
-| Redundancy stress test | Whether repeated facts crowd out a unique required exception |
-| Long-document nuance test | Whether short selection loses chronology, qualification, or table-adjacent detail |
+| Task                        | What it reveals                                                                   |
+| --------------------------- | --------------------------------------------------------------------------------- |
+| Multi-source fact synthesis | Whether several necessary facts survive across several sources                    |
+| Redundancy stress test      | Whether repeated facts crowd out a unique required exception                      |
+| Long-document nuance test   | Whether short selection loses chronology, qualification, or table-adjacent detail |
 
 Each fact must store:
 
@@ -190,6 +194,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Feasibility result (September 16, 2026):** confirmed. The Contents API accepted the same explicit URL array for Standard and Dynamic Highlights, and Dynamic returned the documented `results[].highlights` shape when sent `dynamic: true` with the preview beta header. The first scrubbed run is stored in `traces/examples/fixed-url-feasibility.json`.
 
 ### 1. Fixed-URL API feasibility spike
+
 - Verify that Dynamic Highlights works with the Contents API for an explicit URL set.
 - Confirm the required beta header or SDK constant against current Exa documentation.
 - Save one scrubbed Standard response and one scrubbed Dynamic response.
@@ -198,6 +203,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** both modes receive the same ordered URL array and produce the documented `results[].highlights` response shape.
 
 ### 2. Static, cloneable shell
+
 - Initialize a minimal TypeScript Next.js app.
 - Add `.env.example` with `EXA_API_KEY=`.
 - Add a static task picker, recorded comparison state, and “How it works” panel.
@@ -206,6 +212,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** `npm run lint && npm run build`
 
 ### 3. Contracts, fixtures, and evaluation utilities
+
 - Add runtime-validated task, provider-response, trace, and comparison-run schemas.
 - Implement deterministic character-based token estimation.
 - Implement reviewable required-fact matching and normalized shingle duplicate detection.
@@ -214,6 +221,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** `npm test -- --run`
 
 ### 4. Recorded vertical slice
+
 - Build one task end to end from the scrubbed responses created during the feasibility spike.
 - Render evidence, source allocation, fact status, duplication, and the full scrubbed trace.
 - Make the recorded run usable without an API key or network request.
@@ -221,6 +229,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** a browser test loads and inspects the recorded comparison with no environment variables configured.
 
 ### 5. Pre-register the three task fixtures
+
 - Select stable source URLs.
 - Save access dates, required facts, source URLs, and literal support passages.
 - Review that each fact is actually sufficient to answer the task.
@@ -229,6 +238,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** parse every fixture in tests; require source and support-passage metadata.
 
 ### 6. Exa comparison route
+
 - Introduce an injectable Exa-client interface so tests use recorded responses.
 - Ensure Standard and Dynamic calls receive the exact same query and URL array.
 - Keep the different mode configuration isolated in `lib/exa.ts`.
@@ -240,6 +250,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** recorded-response unit tests plus `npm run build`.
 
 ### 7. Complete comparison UI
+
 - Render two evidence contexts side by side.
 - Add allocation bars, omitted-source view, facts table, and trace drawer.
 - Include loading, rate-limit, unavailable-preview, and error states.
@@ -249,6 +260,7 @@ The deployed app opens committed recorded runs by default. Live reruns are avail
 **Verify:** Playwright test confirms seeded comparison and no secret in HTML or exported trace.
 
 ### 8. Publish real evidence
+
 - Run each seeded task in both modes.
 - Commit scrubbed raw traces, timestamp/config metadata, and a findings table.
 - Record at least one limitation or ambiguous result.
@@ -285,6 +297,51 @@ After the fixed-URL inspector is stable, add an evaluation lab modeled on Exa's 
 - **Agentic:** DeepSearchQA (DSQA), BrowseComp, FinSearchComp, a clearly named WideSearch-en proxy, and LiveBrowseComp.
 
 The answer model, prompts, search settings, result set, grader, and sample order must remain fixed within every paired comparison. Only the highlight mode changes. Exa-published chart values are reference data and must never be presented as locally reproduced results. Start with small deterministic public subsets, store item-level resumable traces, and require an explicit flag for costly full runs. See `docs/EVALS.md` for the protocol.
+
+## Future Improvements
+Dynamic sometimes returns too much dense material, and the answer model sometimes chooses the wrong financial value even when the right document is available.
+I would test these fixes in this order:
+
+1. Constrain the context after retrieval
+   Dynamic’s public API does not accept our desired character limit, but we can enforce a local token ceiling before sending evidence to the model. Keep complete sentences and prioritize excerpts containing the requested date, company, metric, and unit.
+2. Add financial-table instructions
+   Tell the answer model to:
+   - Identify the exact row and column.
+   - Distinguish gross, valuation allowance, liabilities, and net values.
+   - Verify the requested fiscal year or date.
+   - Quote the supporting row before answering.
+   - Abstain or search again if sources conflict.
+3. Make follow-up searches target the missing field
+   Instead of repeating a similar general query, generate queries such as:
+   NVIDIA 2022 deferred tax assets total 1408 10-K table
+   FRED DTB6 2022-07-15 observation
+   健之佳 2016 所得税费用 利润总额 有效税率
+   Follow-up queries should name the document, table, date, and field that need verification.
+4. Add a verification pass
+   Before returning the answer, ask the model to compare its candidate against a second source or recalculate it from cited figures. Financial questions benefit heavily from deterministic arithmetic and unit checks.
+5. Use structured evidence extraction
+   Convert the relevant context into:
+   {
+   "metric": "total deferred tax assets",
+   "period": "FY2022",
+   "value": 1408,
+   "unit": "USD millions",
+   "source_text": "..."
+   }
+   Then generate the final answer from this structure. This reduces confusion between nearby values.
+6. Allocate by source type
+   Dynamic currently treats a long PDF or time-series page as highly relevant and may consume most of the context budget. Apply smaller limits to noisy documents and larger limits to precise tables or filings whose excerpts contain the exact target date and metric.
+7. Improve the agent model
+   gpt-4o-mini is inexpensive but weak at ambiguous financial tables. We could test a stronger model on the same saved evidence, which costs OpenAI tokens but requires no new Exa calls. This would isolate retrieval quality from answer-model quality.
+8. Run ablations before expanding the benchmark
+   For the three existing questions, compare:
+   - Current Standard
+   - Current Dynamic
+   - Dynamic with local trimming
+   - Dynamic with improved financial prompt
+   - Dynamic with trimming, prompt, and verification
+   - Same evidence with a stronger model
+     The best next experiment is re-answering the saved contexts with an improved financial prompt and structured verification. It requires no new Exa searches and tells us whether retrieval or reasoning is the larger problem.
 
 ## Sources
 

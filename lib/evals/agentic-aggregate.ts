@@ -6,6 +6,8 @@ type AgenticRow = {
   standardScore: number;
   dynamicScore: number;
   scoreDelta: number;
+  standardModelTokens: number;
+  dynamicModelTokens: number;
   standardObservedTokens: number;
   dynamicObservedTokens: number;
   standardRetrievalTokens: number;
@@ -52,6 +54,8 @@ function toRow(trace: AgenticPairTrace): AgenticRow | undefined {
     standardScore: score.standard,
     dynamicScore: score.dynamic,
     scoreDelta: score.dynamic - score.standard,
+    standardModelTokens: trace.standard.usage.modelTotalTokens,
+    dynamicModelTokens: trace.dynamic.usage.modelTotalTokens,
     standardObservedTokens: trace.standard.usage.totalObservedTokens,
     dynamicObservedTokens: trace.dynamic.usage.totalObservedTokens,
     standardRetrievalTokens: trace.standard.usage.retrievalTokens,
@@ -63,7 +67,10 @@ function toRow(trace: AgenticPairTrace): AgenticRow | undefined {
 
 function summarizeRows(rows: AgenticRow[]) {
   const scoreDelta = (sample: AgenticRow[]) => mean(sample.map((row) => row.scoreDelta));
-  const tokenReduction = (sample: AgenticRow[]) =>
+  const modelTokenReduction = (sample: AgenticRow[]) =>
+    1 - mean(sample.map((row) => row.dynamicModelTokens)) /
+      mean(sample.map((row) => row.standardModelTokens));
+  const observedTokenReduction = (sample: AgenticRow[]) =>
     1 - mean(sample.map((row) => row.dynamicObservedTokens)) /
       mean(sample.map((row) => row.standardObservedTokens));
   const searchDelta = (sample: AgenticRow[]) =>
@@ -74,10 +81,14 @@ function summarizeRows(rows: AgenticRow[]) {
     dynamicScore: mean(rows.map((row) => row.dynamicScore)),
     scoreDelta: scoreDelta(rows),
     scoreDeltaCI95: pairedBootstrapCI(rows, scoreDelta),
+    standardModelTokens: distribution(rows.map((row) => row.standardModelTokens)),
+    dynamicModelTokens: distribution(rows.map((row) => row.dynamicModelTokens)),
+    modelTokenReduction: modelTokenReduction(rows),
+    modelTokenReductionCI95: pairedBootstrapCI(rows, modelTokenReduction),
     standardObservedTokens: distribution(rows.map((row) => row.standardObservedTokens)),
     dynamicObservedTokens: distribution(rows.map((row) => row.dynamicObservedTokens)),
-    observedTokenReduction: tokenReduction(rows),
-    observedTokenReductionCI95: pairedBootstrapCI(rows, tokenReduction),
+    observedTokenReduction: observedTokenReduction(rows),
+    observedTokenReductionCI95: pairedBootstrapCI(rows, observedTokenReduction),
     standardRetrievalTokens: distribution(rows.map((row) => row.standardRetrievalTokens)),
     dynamicRetrievalTokens: distribution(rows.map((row) => row.dynamicRetrievalTokens)),
     standardSearches: distribution(rows.map((row) => row.standardSearches)),
@@ -109,6 +120,7 @@ export function summarizeAgenticTraces(traces: AgenticPairTrace[]) {
       standardScore: mean(benchmarkSummaries.map((summary) => summary.standardScore)),
       dynamicScore: mean(benchmarkSummaries.map((summary) => summary.dynamicScore)),
       scoreDelta: mean(benchmarkSummaries.map((summary) => summary.scoreDelta)),
+      modelTokenReduction: mean(benchmarkSummaries.map((summary) => summary.modelTokenReduction)),
       observedTokenReduction: mean(benchmarkSummaries.map((summary) => summary.observedTokenReduction)),
       meanSearchDelta: mean(benchmarkSummaries.map((summary) => summary.meanSearchDelta)),
     },

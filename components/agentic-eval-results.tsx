@@ -35,7 +35,7 @@ export function AgenticEvalResults({ summary }: { summary: AgenticSummary }) {
 
       <div className="localMetricStrip" aria-label="Agentic pilot highlights">
         <div><span>01 · Paired questions</span><strong>{summary.completedPairs}</strong><small>3 × 4 benchmarks</small></div>
-        <div><span>02 · Token reduction</span><strong>{percent(summary.macro.observedTokenReduction)}</strong><small>Macro average</small></div>
+        <div><span>02 · Model-token reduction</span><strong>{percent(summary.macro.modelTokenReduction)}</strong><small>Macro average</small></div>
         <div><span>03 · Score difference</span><strong>{points(summary.macro.scoreDelta)}</strong><small>Dynamic − Standard</small></div>
         <div><span>04 · Extra searches</span><strong>{summary.macro.meanSearchDelta.toFixed(1)}</strong><small>Mean Dynamic − Standard</small></div>
       </div>
@@ -44,7 +44,7 @@ export function AgenticEvalResults({ summary }: { summary: AgenticSummary }) {
         <header>
           <div>
             <span className="queryLabel">Local result · {summary.completedPairs} paired questions</span>
-            <h3>Quality against total agent context</h3>
+            <h3>Quality against observed model tokens</h3>
           </div>
           <a href="/results/agentic-score-vs-token.svg" target="_blank" rel="noreferrer">Open full size ↗</a>
         </header>
@@ -54,31 +54,32 @@ export function AgenticEvalResults({ summary }: { summary: AgenticSummary }) {
         </div>
         <Image
           src="/results/agentic-score-vs-token.svg"
-          alt="Local agentic benchmark score plotted against mean total observed tokens for Standard and Dynamic Highlights."
+          alt="Local agentic benchmark score plotted against mean observed model tokens for Standard and Dynamic Highlights."
           width={1120}
           height={700}
           unoptimized
         />
         <div className="agenticTableWrap">
           <table className="agenticTable">
-            <thead><tr><th>Benchmark</th><th>Score · S → D</th><th>Tokens · S → D</th><th>Token change</th><th>Search Δ</th></tr></thead>
+            <thead><tr><th>Benchmark</th><th>Score · S → D</th><th>Model tokens · S → D</th><th>Raw retrieval · S → D</th><th>Searches · S → D</th></tr></thead>
             <tbody>
               {Object.entries(summary.byBenchmark).map(([benchmark, result]) => (
                 <tr key={benchmark}>
                   <th>{labels[benchmark] ?? benchmark}</th>
                   <td>{percent(result.standardScore)} → {percent(result.dynamicScore)}</td>
-                  <td>{Math.round(result.standardObservedTokens.mean).toLocaleString()} → {Math.round(result.dynamicObservedTokens.mean).toLocaleString()}</td>
-                  <td>{percent(-result.observedTokenReduction, true)}</td>
-                  <td>{result.meanSearchDelta > 0 ? "+" : ""}{result.meanSearchDelta.toFixed(1)}</td>
+                  <td>{Math.round(result.standardModelTokens.mean).toLocaleString()} → {Math.round(result.dynamicModelTokens.mean).toLocaleString()}</td>
+                  <td>{Math.round(result.standardRetrievalTokens.mean).toLocaleString()} → {Math.round(result.dynamicRetrievalTokens.mean).toLocaleString()}</td>
+                  <td>{result.standardSearches.mean.toFixed(1)} → {result.dynamicSearches.mean.toFixed(1)}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
         <figcaption>
-          Dynamic used 9.7% fewer observed tokens on a benchmark-macro average,
-          with a −4.4-point score difference. The benchmark rows show why the
-          average is insufficient: efficiency and quality moved differently by task.
+          Dynamic used {percent(summary.macro.modelTokenReduction)} fewer observed model tokens
+          on a benchmark-macro average, with a {points(summary.macro.scoreDelta)} score
+          difference. Raw retrieval tokens are shown separately and are not added
+          again to model usage.
         </figcaption>
       </figure>
     </section>
