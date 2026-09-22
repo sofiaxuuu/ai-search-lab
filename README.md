@@ -11,12 +11,18 @@ search/context allocation behind each agentic run.
 
 > This is an independent local reproduction, not Exa's internal evaluation.
 
+## Live demo
+
+**[Explore the Dynamic Highlights Inspector →](https://ai-search-lab-lake.vercel.app/)**
+
+Recorded results require no API key and make no paid requests.
+
 ## Results
 
-| Track | Sample | Dynamic result | Quality result |
-| --- | ---: | ---: | ---: |
-| Single turn | 60 questions across 6 public benchmarks | **63.7% fewer retrieval tokens** at Dynamic Medium | **+6.7 points**; paired bootstrap 95% CI **+1.7 to +13.3** |
-| Agentic pilot | 12 pairs across 4 benchmarks | **10.8% fewer observed model tokens** | **−4.4 points** |
+| Track         |                                  Sample |                                     Dynamic result |                                             Quality result |
+| ------------- | --------------------------------------: | -------------------------------------------------: | ---------------------------------------------------------: |
+| Single turn   | 60 questions across 6 public benchmarks | **63.7% fewer retrieval tokens** at Dynamic Medium | **+6.7 points**; paired bootstrap 95% CI **+1.7 to +13.3** |
+| Agentic pilot |            12 pairs across 4 benchmarks |              **10.8% fewer observed model tokens** |                                            **−4.4 points** |
 
 The single-turn result was consistent enough to support a useful local finding:
 Dynamic Medium reduced context substantially without reducing aggregate score
