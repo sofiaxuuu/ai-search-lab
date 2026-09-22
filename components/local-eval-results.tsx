@@ -7,7 +7,7 @@ const headlineMetrics = [
 
 export function LocalEvalResults() {
   return (
-    <section className="localEvalSection" aria-labelledby="local-eval-title">
+    <section className="localEvalSection" id="single-turn-results" aria-labelledby="local-eval-title">
       <header className="localEvalIntro">
         <div>
           <p className="eyebrow">Our experiment · Recorded run</p>

@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "audit:public": "node --import tsx scripts/evals/audit-public-release.ts",
     "probe:exa": "node scripts/probe-exa.mjs",
     "test": "vitest run",
     "eval:import-simpleqa": "node --import tsx scripts/evals/import-simpleqa.ts",

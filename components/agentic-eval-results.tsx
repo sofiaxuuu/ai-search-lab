@@ -20,7 +20,7 @@ function points(value: number) {
 
 export function AgenticEvalResults({ summary }: { summary: AgenticSummary }) {
   return (
-    <section className="agenticEvalSection" aria-labelledby="agentic-eval-title">
+    <section className="agenticEvalSection" id="agentic-results" aria-labelledby="agentic-eval-title">
       <header className="localEvalIntro">
         <div>
           <p className="eyebrow">Our experiment · Agentic pilot</p>

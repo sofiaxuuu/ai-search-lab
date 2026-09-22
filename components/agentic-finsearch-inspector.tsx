@@ -98,7 +98,7 @@ export function AgenticTraceInspector({ benchmarks }: { benchmarks: AgenticInspe
   const retrievalDelta = delta(item.standard.retrievalTokens, item.dynamic.retrievalTokens);
 
   return (
-    <section className="agentInspectorSection" aria-labelledby="agent-inspector-title">
+    <section className="agentInspectorSection" id="agentic-inspector" aria-labelledby="agent-inspector-title">
       <header className="localEvalIntro">
         <div><p className="eyebrow">Agentic failure microscope · {benchmark.name}</p><h2 id="agent-inspector-title">Follow every search and excerpt</h2></div>
         <p>Choose a benchmark and recorded question. Compare each search, context allocation, answer, and score across Standard and Dynamic Highlights.</p>

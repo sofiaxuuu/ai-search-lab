@@ -7,6 +7,7 @@ import { AgenticEvalResults } from "@/components/agentic-eval-results";
 import { loadAgenticSummary } from "@/lib/data/load-agentic-summary";
 import { AgenticTraceInspector } from "@/components/agentic-finsearch-inspector";
 import { loadAgenticInspector } from "@/lib/data/load-agentic-inspector";
+import { PublicEvalHero } from "@/components/public-eval-hero";
 
 export default async function Home() {
   const microscope = await loadMicroscopeData();
@@ -19,6 +20,8 @@ export default async function Home() {
         <div className="brand"><span className="brandMark">DH</span><span>Dynamic Highlights Inspector</span></div>
         <div className="runState"><span className="statusDot" /> 60 single-turn + 12 agentic</div>
       </header>
+
+      <PublicEvalHero />
 
       <SelectionMicroscope {...microscope} />
 

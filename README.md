@@ -1,92 +1,169 @@
 # Dynamic Highlights Inspector
 
-An inspectable comparison of the evidence Exa Standard Highlights and Dynamic
-Highlights return for the same query and ordered URL set.
+An interactive, reproducible evaluation of how Exa Standard Highlights and
+Dynamic Highlights change the evidence and token budget seen by an answer
+model or search agent.
 
-The first implementation milestone proves that Dynamic Highlights works with
-explicit URLs through Exa's Contents API. A scrubbed result is committed at
-`traces/examples/fixed-url-feasibility.json` and can be inspected without an
-API key.
+The app opens on recorded runs, so exploring the results requires no API key
+and makes no paid requests. It includes question-level evidence inspectors,
+paired score-versus-token plots, benchmark-specific grading, and the exact
+search/context allocation behind each agentic run.
 
-## Run the inspector
+> This is an independent local reproduction, not Exa's internal evaluation.
+
+## Results
+
+| Track | Sample | Dynamic result | Quality result |
+| --- | ---: | ---: | ---: |
+| Single turn | 60 questions across 6 public benchmarks | **63.7% fewer retrieval tokens** at Dynamic Medium | **+6.7 points**; paired bootstrap 95% CI **+1.7 to +13.3** |
+| Agentic pilot | 12 pairs across 4 benchmarks | **10.8% fewer observed model tokens** | **−4.4 points** |
+
+The single-turn result was consistent enough to support a useful local finding:
+Dynamic Medium reduced context substantially without reducing aggregate score
+on this selected sample. The agentic result was more variable. BrowseComp and
+LiveBrowseComp preserved score while reducing tokens, DSQA saved tokens but lost
+partial-credit F1 on one influential question, and FinSearchComp used more
+tokens without improving score.
+
+That variance is why this project includes a **failure microscope**. It shows
+searches, per-source allocation, exact returned excerpts, answers, scores, and
+model usage instead of presenting only an aggregate chart.
+
+## What the app lets you inspect
+
+- **60-question selection microscope:** Standard versus four Dynamic
+  configurations across SimpleQA, MultiLoKo, FRAMES, SealQA, SealQA-Hard, and a
+  clearly labeled SWE-QA code proxy.
+- **Single-turn score-versus-token plot:** paired benchmark outcomes with a
+  fixed `o200k_base` tokenizer and bootstrap confidence interval.
+- **Agentic score-versus-token plot:** observed model tokens, raw retrieval
+  tokens, and search counts reported separately.
+- **Agentic failure microscope:** all 12 recorded DSQA, BrowseComp,
+  FinSearchComp, and LiveBrowseComp pairs. Public benchmark evidence is shown
+  side by side with blue difference highlighting.
+- **Exa-published reference figures:** visually separated from this project's
+  local measurements.
+
+BrowseComp and LiveBrowseComp evaluation content is protected by their release
+format. The public artifact preserves scores and allocation measurements while
+redacting question text, queries, answers, URLs, and excerpts.
+
+## Experimental design
+
+Every comparison is paired. Both arms use the same benchmark item, answer
+model, prompt version, and grading contract. In single-turn runs they also use
+the same frozen URL set. In agentic runs, matching queries share discovered
+URLs, while later searches may diverge because the agent reacts to the evidence
+it receives.
+
+The agentic loop uses `gpt-4o-mini-2024-07-18`, a four-search maximum, and
+benchmark-specific graders. It is our own fixed tool-using loop because Exa's
+public Agent API does not expose an internal highlight-mode switch. DSQA and
+some other graders are explicitly labeled local OpenAI proxies where the exact
+official evaluator is unavailable.
+
+Token accounting is intentionally separated:
+
+- **Observed model tokens:** Responses API input plus output tokens summed over
+  every turn. This is the primary agentic efficiency axis.
+- **Raw retrieval tokens:** exact formatted context returned by Exa, counted
+  with pinned `o200k_base`.
+- **Searches:** successful agent search calls per question.
+
+Retrieval tokens are not added to model tokens in the headline metric because
+retrieval text already appears in later model inputs.
+
+Full protocols, caveats, data sources, and grader contracts are documented in
+[docs/EVALS.md](docs/EVALS.md) and
+[docs/SINGLE_TURN_SUITE.md](docs/SINGLE_TURN_SUITE.md).
+
+## Run the recorded app
+
+Requires Node.js 18 or newer.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`. The initial comparison is rendered entirely from
-the committed scrubbed trace, so browsing it does not call Exa or require a
-credential.
+Open <http://localhost:3000>. Recorded mode requires no `.env` file and makes
+no Exa or OpenAI requests.
 
-The page also includes Exa's published single-turn and agentic benchmark points
-as a visual reference. Those points are separate from local results; this
-repository has not reproduced those scores.
+Validate the project with:
 
-The **Selection microscope** uses the 10 local pilot traces to show source
-allocation and returned excerpts side by side. Choose a question to see which
-URLs received less context or were omitted by Dynamic Highlights. Sentence
-colors show approximate text overlap computed by this app, not Exa's private
-model reasoning.
+```bash
+npm test
+npm run lint
+npm run build
+npm run audit:public
+```
 
-## Where code lives
+## Reproduce the evaluations
 
-- `app/` — Next.js routes and the global stylesheet. `page.tsx` assembles the
-  home page.
-- `components/` — reusable pieces of the page, such as the side-by-side
-  selection microscope and Exa reference charts.
-- `lib/data/` — code that reads saved experiment files for the page.
-- `lib/visualization/` — calculations used only to display evidence and charts.
-- `lib/evals/` — benchmark data types, Exa/OpenAI API calls, scorers, and
-  aggregation logic used by evaluation scripts.
-- `scripts/evals/` — commands that import data, run paired evaluations, and
-  summarize their results.
-- `evals/datasets/` — the sampled SimpleQA questions.
-- `evals/runs/` — saved question-by-question results and summaries.
-- `traces/examples/` — a small standalone Exa API example used by the top
-  comparison panel.
-- `docs/` — evaluation protocol and beginner learning roadmap.
+Copy `.env.example` to `.env` and add `EXA_API_KEY` and `OPENAI_API_KEY` only
+for live evaluation commands. Generated datasets and raw run traces are ignored
+by Git.
 
-An easy rule: **page assembly is in `app/`, page pieces are in `components/`,
-display calculations are in `lib/visualization/`, and benchmark mechanics are
-in `lib/evals/`.**
+Prepare deterministic benchmark snapshots:
 
-## Run the feasibility probe
+```bash
+npm run eval:prepare
+npm run eval:agentic:prepare
+```
 
-Requires Node.js 18 or newer.
+Review request caps before spending money:
 
-1. Copy `.env.example` to `.env` and add an Exa API key.
-2. Run `node scripts/probe-exa.mjs`.
+```bash
+npm run eval:sweep:dry
+npm run eval:agentic:batch:dry -- --limit=3
+```
 
-The probe makes one Standard request and one Dynamic request using the same
-query and ordered URL list. It writes only allowlisted request and response
-fields; credentials are never written to the trace.
+Run and summarize:
 
-Dynamic Highlights is currently a research preview. The probe sends the
-required `Exa-Beta: dynamic-highlights-2026-08-28` header only for the Dynamic
-request.
+```bash
+npm run eval:sweep
+npm run eval:sweep:summarize
+npm run eval:microscope:export
 
-## Current finding
+npm run eval:agentic:batch -- --limit=3
+npm run eval:agentic:summarize
+```
 
-The fixed-URL integration is feasible. In the first recorded run both URLs
-succeeded in both modes. Dynamic Highlights returned more context in that run
-(6,339 characters versus 5,165), reinforcing that the inspector should expose
-the evidence and tradeoffs rather than assume Dynamic always returns less.
+The batch runner is resumable and skips completed pairs. Start with one question
+or one benchmark before expanding a paid run.
 
-See [PLAN.md](./PLAN.md) for the product scope and build sequence.
+## Repository map
 
-## Evaluation expansion
+- `app/` — Next.js page assembly and styling
+- `components/` — plots, result summaries, and evidence inspectors
+- `lib/evals/` — API clients, agent loop, graders, token accounting, and aggregation
+- `lib/visualization/` — display-only comparison utilities and view contracts
+- `scripts/evals/` — deterministic import, execution, grading, and export commands
+- `public/results/` — curated public artifacts used by recorded mode
+- `evals/runs/` — ignored raw traces and local summaries
+- `docs/` — protocols and the learning-oriented evaluation guide
 
-The next layer mimics Exa's paired evaluation design across public benchmark
-subsets. Standard and Dynamic runs use the same questions, search results,
-answer model, prompts, and grader. Only the highlight mode changes.
+## Limitations
 
-See [docs/EVALS.md](./docs/EVALS.md) for the benchmark list, experimental
-controls, reporting rules, and cost controls.
+- The 12-pair agentic run is exploratory and too small for a broad product claim.
+- The benchmark mix and agent implementation differ from Exa's internal eval.
+- Agentic search paths can diverge after the first evidence response.
+- Grader-model and answer-model choices affect measured quality.
+- Dynamic Highlights was a research preview during these runs, and its behavior
+  may change.
+- Public benchmark subsets do not represent every search workload.
 
-If you are learning evals, follow [docs/EVAL_LEARNING_PLAN.md](./docs/EVAL_LEARNING_PLAN.md).
-It begins with a deterministic 10-item SimpleQA sample and one paired retrieval
-trace before introducing answer models or LLM graders.
-The larger single-turn reproduction protocol, dataset adapters, four-configuration
-sweep, fixed tokenizer, paired bootstrap intervals, and local SVG plot workflow
-are documented in [`docs/SINGLE_TURN_SUITE.md`](docs/SINGLE_TURN_SUITE.md).
+The strongest conclusion is scoped: Dynamic Highlights was highly
+token-efficient in this single-turn sample, while agentic efficiency and quality
+varied enough by task to require trace-level inspection.
+
+## Data and secret handling
+
+API credentials are read only from local environment variables and are never
+written to result files. Public JSON is generated through allowlisted view
+contracts. Protected benchmark text is redacted before export. Before a public
+release, run the tests, production build, secret scan, and protected-content
+audit described in [docs/EVALS.md](docs/EVALS.md).
+
+The original product scope and future experiments are tracked in
+[PLAN.md](PLAN.md).
