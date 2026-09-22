@@ -17,6 +17,12 @@ search/context allocation behind each agentic run.
 
 Recorded results require no API key and make no paid requests.
 
+![Local single-turn score versus retrieval-token results](screenshots/Screenshot%202026-09-22%20at%201.50.02%E2%80%AFPM.png)
+
+![Agentic eval results](screenshots/Screenshot%202026-09-22%20at%201.50.33%E2%80%AFPM.png)
+
+![Standard versus Dynamic Highlights context](screenshots/Screenshot%202026-09-22%20at%201.50.58%E2%80%AFPM.png)
+
 ## Results
 
 | Track         |                                  Sample |                                     Dynamic result |                                             Quality result |
